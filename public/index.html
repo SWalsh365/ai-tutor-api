@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Tutor</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 16px; }
+    #chat {
+      border: 1px solid #ccc;
+      padding: 12px;
+      height: 60vh;
+      overflow-y: auto;
+      background: #fafafa;
+      margin-bottom: 12px;
+      white-space: pre-wrap;
+    }
+    #chat a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+    .msg { margin: 8px 0; }
+    .student { font-weight: bold; }
+    .tutor { font-weight: bold; }
+    .row { display: flex; gap: 8px; }
+    #messageInput { flex: 1; padding: 10px; }
+    #sendBtn { padding: 10px 14px; }
+  </style>
+</head>
+<body>
+
+  <h1>AI Tutor</h1>
+
+  <div id="chat"></div>
+  <div class="row" style="margin-bottom: 12px;">
+    <label>
+      Half Term:
+      <select id="htSelect" disabled>
+        <option value="">Select…</option>
+      </select>
+    </label>
+
+    <label>
+      Week:
+      <select id="weekSelect" disabled>
+        <option value="">Select…</option>
+      </select>
+    </label>
+  </div>
+<div class="row" style="margin-bottom: 12px;">
+  <button id="confirmLessonBtn" disabled>
+    Confirm lesson
+  </button>
+</div>
+
+  <div class="row">
+    <input type="text" id="messageInput" placeholder="Type your message here" />
+    <button id="sendBtn">Send</button>
+  </div>
+
+<script>
+  // Load history from sessionStorage (survives refresh in this tab)
+    // Derive tenant from URL: /UnityCollege, /CCA, etc.
+  function getPathTenant() {
+    return location.pathname.split("/").filter(Boolean)[0] || "";
+  }
+  let history = JSON.parse(sessionStorage.getItem("tutor_history") || "[]");
+
+  const chatEl = document.getElementById("chat");
+  const inputEl = document.getElementById("messageInput");
+  const sendBtn = document.getElementById("sendBtn");
+  // --- Dropdowns: HT + Week ---
+  let curriculumIndex = null;
+  const htSelect = document.getElementById("htSelect");
+  const weekSelect = document.getElementById("weekSelect");
+
+  async function loadCurriculumIndex() {
+    const res = await fetch(`/${getPathTenant()}/api/curriculum/index`);
+    if (!res.ok) throw new Error("Failed to load curriculum index");
+    curriculumIndex = await res.json();
+
+    // Populate HT dropdown
+    htSelect.innerHTML = `<option value="">Select…</option>`;
+    Object.keys(curriculumIndex)
+      .sort((a, b) => a.localeCompare(b))
+      .forEach((ht) => {
+        const opt = document.createElement("option");
+        opt.value = ht;        // e.g. "HT1"
+        opt.textContent = ht;  // display
+        htSelect.appendChild(opt);
+      });
+  }
+
+  function refreshWeeksForSelectedHT() {
+    const ht = htSelect.value;
+    weekSelect.innerHTML = `<option value="">Select…</option>`;
+
+        // If HT dropdown is disabled, Week must stay disabled too
+    if (htSelect.disabled) {
+      weekSelect.disabled = true;
+      return;
+    }
+
+    if (!ht || !curriculumIndex?.[ht]) {
+      weekSelect.disabled = true;
+      return;
+    }
+
+    // Populate Week dropdown from index
+    curriculumIndex[ht].weeks.forEach((wKey) => {
+      const opt = document.createElement("option");
+      opt.value = wKey;       // e.g. "W2"
+      opt.textContent = wKey;
+      weekSelect.appendChild(opt);
+    });
+
+    weekSelect.disabled = false;
+  }
+
+  htSelect.addEventListener("change", refreshWeeksForSelectedHT);
+  // Persist dropdown selections in this tab (survives refresh)
+  function saveDropdownState() {
+    sessionStorage.setItem("selected_ht", htSelect.value || "");
+    sessionStorage.setItem("selected_week", weekSelect.value || "");
+  }
+
+  function restoreDropdownState() {
+    const savedHT = sessionStorage.getItem("selected_ht") || "";
+    const savedWeek = sessionStorage.getItem("selected_week") || "";
+
+    if (savedHT) htSelect.value = savedHT;
+    refreshWeeksForSelectedHT(); // rebuild week options for selected HT
+
+    if (savedWeek) weekSelect.value = savedWeek;
+  }
+
+  // Save whenever the user changes HT or Week
+  htSelect.addEventListener("change", () => {
+    saveDropdownState();
+  });
+
+  weekSelect.addEventListener("change", () => {
+    saveDropdownState();
+  });
+  const confirmLessonBtn = document.getElementById("confirmLessonBtn");
+
+  function updateConfirmButtonState() {
+    const htSelected = !!htSelect.value;
+    const weekSelected = !!weekSelect.value;
+
+    confirmLessonBtn.disabled = !(htSelected && weekSelected);
+  }
+
+  // Update button state whenever dropdowns change
+  htSelect.addEventListener("change", updateConfirmButtonState);
+  weekSelect.addEventListener("change", updateConfirmButtonState);
+
+  // Also update after restoring dropdown state
+  updateConfirmButtonState();
+
+  // Load dropdown options on page load
+  window.addEventListener("DOMContentLoaded", async () => {
+    try {
+            await loadCurriculumIndex();
+      restoreDropdownState(); // restores HT/week if previously selected, otherwise keeps defaults
+
+    } catch (e) {
+      console.error("Dropdown load error:", e);
+    }
+  });
+
+  function escapeHtml(str) {
+    return String(str)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+function looksLikePersonalInfo(text) {
+  const t = String(text || "");
+
+  // Email addresses
+  const emailLike = /\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b/i.test(t);
+
+  // UK-ish phone patterns (rough)
+  const phoneLike =
+    /\b(\+?44\s?7\d{3}|\(?07\d{3}\)?)\s?\d{3}\s?\d{3}\b/.test(t) ||   // mobiles
+    /\b0\d{3,4}\s?\d{3}\s?\d{3,4}\b/.test(t);                        // landlines-ish
+
+  return emailLike || phoneLike;
+}
+
+  function addMessage(who, text) {
+    const div = document.createElement("div");
+    div.className = "msg";
+    div.dataset.who = who;
+
+    if (who === "student") {
+      div.innerHTML = '<span class="student">student:</span> ' + escapeHtml(text);
+    } else {
+      div.innerHTML = '<span class="tutor">tutor:</span> ' + escapeHtml(text);
+    }
+
+    chatEl.appendChild(div);
+    chatEl.scrollTop = chatEl.scrollHeight;
+    return div;
+  }
+
+  // Optional: redraw existing history on load (comment out if you don't want it)
+  // for (const m of history) addMessage(m.role === "user" ? "student" : "tutor", m.content);
+
+  async function sendMessage() {
+    const message = inputEl.value.trim();
+    if (!message) return;
+// Client-side safeguard: block obvious personal details
+if (looksLikePersonalInfo(message)) {
+  addMessage(
+    "tutor",
+    "Please don’t share personal details (like phone numbers or email addresses). You can rephrase your question without them."
+  );
+  inputEl.value = "";
+  inputEl.focus();
+  return;
+}
+
+    // show student message immediately
+        // show student message immediately (unless it's an internal auto message)
+    const isAutoMessage = message === "start";
+    if (!isAutoMessage) addMessage("student", message);
+    const loadingEl = addMessage("tutor", "...");
+    inputEl.value = "";
+    inputEl.focus();
+
+    try {
+           // Build curriculum_pointer from dropdowns (defaults lesson to 1)
+      const ht = document.getElementById("htSelect")?.value;       // e.g. "HT3"
+      const wKey = document.getElementById("weekSelect")?.value;   // e.g. "W2"
+
+      const curriculum_pointer =
+        ht && wKey
+          ? { ht, week: Number(wKey.replace("W", "")), lesson: 1 }
+          : null;
+
+      const payload = {
+        message,
+        history,
+        ...(curriculum_pointer ? { curriculum_pointer } : {})
+      };
+
+      console.log("PAYLOAD TO /tutor:\n", JSON.stringify(payload, null, 2));
+      console.log("Last history item:", history[history.length - 1]);
+
+          const res = await fetch(`/${getPathTenant()}/tutor`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload)
+      });
+
+
+      if (!res.ok) throw new Error("Server error: " + res.status);
+
+      const data = await res.json();
+
+      // update history + persist it
+      if (Array.isArray(data.history)) {
+        history = data.history;
+        sessionStorage.setItem("tutor_history", JSON.stringify(history));
+      }
+
+      // show tutor reply
+      loadingEl.innerHTML =
+  '<span class="tutor">tutor:</span> ' +
+  linkify(escapeHtml(data.reply));
+
+  function linkify(escapedText) {
+  // escapedText must already be HTML-escaped (we keep it safe)
+  const urlRegex = /(https?:\/\/[^\s<]+)/g;
+  return String(escapedText).replace(urlRegex, (url) => {
+    return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
+  });
+}
+
+            // Unlock dropdowns when server says we're in curriculum menu mode
+      if (data.show_menu === true) {
+        htSelect.disabled = false;
+        refreshWeeksForSelectedHT(); // Week stays disabled until HT is chosen
+      }
+      chatEl.scrollTop = chatEl.scrollHeight;
+            // Auto-continue: if tutor just finished prefs, send a "start" message to begin the lesson
+      // Prevent loops by only auto-starting once per prefs completion
+      if (String(data.reply || "").includes("[[PREFS_DONE]]")) {
+        const alreadyAutoStarted = sessionStorage.getItem("auto_started_after_prefs") === "1";
+        if (!alreadyAutoStarted) {
+          sessionStorage.setItem("auto_started_after_prefs", "1");
+          inputEl.value = "start";
+          sendMessage();
+          return; // stop here so we don't double-scroll etc.
+        }
+      } else {
+        // Reset the auto-start flag when we're not on the PREFS_DONE message
+        sessionStorage.removeItem("auto_started_after_prefs");
+      }
+
+
+    } catch (err) {
+      loadingEl.innerHTML =
+        '<span class="tutor">tutor:</span> ' +
+        escapeHtml("Sorry — I couldn't reach the tutor API. (" + err.message + ")");
+        
+      chatEl.scrollTop = chatEl.scrollHeight;
+      console.error(err);
+    }
+  }
+
+  sendBtn.addEventListener("click", sendMessage);
+    confirmLessonBtn.addEventListener("click", () => {
+    // Safety: only act when both are selected
+    if (!htSelect.value || !weekSelect.value) return;
+
+    // Put a short, non-personal selection message into the input and send
+    inputEl.value = `${htSelect.value} ${weekSelect.value}`;
+    sendMessage();
+  });
+  inputEl.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") sendMessage();
+  });
+</script>
+
+
+
+</body>
+</html>
+
