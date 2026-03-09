@@ -1,0 +1,923 @@
+{
+  "meta": {
+    "half_term": "HT2",
+    "prior_learning": [
+      "Students will benefit from visual sequences and patterns initially as well as physical sequences eg., match sticks, counters.",
+      "Students will have seen algebraic puzzles before using pictures rather than variables and these are a good starting point.",
+      "Link rules with  number to rules with algebra.",
+      "It is important that teachers assess retention before starting the topic so that they can build on prior learning.",
+      "Students will have been exposed to sequences as function machines and these are a useful starting point and support for individuals where necessary.",
+      "With index laws it is important to teach it with understanding rather than just a rule – link it into prior knowledge of cancellation of terms.",
+      "Be explicit that equations and formulas are really the same things with different names."
+    ],
+    "common_misconceptions": [
+      "Avoid using a for apples and b for bananas in your vocabulary so that students understand a ≠ 1 apple.  Use ‘the number of’ in your language eg a = a number of apples.",
+      "Students confuse x2  with 2x",
+      "Students confuse √x with x÷2 etc",
+      "Be specific with mathematical algebraic conventions eg 2t means 2 x t",
+      "Be specific with language such as the difference between an expression and an equation.",
+      "Be specific with equations, formulas, formulae, functions are all really the same thing",
+      "Clarify that BODMAS/BIDMAS is a mathematical convention so that we don’t get different answers",
+      "‘Simplify’ in English suggests the answer looks simpler whereas in maths ‘simplify’ means re-write and the answer often doesn’t look simpler",
+      "Clarify that sometimes in maths we only ask for something to be simplified, rather than solved.  This means the answer will still have variables in it.",
+      "Check calculator does BODMAS/BIDMAS or students will need to use brackets on calculators",
+      "With index laws it is important to teach it with understanding rather than just a rule – link it into prior knowledge of cancellation of terms."
+    ]
+  },
+  "lessons": [
+    {
+      "id": "HT2-W1-L1",
+      "half_term": "HT2",
+      "week": 1,
+      "lesson": 1,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Understanding algebraic conventions eg., 2a means 2 x a etc",
+          "Simplifying algebraic expressions involving addition and subtraction"
+        ],
+        "key_knowledge_components": [
+          "This lesson is a pre-cursor to “I know how to expand and factorise single and double brackets”"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Pattern, generalise, predict, substitute, inverse, term, cancelling out/cancelling down"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "What does 3a mean? Is it 3+ a, 3-a or what?",
+          "Can I collect 3a with 4a?",
+          "Can I collect 3a with 3a2? Why not?",
+          "What about 3a and 3ab – do we collect them together?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Avoid using a for apples and b for bananas in your vocabulary so that students understand a ≠ 1 apple.  Use ‘the number of’ in your language eg a = a number of apples. Students confuse x2  with 2x Be specific with mathematical algebraic conventions eg 2t means 2 x t Be specific with language such as the difference between an expression and an equation Link rules with number into rules with algebra eg   cancels to 2,  cancels to 2y etc"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W1-L2",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT2.docx",
+        "anchor": "Week 1/ Lesson 1"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons.",
+        "deepening_knowledge_summary": "Use examples with lots of negatives to recap directed number – remind students that rules for algebra are the same as rules for number. Use examples where BODMAS/BIDMAS is involved so that students extend their knowledge of number Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT2-W1-L2",
+      "half_term": "HT2",
+      "week": 1,
+      "lesson": 2,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Understanding algebraic conventions for multiplication and division including powers",
+          "Simplifying algebraic expressions involving multiplication/division"
+        ],
+        "key_knowledge_components": [
+          "This lesson is a pre-cursor to “I know how to expand and factorise single and double brackets”"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Pattern, generalise, predict, substitute, inverse, term, cancelling out/cancelling down"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "What is   equal to?",
+          "What is  equal to?",
+          "Can you simplify it further?  Are there any ‘like terms’ that you can collect together?",
+          "Can you collect 2y with 2yz? Why not?",
+          "Can you collect 2y with 2y2 ? Why not?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Avoid using a for apples and b for bananas in your vocabulary so that students understand a ≠ 1 apple.  Use ‘the number of’ in your language eg a = a number of apples. Students confuse x2  with 2x Be specific with mathematical algebraic conventions eg 2t means 2 x t Be specific with language such as the difference between an expression and an equation Link rules with number into rules with algebra eg   cancels to 2,  cancels to 2y etc"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W1-L3",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT2.docx",
+        "anchor": "Week 1/ Lesson 2"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Students need to understand why we can cancel down eg see key questions above",
+        "deepening_knowledge_summary": "Use equations with fractions, decimals and negatives Use some questions where students have to apply BODMAS/BIDMAS Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT2-W1-L3",
+      "half_term": "HT2",
+      "week": 1,
+      "lesson": 3,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Understanding algebraic conventions for multiplication and division including powers"
+        ],
+        "key_knowledge_components": [
+          "This lesson is a pre-cursor to “I know how to expand and factorise single and double brackets”"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Pattern, generalise, predict, substitute, inverse, term, cancelling out/cancelling down, index, indices, powers"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "What is   equal to?",
+          "What is  equal to?",
+          "Can you simplify it further?  Are there any ‘like terms’ that you can collect together?",
+          "Can you collect 2y with 2yz? Why not?",
+          "Can you collect 2y with 2y2 ? Why not?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Avoid using a for apples and b for bananas in your vocabulary so that students understand a ≠ 1 apple.  Use ‘the number of’ in your language eg a = a number of apples. Students confuse x2  with 2x Be specific with mathematical algebraic conventions eg 2t means 2 x t Be specific with language such as the difference between an expression and an equation Link rules with number into rules with algebra eg   cancels to 2,  cancels to 2y etc"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W2-L4",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT2.docx",
+        "anchor": "Week 1/ Lesson 3"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Students need to understand why we can cancel down eg see key questions above",
+        "deepening_knowledge_summary": "Use equations with fractions, decimals and negatives Use some questions where students have to apply BODMAS/BIDMAS Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT2-W2-L4",
+      "half_term": "HT2",
+      "week": 2,
+      "lesson": 4,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Multiplying a single digit over a bracket",
+          "Multiplying a single digit over a bracket and then collecting like terms"
+        ],
+        "key_knowledge_components": [
+          "I know how to expand and factorise single and double brackets",
+          "I can expand and factorise single and double brackets"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Expand, multiply out brackets, collect like terms, brackets, indices, powers, grid method"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "How do we use the grid method with numbers? Can we use it the same way with algebra? How can we partition 26 (20 and 6)? How can we partition x+5 (x and 5)?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Revise previous lesson in starter with activity such as: Use the grid method to multiply a 2 digit number by a single digit first eg 23 x 6. Then show how we can also use the grid method to multiply 4(x+5) x 5 4 4x"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W2-L5",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT2.docx",
+        "anchor": "Week 2/ Lesson 4"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Use grid method with number before linking it into algebra. Don’t remove the grid with algebra too early. Have copies of ready made grids available.",
+        "deepening_knowledge_summary": "Involve directed number and some simple fractions and decimals eg, 4(x + ) Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT2-W2-L5",
+      "half_term": "HT2",
+      "week": 2,
+      "lesson": 5,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Multiplying double brackets and collecting like terms"
+        ],
+        "key_knowledge_components": [
+          "I know how to expand and factorise single and double brackets",
+          "I can expand and factorise single and double brackets"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Multiply, brackets, collect like terms, quadratic, equation, brackets, indices, powers, grid method"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "How did we multiply out a single bracket?",
+          "What is x times x? Is it 2x?",
+          "How did we do this when we did negative numbers?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Start with expansion of a bracket with a single term from pervious lesson eg 4(x + 5) using grid method and then extend to double brackets eg (x+3)(x+ 4) x +3 x X2 3x"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W2-L6",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT2.docx",
+        "anchor": "Week 2/ Lesson 5"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Don’t take the grid away from students too early (have copies of ready made grids available)",
+        "deepening_knowledge_summary": "Use examples with negatives in one bracket and in both brackets Use examples with different variables and the variables in different positions eg (t -4)(t +6), (6 + t)(5 + t) Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT2-W2-L6",
+      "half_term": "HT2",
+      "week": 2,
+      "lesson": 6,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Multiplying double brackets and collecting like terms"
+        ],
+        "key_knowledge_components": [
+          "I know how to expand and factorise single and double brackets",
+          "I can expand and factorise single and double brackets"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Multiply, brackets, collect like terms, quadratic, equation, brackets, indices, powers, grid method"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "How did we multiply out a single bracket?",
+          "What is x times x? Is it 2x?",
+          "How did we do this when we did negative numbers?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Start with expansion of a bracket with a single term from pervious lesson eg 4(x + 5) using grid method and then extend to double brackets eg (x+3)(x+ 4) x +3 x X2 3x"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W3-L7",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT2.docx",
+        "anchor": "Week2/ Lesson 6"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Don’t take the grid away from students too early (have copies of ready made grids available)",
+        "deepening_knowledge_summary": "Give some perfect squares eg (x+6)2 Give examples requiring a double bracket to be expanded and then collecting like terms eg (x-3)(x+ 4) + 5x Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT2-W3-L7",
+      "half_term": "HT2",
+      "week": 3,
+      "lesson": 7,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Factorising where the common factor is a single digit"
+        ],
+        "key_knowledge_components": [
+          "I know how to expand and factorise single and double brackets",
+          "I can expand and factorise single and double brackets"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Factorise, factor, brackets, indices, powers, grid method"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "What do we mean by factorise? What other maths word can you see in factorise?",
+          "What number should replace the question mark ?",
+          "?(x +5) = 4x + 20",
+          "How can I check that I have factorized this properly? Eg",
+          "9x + 6 = 3(3x + 2)??"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Use some examples of the grid method to multiply where one factor is missing but you have the expanded answer   so students can see that factorizing is the inverse of expanding. x 5 ? 4x 20"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W3-L8",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT2.docx",
+        "anchor": "Week 3/ Lesson 7"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Use grids for some students so that they can gap fill to factorise and remove the grid once they are secure.",
+        "deepening_knowledge_summary": "Use examples with negative numbers and some simple fractions/decimals Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT2-W3-L8",
+      "half_term": "HT2",
+      "week": 3,
+      "lesson": 8,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Factorising where the common factor is a single digit"
+        ],
+        "key_knowledge_components": [
+          "I know how to expand and factorise single and double brackets",
+          "I can expand and factorise single and double brackets"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Factorise, factor"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "What do we mean by factorise? What other maths word can you see in factorise?",
+          "What number should replace the question mark ?",
+          "?(x +5) = 4x + 20"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Use some examples of the grid method to multiply where one factor is missing but you have the expanded answer x 5 ? 4x 20"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W3-L9",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT2.docx",
+        "anchor": "Week 3/ Lesson 8"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Use grids for some students so that they can gap fill to factorise and remove the grid once they are secure.",
+        "deepening_knowledge_summary": "Use examples with negative numbers and some simple fractions/decimals Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT2-W3-L9",
+      "half_term": "HT2",
+      "week": 3,
+      "lesson": 9,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Solving linear equations using inverses"
+        ],
+        "key_knowledge_components": [
+          "I know mathematical conventions for solving equations containing fractions, brackets and variables on both sides.",
+          "I can solve equations containing fractions, brackets and variables on both sides."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Solve, evaluate, calculate, inverse, simplify, expand, factorise, collect like terms"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "What steps do I need to take to solve this?",
+          "What should I do first? Why?",
+          "If I have a scale and I take 3 off one side what will happen to the scale? How can I make it balance again?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Avoid using a for apples and b for bananas in your vocabulary so that students understand a ≠ 1 apple.  Use ‘the number of’ in your language eg a = a number of apples. Students confuse x2  with 2x Be specific with mathematical algebraic conventions eg 2t means 2 x t Be specific with language such as the difference between an expression and an equation Use scales to show how to keep it equal whatever you do to one side you need to do to the other."
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W4-L10",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT2.docx",
+        "anchor": "Week 3/ Lesson 9"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Use function machine grids with students who need them",
+        "deepening_knowledge_summary": "Use lots of negatives and simple fractions Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT2-W4-L10",
+      "half_term": "HT2",
+      "week": 4,
+      "lesson": 10,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Solving linear equations using inverses (including where bracket expansion is necessary first)"
+        ],
+        "key_knowledge_components": [
+          "I know mathematical conventions for solving equations containing fractions, brackets and variables on both sides.",
+          "I can solve equations containing fractions, brackets and variables on both sides."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Solve, evaluate, calculate, inverse, simplify, expand, factorise, collect like terms"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "What steps do I need to take to solve this?",
+          "What should I do first? Why?",
+          "Remember our scale – if I multiply this side by 3, what do I need to do to the other side?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Avoid using a for apples and b for bananas in your vocabulary so that students understand a ≠ 1 apple.  Use ‘the number of’ in your language eg a = a number of apples. Students confuse x2  with 2x Be specific with mathematical algebraic conventions eg 2t means 2 x t Be specific with language such as the difference between an expression and an equation"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W4-L11",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT2.docx",
+        "anchor": "Week 4/ Lesson 10"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons.",
+        "deepening_knowledge_summary": "Use lots of negatives and simple fractions Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT2-W4-L11",
+      "half_term": "HT2",
+      "week": 4,
+      "lesson": 11,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Solving linear equations with variables on both sides"
+        ],
+        "key_knowledge_components": [
+          "I know mathematical conventions for solving equations containing fractions, brackets and variables on both sides.",
+          "I can solve equations containing fractions, brackets and variables on both sides."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": []
+      },
+      "teaching": {
+        "key_questions": [
+          "What do I do when I have variables on both sides?",
+          "How do I get the variables on one side?",
+          "What steps do I need to take to solve this?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Avoid using a for apples and b for bananas in your vocabulary so that students understand a ≠ 1 apple.  Use ‘the number of’ in your language eg a = a number of apples. Students confuse x2  with 2x Be specific with mathematical algebraic conventions eg 2t means 2 x t Be specific with language such as the difference between an expression and an equation Use the same balancing technique with variables on both sides:"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W4-L12",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT2.docx",
+        "anchor": "Week 4/ Lesson 11"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons.",
+        "deepening_knowledge_summary": "Use lots of negatives and simple fractions. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT2-W4-L12",
+      "half_term": "HT2",
+      "week": 4,
+      "lesson": 12,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Solving linear equations with variables on both sides"
+        ],
+        "key_knowledge_components": [
+          "I know mathematical conventions for solving equations containing fractions, brackets and variables on both sides.",
+          "I can solve equations containing fractions, brackets and variables on both sides."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": []
+      },
+      "teaching": {
+        "key_questions": [
+          "What do I do when I have variables on both sides?",
+          "How do I get the variables on one side?",
+          "What steps do I need to take to solve this?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Avoid using a for apples and b for bananas in your vocabulary so that students understand a ≠ 1 apple.  Use ‘the number of’ in your language eg a = a number of apples. Students confuse x2  with 2x Be specific with mathematical algebraic conventions eg 2t means 2 x t Be specific with language such as the difference between an expression and an equation Use the same balancing technique with variables on both sides:"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W6-L16",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT2.docx",
+        "anchor": "Week 4/ Lesson 12"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons.",
+        "deepening_knowledge_summary": "Use lots of negatives and simple fractions Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT2-W6-L16",
+      "half_term": "HT2",
+      "week": 6,
+      "lesson": 16,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Write formulas from a problem, substitute values into formulas to find answers"
+        ],
+        "key_knowledge_components": [
+          "I can form formulas, substitute values into formulas and rearrange formulas to make another letter the subject."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": []
+      },
+      "teaching": {
+        "key_questions": [
+          "Guide students towards forming formulas and equations by highlighting parts of a question eg I think of a number – what variable could I give that number?",
+          "I multiply my number by 4 – how would I write that?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Start with worded problems for students to solve as a puzzle eg Link into other areas of maths such as perimeter, area and angle facts that students have been taught, eg., Get students to rearrange formulas that they are familiar with form maths or science  eg.,"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W6-L17",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT2.docx",
+        "anchor": "Week 6/ Lesson 16"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons.",
+        "deepening_knowledge_summary": "Link formulating and solving or re-arranging formulas into other parts of math seg., Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT2-W6-L17",
+      "half_term": "HT2",
+      "week": 6,
+      "lesson": 17,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Rearrange formulas to make another letter the subject."
+        ],
+        "key_knowledge_components": [
+          "I can form formulas, substitute values into formulas and rearrange formulas to make another letter the subject."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Rearrange, subject, inverse"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "At the moment y is the subject. I want to end out with g as the subject so what do I need to do first?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Link in with balancing scales eg., Start with 1 step rearranging before moving to 2 step eg"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W6-L18",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT2.docx",
+        "anchor": "Week 6/ Lesson 17"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons.",
+        "deepening_knowledge_summary": "Use formulas involving more complex operations like roots and multi step operations to rearrange. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT2-W6-L18",
+      "half_term": "HT2",
+      "week": 6,
+      "lesson": 18,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Rearrange formulas to make another letter the subject."
+        ],
+        "key_knowledge_components": [
+          "I can form formulas, substitute values into formulas and rearrange formulas to make another letter the subject."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Rearrange, subject, inverse"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "See lesson 17"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "See lesson 17"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W7-L19",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT2.docx",
+        "anchor": "Week 6/ Lesson 18"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons.",
+        "deepening_knowledge_summary": "Use formulas involving more complex operations like roots and multi step operations to rearrange. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT2-W7-L19",
+      "half_term": "HT2",
+      "week": 7,
+      "lesson": 19,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Finding position to term rules",
+          "Writing position to term rules algebraically",
+          "Using position to term rules to predict the nth term"
+        ],
+        "key_knowledge_components": [
+          "I know how to find a position to term rule (nth term) to find terms and positions in a sequence.",
+          "I can use a position to term rule (nth term) to find terms and positions in a sequence."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Pattern, generalise, predict, substitute, inverse, term, sequence"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "What is the 100th term? What is the 1000th term? Why is the term to term rule limited?",
+          "What are you doing to the variable first?  What are you doing second?",
+          "How can I write this algebraically?",
+          "What is the sequence going up/down in each time?",
+          "What would the 0th term be? Or what would the term before the first term be?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Starter: start calling out a sequence and have a competition to see who can predict the next term and the term to term rule first – use more difficult example than last lesson Get students to write their own sequences and then swap with a partner to find the next term and the term to term rule. Avoid using a for apples and b for bananas in your vocabulary so that students understand a ≠ 1 apple.  Use ‘the number of’ in your language eg a = a num…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W7-L20",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT2.docx",
+        "anchor": "Week 7/ Lesson 19"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Use function machines to support and give students blank function machines to use as they wish.",
+        "deepening_knowledge_summary": "Use sequences increasing/decreasing by a decimal/fraction Use sequences involving directed number Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT2-W7-L20",
+      "half_term": "HT2",
+      "week": 7,
+      "lesson": 20,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Forming 1 and 2 step linear equations to solve linear sequences;",
+          "Substituting into linear sequences to find the nth term"
+        ],
+        "key_knowledge_components": [
+          "I know how to find the nth term rule for a sequence.",
+          "I can find the nth term rule for a sequence."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Pattern, generalise, predict, substitute, inverse, term, sequence,"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "What’s the first step? And the next? How would I write that sentence algebraically?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Avoid using a for apples and b for bananas in your vocabulary so that students understand a ≠ 1 apple.  Use ‘the number of’ in your language eg a = a number of apples. Students confuse x2  with 2x Be specific with mathematical algebraic conventions eg 2t means 2 x t Be specific with language such as the difference between an expression and an equation"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W7-L21",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT2.docx",
+        "anchor": "Week 7/ Lesson 20"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Use practical, visual examples where students struggle to visualize the algebra",
+        "deepening_knowledge_summary": "Use sequences increasing/decreasing by a decimal/fraction Use sequences involving directed number Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT2-W7-L21",
+      "half_term": "HT2",
+      "week": 7,
+      "lesson": 21,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Generalising the formula for arithmetic sequences"
+        ],
+        "key_knowledge_components": [
+          "I can read a worded question and from it form a mathematical equation."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Generalize, term, pattern, predict, substitute, inverse, , sequence,"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "How many matches would be in the next term?",
+          "What would the position to term rule be?",
+          "How many matches would there be in the 1000th term?",
+          "Which term would use more than 100 matches?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": ""
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT2.docx",
+        "anchor": "Week 7/ Lesson 21"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons.",
+        "deepening_knowledge_summary": ""
+      }
+    }
+  ]
+}

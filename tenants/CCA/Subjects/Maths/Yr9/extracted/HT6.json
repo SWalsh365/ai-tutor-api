@@ -1,0 +1,877 @@
+{
+  "meta": {
+    "half_term": "HT6",
+    "prior_learning": [
+      "Use questioning to see what students already know and can work with mathematically. Only teach pictograms, for example, if students still have misconceptions around them."
+    ],
+    "common_misconceptions": [
+      "Students don’t use the key in a pictogram and because of that misinterpret information.",
+      "Students cannot remember the differences between the mean, median and mode.  They need to know about the limitations of each type of average.",
+      "Students sometimes believe the range is a measure of central tendency when it’s a measure of spread.",
+      "Students need to understand the differences between discrete and continuous data and which graphs are appropriate for each.",
+      "Students struggle to hold a pair of compasses properly, holding both arms so that circles are not drawn accurately. They need to be able to draw accurate circles with a pair of compasses before attempting bisectors or triangle constructions."
+    ]
+  },
+  "lessons": [
+    {
+      "id": "HT6-W1-L1",
+      "half_term": "HT6",
+      "week": 1,
+      "lesson": 1,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Interpret scatter graphs.",
+          "Understand what is meant by an outlier."
+        ],
+        "key_knowledge_components": [
+          "I know what is meant by an outlier and can identify one on a scatter diagram.",
+          "I can draw and interpret scatter graphs.",
+          "I know when it would be appropriate to draw a scatter diagram."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Scatter diagram, variable, correlation, positive correlation, negative correlation, outlier, trend, pattern"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "Ask students questions about a given scatter diagram to help them read and interpret them eg",
+          "If I scored 20 marks in my maths what would you expect me to get for art?",
+          "When would  a scatter diagram be an appropriate graph to draw? (When there is a relationship between 2 variables)",
+          "Which point is an outlier (see graph below)",
+          "What would you expect the correlation to be like between the temperature outside and ice cream sales? What about the price of sweets and sweet sales? What about the size of someone’s feet and how good they are at maths?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Start by showing a scatter diagram and asking questions to help students read and interpret it (see key questions for examples). Once they increase in confidence get students to think about when a scatter diagram would be an appropriate graph to use – get them to look at the patterns in the points, for example, how some scatter diagrams form an upwards line (positive correlation) and some a downwards line (negative correlation). The closer the p…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W1-L2",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT6.docx",
+        "anchor": "Week 1/ Lesson 1"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons.",
+        "deepening_knowledge_summary": "Start students in plotting scatter diagrams before making a judgement about how well correlated the 2 variables are. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT6-W1-L2",
+      "half_term": "HT6",
+      "week": 1,
+      "lesson": 2,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Draw and interpret scatter graphs.",
+          "Describing correlation.",
+          "Describing correlation and comparing 2 data sets."
+        ],
+        "key_knowledge_components": [
+          "I know what is meant by an outlier and can identify one on a scatter diagram.",
+          "I can draw and interpret scatter graphs.",
+          "I know when it would be appropriate to draw a scatter diagram."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Scatter diagram, variable, correlation, positive correlation, negative correlation, outlier, trend, pattern"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Re-cap previous lesson on correlation and describing correlation. Model an example of drawing a scatter diagram eg Check on understanding (see key questions) and then give students an example to draw the scatter diagram themselves. Before doing it, get them to predict the correlation. Eg.,"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W1-L3",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT6.docx",
+        "anchor": "Week 1/ Lesson 2 & 3"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons.",
+        "deepening_knowledge_summary": "Start to introduce lines of best fit which students can do simply through using a ruler and placing it so it shows the trend in the data  .(see next lesson for more detail) Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT6-W1-L3",
+      "half_term": "HT6",
+      "week": 1,
+      "lesson": 3,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Draw and interpret scatter graphs.",
+          "Describing correlation.",
+          "Describing correlation and comparing 2 data sets."
+        ],
+        "key_knowledge_components": [
+          "I know what is meant by an outlier and can identify one on a scatter diagram.",
+          "I can draw and interpret scatter graphs.",
+          "I know when it would be appropriate to draw a scatter diagram."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Scatter diagram, variable, correlation, positive correlation, negative correlation, outlier, trend, pattern"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Re-cap previous lesson on correlation and describing correlation. Model an example of drawing a scatter diagram eg Check on understanding (see key questions) and then give students an example to draw the scatter diagram themselves. Before doing it, get them to predict the correlation. Eg.,"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W2-L1",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT6.docx",
+        "anchor": "Week 1/ Lesson 2 & 3"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons.",
+        "deepening_knowledge_summary": "Start to introduce lines of best fit which students can do simply through using a ruler and placing it so it shows the trend in the data  .(see next lesson for more detail) Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT6-W2-L1",
+      "half_term": "HT6",
+      "week": 2,
+      "lesson": 1,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Drawing lines of best fit using these to make predictions"
+        ],
+        "key_knowledge_components": [
+          "I can draw and interpret lines of best fit."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Scatter diagram, variable, correlation, positive correlation, negative correlation, outlier, trend, pattern"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "Which is the best line of best fit? Eg.,"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Re-cap the previous lessons before starting to look at lines of best fit. Give students examples to practise, followed by questions where they need to use the line of best fit. In the question below for example, you would ask students to predict the weight of a salmon that is 70cm long.  Also, ask questions that they cannot give an answer to because it is outside the data collected.  In the question below, for example, what would you expect a sa…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W2-L2",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT6.docx",
+        "anchor": "Week 2/ Lesson 1 & 2"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Discuss the following statements as a class, getting students to agree/disagree but with their reasoning to work through any misconceptions regarding lines of best fit:",
+        "deepening_knowledge_summary": "Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT6-W2-L2",
+      "half_term": "HT6",
+      "week": 2,
+      "lesson": 2,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Drawing lines of best fit using these to make predictions"
+        ],
+        "key_knowledge_components": [
+          "I can draw and interpret lines of best fit."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Scatter diagram, variable, correlation, positive correlation, negative correlation, outlier, trend, pattern"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "Which is the best line of best fit? Eg.,"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Re-cap the previous lessons before starting to look at lines of best fit. Give students examples to practise, followed by questions where they need to use the line of best fit. In the question below for example, you would ask students to predict the weight of a salmon that is 70cm long.  Also, ask questions that they cannot give an answer to because it is outside the data collected.  In the question below, for example, what would you expect a sa…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W2-L3",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT6.docx",
+        "anchor": "Week 2/ Lesson 1 & 2"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Discuss the following statements as a class, getting students to agree/disagree but with their reasoning to work through any misconceptions regarding lines of best fit:",
+        "deepening_knowledge_summary": "Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT6-W2-L3",
+      "half_term": "HT6",
+      "week": 2,
+      "lesson": 3,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Mean, median and mode"
+        ],
+        "key_knowledge_components": [
+          "I know how to calculate measures of central tendency.",
+          "I can find the range, mode, median and mean of a set of data, and use them to compare data sets."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "average, mean, median, mode, modal class, frequency, total, outlier"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "How do I work out an average?",
+          "What averages are there?",
+          "How do I calculate the median, the mode, the mean?",
+          "What are the differences between each average? Which average is the best in this situation?",
+          "Why is the mode not a useful average for this data?",
+          "(Sometimes there is more than one mode or no mode)"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Start by questioning students to see what they already know. Students will have learned about averages before but often struggle to remember the differences between the averages so give them a knowledge organiser for this (example under ‘addressing gaps’). Give them questions on modes in a variety of contexts eg, list of numbers, bar chart: Make sure they understand that there can sometimes be more than 1 mode and sometimes there may not be a mo…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W3-L1",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT6.docx",
+        "anchor": "Week 2/ Lesson 3"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Students often struggle with the differences in how to calculate each type of average. Give them a method for remembering this eg",
+        "deepening_knowledge_summary": "Give students worded, problem solving questions eg., Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT6-W3-L1",
+      "half_term": "HT6",
+      "week": 3,
+      "lesson": 1,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Best averages for different data sets; bias",
+          "Range"
+        ],
+        "key_knowledge_components": [
+          "I know what a range is.",
+          "I can find the range, mode, median and mean of a set of data, and use them to compare data sets."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "average, mean, median, mode, modal class, frequency, total, outlier"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "How do I calculate the range?",
+          "What does the range tell me if it is a large number?",
+          "What about if it is a smaller number?",
+          "If you all sat a test and your scores had a range of 2 marks what would that tell me about the class? What about if your scores had a range of 30 marks?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Re-cap mean, median and mode from previous lesson. Introduce the range and give students some questions where they calculate the range. Spend time ensuring students understand that the range is a measure of spread/variation and it is not another average. Talk to students about different contexts when one type of average is better than others. Explain how an outlier can distort the mean and give examples of this: If the range is a small number th…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W3-L2",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT6.docx",
+        "anchor": "Week 3/ Lesson 1"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Students often confuse range as one of the types of averages. It needs to be explicitly taught so that they understand that it is a measure of spread/variation.",
+        "deepening_knowledge_summary": "Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT6-W3-L2",
+      "half_term": "HT6",
+      "week": 3,
+      "lesson": 2,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Comparing 2 data sets in terms of average and consistency"
+        ],
+        "key_knowledge_components": [
+          "I can compare data sets using measures of central tendency and a measure of spread.",
+          "I can provide appropriate reasons about the best measure of central tendency to use based on the context of the data."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "average, mean, median, mode, modal class, frequency, total, outlier"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "Which average would you use for this question? Why?",
+          "Why would the mean not be a good average to use this time?",
+          "Why would the mode not be a useful average to use for this data set? ( 45, 32, 57, 47, 68)"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Start with a quiz or other that revises how to calculate the mean, median and mode and range. Then model an example where you compare 2 data sets eg Give a modelled example where you calculate the mean, the range and then write a couple of sentences stating which set had the higher average and which set had the smaller range and was therefore, more consistent. Give some questions for students to practise"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W3-L3",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT6.docx",
+        "anchor": "Week 3/ Lesson 2"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons.",
+        "deepening_knowledge_summary": "Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT6-W3-L3",
+      "half_term": "HT6",
+      "week": 3,
+      "lesson": 3,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Drawing and interpreting grouped and ungrouped frequency tables"
+        ],
+        "key_knowledge_components": [
+          "I can complete and interpret frequency tables."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Data, tally chart, frequency, frequency table, bar chart, quantitative data, qualitative data"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "How could we collate this data as we are doing the experiment?",
+          "How could we group the tallies so that they’re easier to count?",
+          "What do we call the table when we add the frequency column?",
+          "What do we mean by quantitative data? What about qualitative? Give me an example to explain.",
+          "Look at this set of data – we cannot do a tally for each of these values as there’s so many so we need to group them.  What would sensible group intervals be (class intervals)?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Students will have covered tally charts and bar charts before so this lessons is a revision lesson to manage any student misconceptions. Start by doing a data collection experiment and use this to get students to understand the difference between a tally chart and a frequency table, why we group tally marks in 5s as well as the importance of giving a bar cart a title, labelling the axes, having an evenly spaced scale and having the frequency axi…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W4-L1",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT6.docx",
+        "anchor": "Week 3/ Lesson 3"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Where students struggle to choose appropriate class intervals give them examples where this bit is done for them: Once they increase in confidence take away this support.",
+        "deepening_knowledge_summary": "Give students worded, cross-strand questions such as: Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT6-W4-L1",
+      "half_term": "HT6",
+      "week": 4,
+      "lesson": 1,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Mean from a frequency table"
+        ],
+        "key_knowledge_components": [
+          "I can find averages and the range from frequency tables, included ungrouped tables."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Mean, frequency table"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "How can I find a quicker way to find the mean of a large set of data?",
+          "What steps do I need to make? Can you tell me the steps in order?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Give an example where finding the mean would take a lengthy period of time because of the size of the data set. Put the data into a frequency table to group it. See below for example: Demonstrate how you can add in an extra column where each piece of data is multiplied by its frequency; these are then added up and divided by the sum of the frequencies to calculate the mean. Model an example including an example where the frequency table is set u…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W4-L2",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT6.docx",
+        "anchor": "Week 4/ Lesson 1"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Some students will need templates with the additional column added on to remind them that each piece of data needs to be multiplied by its frequency.",
+        "deepening_knowledge_summary": "Give students 2 sets of data to compare where they need to find the mean (from a frequency table) of each eg., Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT6-W4-L2",
+      "half_term": "HT6",
+      "week": 4,
+      "lesson": 2,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Median and mode from a frequency table"
+        ],
+        "key_knowledge_components": [
+          "I can find averages and the range from frequency tables, included ungrouped tables."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Mean, frequency table, mode, median, estimate, class interval, data set, discrete data, continuous data"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "How would I find the mode when the data is presented in a frequency table? What is the definition of the mode?",
+          "Can you find the exact mode or can you only estimate it?",
+          "How would I find the median when the data is presented in a frequency table?",
+          "Can I find the exact median when the ‘heights’ are given as a class interval?",
+          "What’s the modal number of siblings?",
+          "What’s the median number of siblings?",
+          "What’s the modal number of minutes late? Can you give an exact number or do you need to give an estimate (class interval)?",
+          "What’s the median number of minutes"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Re-cap mean, median and mode when the data is given as a list. Re-cap the process for finding the mean when the data set is given in a frequency table. This lesson is about modes and medians when the data set is presented as a frequency table.  You should look at data for both discrete data sets and grouped or continuous data sets as in the example below: Start with discrete data and then continuous or grouped discrete data. See examples under k…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W4-L3",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT6.docx",
+        "anchor": "Week 4/ Lesson 2"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. For grouped data spend time checking students understand and can read class intervals such as “p is between 5 and 10.  It  can equal 10 but not 5”. See example below:",
+        "deepening_knowledge_summary": "Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT6-W4-L3",
+      "half_term": "HT6",
+      "week": 4,
+      "lesson": 3,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Estimating averages from a grouped frequency table"
+        ],
+        "key_knowledge_components": [
+          "I can find averages and the range from frequency tables, included ungrouped tables.",
+          "I can provide appropriate reasons about the best measure of central tendency to use based on the context of the data."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Mean, frequency table, mode, median, estimate, class interval, data set, discrete data, continuous data, midpoint"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "How would I find the mean from a frequency table when the data set has grouped data?",
+          "Can I find the exact mean or will it be an estimate?",
+          "In this class interval what is the midpoint of each class?",
+          "What’s an easy way to find a midpoint? (Add biggest and smallest numbers in the class interval and then divide by 2)"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Students will need a Steps 2 Success for this: Start by posing questions that get students to predict how they could find the mean from a frequency table when the data is grouped.  They need to understand that it will be an estimate only.  They also need to know how to find midpoints of each class interval. See questions under ‘key questions’. Model an example for the class eg., Then give students a couple to try themselves."
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W5-L1",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT6.docx",
+        "anchor": "Week 4/ Lesson 3"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Students need to know how to read and interpret class intervals. See Addressing Gaps in previous lesson. Students need to be confident with finding midpoints. Check they can do this before modelling an example. Students may need the addition…",
+        "deepening_knowledge_summary": "Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT6-W5-L1",
+      "half_term": "HT6",
+      "week": 5,
+      "lesson": 1,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Drawing and interpreting pictograms"
+        ],
+        "key_knowledge_components": [
+          "I can draw and interpret bar chats, dual bar charts and pictograms."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Data, tally chart, frequency,  frequency table, bar chart, quantitative data, qualitative data, dual bar charts, pictogram"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "What is a pictogram?",
+          "Why would you choose to draw a pictogram rather than a bar chart?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "A pictogram is just a different, more visual, bar graph.  Students need to take note of the key on each pictogram as this determines the frequencies. Give students practice at using the key to calculate frequencies: Once they are confident at reading and interpreting give them data sets to draw pictograms to display the information. They need to choose their key carefully."
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W5-L2",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT6.docx",
+        "anchor": "Week 5/ Lesson 1"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Some students will struggle to use the key to interpret frequencies.  Spend time near the beginning of the lesson giving them practice at this. See examples under suggested teaching activities.",
+        "deepening_knowledge_summary": "Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT6-W5-L2",
+      "half_term": "HT6",
+      "week": 5,
+      "lesson": 2,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Drawing and interpreting bar charts and dual bar charts"
+        ],
+        "key_knowledge_components": [
+          "I can draw and interpret bar chats, dual bar charts and pictograms."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Data, tally chart, frequency,  frequency table, bar chart, quantitative data, qualitative data, dual bar charts"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "What common mistakes do people make when they are drawing a bar chart?",
+          "When would we use a dual bar chart?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "We normally use a dual (or multiple ) bar chart when we want to compare 2 or more sets eg This lesson should be used to both read and interpret dual bar charts as well as drawing them for given data sets. Include examples where the bars are set up horizontally: When students are competent at reading and interpreting dual bar charts give them some data sets where a dual bar chart would be useful to visually compare the data sets eg Give students …"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W5-L3",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT6.docx",
+        "anchor": "Week 5/ Lesson 2"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Students may need help with deciding the labels of each bar, spacing the bars out evenly and remembering to label axes, give the graph a title etc.",
+        "deepening_knowledge_summary": "Give more complex data sets where a multiple bar chart is required. Get students to plot the bar chart and then answer questions involving interpreting the bar chart. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT6-W5-L3",
+      "half_term": "HT6",
+      "week": 5,
+      "lesson": 3,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Discrete and continuous data",
+          "Drawing and interpreting histograms"
+        ],
+        "key_knowledge_components": [
+          "I can draw and interpret bar chats, dual bar charts and pictograms."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Discrete data, continuous data, bar chart, histogram"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "What’s the difference between discrete data and continuous data?",
+          "Give me an example of some data that is continuous? (height, weight, hand span).",
+          "Give me an example of data that is discrete?",
+          "What differences can you see between a bar chart and a histogram?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Clarify with student the difference between discrete data and continuous data. For discrete data they should draw a bar chart whereas for continuous data they should draw a histogram. They need to note that the labels on the horizontal axis are in the under the middle of each bar for a bar chart whereas they are on the edge for a histogram. See example below.  Notice also for a histogram the bars are joined up. Model an example of drawing a hist…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W6-L1",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT6.docx",
+        "anchor": "Week 5/ Lesson 3"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Some students will struggle with labelling the horizontal axis and may need this scaffolding done for them initially.",
+        "deepening_knowledge_summary": "Introduce frequency density on the vertical axis Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT6-W6-L1",
+      "half_term": "HT6",
+      "week": 6,
+      "lesson": 1,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Using mathematical equipment to construct a triangle,",
+          "Using mathematical equipment to construct a triangle, a perpendicular bisector of a line segment and an angle bisector"
+        ],
+        "key_knowledge_components": [
+          "I can use mathematical equipment to construct a triangle, angle bisector and a perpendicular bisector of a line segment.",
+          "I know what a perpendicular bisector is.",
+          "I know what an angle bisector is.",
+          "I can read and interpret a mathematical question and identify whether it requires me to  construct a perpendicular bisector or angle bisector"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "angle, pair of compasses, protractor, acute, obtuse, right angle, reflex angle",
+          "angle, pair of compasses, protractor, acute, obtuse, right angle, reflex angle, angle bisector, perpendicular bisector"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "How would you draw accurately a 450 angle?",
+          "How do I hold the compass so that its arms don’t move when I am using it?",
+          "How do I use the protractor to measure an angle?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Start by checking students can use a protractor and ruler to accurately draw angles of certain sizes, including reflex angles. Students need to be confident with this before moving onto constructing triangles. So if they are nor confident spend the first lesson teaching this (see year 8 CTD HT3). The start to teach triangle construction modelling the steps below: In the example above we were given a side, angle and another side. Give students an…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W6-L2",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT6.docx",
+        "anchor": "Week 6/ Lesson 1 & 2"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Students commonly struggle with reading a protractor and using it to draw angles of certain sizes. See year 8 CTD, HT3 for guidance. They need to be competent at this before they attempt to construct triangles. Students commonly struggle wit…",
+        "deepening_knowledge_summary": "Construct an isosceles triangle Construct an equilateral triangle. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT6-W6-L2",
+      "half_term": "HT6",
+      "week": 6,
+      "lesson": 2,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Using mathematical equipment to construct a triangle,",
+          "Using mathematical equipment to construct a triangle, a perpendicular bisector of a line segment and an angle bisector"
+        ],
+        "key_knowledge_components": [
+          "I can use mathematical equipment to construct a triangle, angle bisector and a perpendicular bisector of a line segment.",
+          "I know what a perpendicular bisector is.",
+          "I know what an angle bisector is.",
+          "I can read and interpret a mathematical question and identify whether it requires me to  construct a perpendicular bisector or angle bisector"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "angle, pair of compasses, protractor, acute, obtuse, right angle, reflex angle",
+          "angle, pair of compasses, protractor, acute, obtuse, right angle, reflex angle, angle bisector, perpendicular bisector"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "How would you draw accurately a 450 angle?",
+          "How do I hold the compass so that its arms don’t move when I am using it?",
+          "How do I use the protractor to measure an angle?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Start by checking students can use a protractor and ruler to accurately draw angles of certain sizes, including reflex angles. Students need to be confident with this before moving onto constructing triangles. So if they are nor confident spend the first lesson teaching this (see year 8 CTD HT3). The start to teach triangle construction modelling the steps below: In the example above we were given a side, angle and another side. Give students an…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT6.docx",
+        "anchor": "Week 6/ Lesson 1 & 2"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Students commonly struggle with reading a protractor and using it to draw angles of certain sizes. See year 8 CTD, HT3 for guidance. They need to be competent at this before they attempt to construct triangles. Students commonly struggle wit…",
+        "deepening_knowledge_summary": "Construct an isosceles triangle Construct an equilateral triangle. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    }
+  ]
+}

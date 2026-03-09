@@ -1,0 +1,607 @@
+{
+  "meta": {
+    "half_term": "HT4",
+    "prior_learning": [
+      "Students will have covered some angle facts in years 7 and 8 so it is important to ascertain which ones they remember and build on these. Give students problems of increasing complexity where there is more than one way to find a solution and also multi-step problems. Interior angles of polygons with n sides and exterior angles have not been covered in years 7 and 8."
+    ],
+    "common_misconceptions": [
+      "Students struggle to visualise transformations.  With rotations they should be encouraged to use tracing paper to help.",
+      "When describing transformations students need to name the type of transformation and then the features.  If it is a translation they need to say that and then describe the vector.  If it is a rotation, they need to say that and then describe the amount of turn, the direction and the centre."
+    ]
+  },
+  "lessons": [
+    {
+      "id": "HT4-W1-L1",
+      "half_term": "HT4",
+      "week": 1,
+      "lesson": 1,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Angles in a triangle and quadrilateral"
+        ],
+        "key_knowledge_components": [
+          "I can apply my knowledge of angles and shapes to more complex problems"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Quadrilateral, square, rectangle, kite, rhombus, parallelogram, triangle, vertex, vertices, interior angle, exterior angle, equilateral, isosceles, scalene"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "What do I call the angles on the inside of the triangle/quadrilateral?",
+          "What do the angles of a triangle add up to?",
+          "What do the angles of any quadrilateral add up to?",
+          "Which angle rules can I use to help me find this missing angles? Are there any other ways I can find the missing angle?",
+          "What type of triangle is this?  How do I know?",
+          "What notation do we use for equal sides? Equal angles?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Only start with the paper activity below if students have no prior knowledge of angles in a triangle. If they can remember angles in a triangle move straight to angles in a quadrilateral. Give each student a pre-cut triangle which are all different.  Get them to tear of the vertices and join the angles together so that they can see that whatever the triangle, its angles always add to 180o Repeat the above with different quadrilaterals so that th…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W1-L2",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT4.docx",
+        "anchor": "Week 1/ Lesson 1"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Ensure students know the names of and understand the differences between types of triangles. They should also be familiar with the notation used for equal angles and sides.",
+        "deepening_knowledge_summary": "Use some questions with angles on a line and around a point to pre-teach the next lesson to help you guage the starting point for the class. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT4-W1-L2",
+      "half_term": "HT4",
+      "week": 1,
+      "lesson": 2,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Angles on a line and around a point"
+        ],
+        "key_knowledge_components": [
+          "I can apply my knowledge of angles and shapes to more complex problems"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Equilateral, isosceles, scalene,"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "If the angles on a line make up a semi-circle so add up to 180o, what about angles around a point? How many degrees would you predict they add up to?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Students will have come across both angles in a line and around a point in years 7 and 8 so start by checking what they have remembered Check students can read and use shape notation for equal angles and sides."
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W1-L3",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT4.docx",
+        "anchor": "Week 1/ Lesson 2"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Don’t move on to angles around a point unless students are secure with angles on a line.",
+        "deepening_knowledge_summary": "Give questions where students have to use more than one fact to find missing angles  or there’s more than one missing angle to find eg Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT4-W1-L3",
+      "half_term": "HT4",
+      "week": 1,
+      "lesson": 3,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Vertically opposite and corresponding angles"
+        ],
+        "key_knowledge_components": [
+          "I can apply my knowledge of angles and shapes to more complex problems"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Parallel, perpendicular, vertically opposite, corresponding, transversal"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "How would you find out how big angle ‘a’ is?",
+          "So how big would angle ‘b’ be? How do you know? Is there another way we can work out angle b?",
+          "What are the arrows on these lines for? What do they mean?",
+          "How would we show these sides are equal in length?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Use angles on a line to teach vertically opposite angles as normally students can deduce vertically opposite from this. Spend time allowing students to recognize corresponding angles amongst a few angles"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W2-L1",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT4.docx",
+        "anchor": "Week 1/ Lesson 3"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Students need to be able to visualise corresponding angles but in different orientations eg the ‘F’ will be back to front and upside down",
+        "deepening_knowledge_summary": "Give questions where students need to use a variety of angle facts to find missing angles Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT4-W2-L1",
+      "half_term": "HT4",
+      "week": 2,
+      "lesson": 1,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Alternate angles and co-interior angles"
+        ],
+        "key_knowledge_components": [
+          "I can apply my knowledge of angles and shapes to more complex problems"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Parallel, perpendicular, vertically opposite, corresponding, alternate, co-interior, transversal"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "Where are the corresponding angles?",
+          "These 2 angles are alternate – what do you think the rule is for them?  How do you know?",
+          "What shape to alternate angles make?",
+          "What shape do co-interior angles make?",
+          "Where is the C-shape in this question?",
+          "Where is the z shape in this question?",
+          "Give questions that incorporate corresponding, alternate and co-interior angles eg"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Start with a re-cap on corresponding angles and link this into alternate and co-interior angles.  Some students will be able to predict the rules so use this in the lesson. Students need to be able to visualise the Z shape so expose them to it in different orientations Students need to be able to visualise co-interior angles"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W2-L2",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT4.docx",
+        "anchor": "Week 2/ Lesson 1"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons.",
+        "deepening_knowledge_summary": "Give cross-strand questions such as algebraic angle facts Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT4-W2-L2",
+      "half_term": "HT4",
+      "week": 2,
+      "lesson": 2,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Interior angles of a polygon with n sides"
+        ],
+        "key_knowledge_components": [
+          "I know how to find the sum of interior angles for shapes of n sides."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Polygon, regular, irregular, quadrilateral, pentagon, hexagon, heptagon, octagon, nonagon, decagon, endecagon, dodecagon"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "What is a polygon?",
+          "What do we mean by a regular polygon?",
+          "What do we mean by irregular polygon?",
+          "How many triangles can we split the pentagon into?",
+          "Each triangle’s angles add to 180o so if there’s 3 triangles what will the interior angles of the pentagon add to?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Start by clarifying the differences between regular/irregular polygons Introduce sum of interior angles for any polygon by splitting polygons into triangles and using angles of a triangle add to 180. Get students to identify angle sum for polygons up to n sides by splitting into triangles and then adding the triangles up. Then get them to generalize between the number of sides of a polygon and how many triangles there will be eg n-2 so the angle…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W2-L3",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT4.docx",
+        "anchor": "Week 2/ Lesson 2"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons.",
+        "deepening_knowledge_summary": "Get students to calculate missing angles in irregular polygons by calculating the angle sum and subtracting the known angles from that. eg Get students to combine angle facts to calculate missing angles eg Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT4-W2-L3",
+      "half_term": "HT4",
+      "week": 2,
+      "lesson": 3,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Exterior angles of a polygon"
+        ],
+        "key_knowledge_components": [
+          "I know that exterior angles of any polygon add to 360.",
+          "I can find interior and exterior angles in polygons, both regular and irregular."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Interior angle, exterior angle, regular, irregular, polygon"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "Where is the exterior angle?  What do we mean by an exterior angle?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Clarify what we mean by an exterior angle as it is the angle formed by a side of a polygon being extended and the next side of the polygon eg Link the lesson into interior angles to help students calculate the exterior angles and from that deduce that exterior angles of any polygon add up to 360o. Give students questions involving interior and exterior angles eg.,"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W4-L1",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT4.docx",
+        "anchor": "Week 2/ Lesson 3"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons.",
+        "deepening_knowledge_summary": "Give questions where the polygons are irregular Week 3:  Assessment Week Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT4-W4-L1",
+      "half_term": "HT4",
+      "week": 4,
+      "lesson": 1,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Calculating the number of sides of a polygon given partial interior/exterior angles"
+        ],
+        "key_knowledge_components": [
+          "I know that exterior angles of any polygon add to 360.",
+          "I can find interior and exterior angles in polygons, both regular and irregular."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Interior angle, exterior angle, regular, irregular, polygon"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "What would the exterior angle of this polygon be? How do you know? What do the exterior angles of a polygon add up to?",
+          "If this is a regular polygon, and each exterior angle is 30o   how many sides does the polgon have? How do you know?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": ""
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W4-L2",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT4.docx",
+        "anchor": "Week 4/ Lesson 1"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Don’t move onto this lesson unless students are secure with finding exterior angles from the previous lesson.",
+        "deepening_knowledge_summary": "Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT4-W4-L2",
+      "half_term": "HT4",
+      "week": 4,
+      "lesson": 2,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Rotating a shape by 90, 180, 270 degrees around different points of rotation using tracing paper; describing the degree of rotation",
+          "Translating a shape by a given vector"
+        ],
+        "key_knowledge_components": [
+          "I can recognise rotational symmetry and a translation.",
+          "I can describe and implement different transformations.",
+          "I know what a vector is.",
+          "I know what a translation is.",
+          "I can describe a translation using a vector.",
+          "I can translate a shape by a given vector. Given a transformation I can decide whether it is a reflection, rotation or a translation and provide reasons."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Transformation, reflection, rotation, centre of rotation, clockwise, anticlockwise, object, image",
+          "Transformation, reflection, rotation, translation, translate, vector, magnitude"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Get students to use tracing paper, especially when they cannot visualise the image; start with simple rotations and then give them of increasing difficulty. Then move students to descibing rotations: Week 4/ Lesson 3 and Week 5/Lesson 1 Start by describing the translations in words before introducing vectors. Teach students that a translation is a form of transformation where the shape is just moved.  We describe how we move it using a vector eg…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W5-L2",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT4.docx",
+        "anchor": "Week 4/ Lesson 2"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons. Students have a tendency to write…",
+        "deepening_knowledge_summary": "Give questions where a shape has been transformed twice. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT4-W5-L2",
+      "half_term": "HT4",
+      "week": 5,
+      "lesson": 2,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Representing vectors visually and numerically"
+        ],
+        "key_knowledge_components": [
+          "I know what a vector is"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Vector, scalar, magnitude"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "How would I draw this vector?",
+          "How do I know which direction it is going?",
+          "Which is the correct way to write this vector?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Start by getting students to describe a visual of a vector mathematically. They need to understand vectors have a magnitude and a direction. The directions on the visuals are shown by the arrows. Next, give them vectors and get them to draw them visually"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W5-L3",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT4.docx",
+        "anchor": "Week 5/ Lesson 2"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons.",
+        "deepening_knowledge_summary": "Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT4-W5-L3",
+      "half_term": "HT4",
+      "week": 5,
+      "lesson": 3,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Changing the direction and magnitude of a vector visually and numerically"
+        ],
+        "key_knowledge_components": [
+          "I know what a vector is"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Vector, scalar, magnitude"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "How do I know what direction the vector is going? How do I show this in the vector?",
+          "How do I know how big it is?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": ""
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W6-L1",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT4.docx",
+        "anchor": "Week 5/ Lesson 3"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons.",
+        "deepening_knowledge_summary": "Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT4-W6-L1",
+      "half_term": "HT4",
+      "week": 6,
+      "lesson": 1,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Vector addition and subtraction"
+        ],
+        "key_knowledge_components": [
+          "I know what a vector is"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Vector, scalar, magnitude, resultant vector"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Link vector addition/subtraction to transformations in that it is one translation followed by another. See first key question. Teach vector addition and subtraction diagrammatically as well as using vectors eg Give questions of increasing complexity with both vectors and diagrams"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W6-L2",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT4.docx",
+        "anchor": "Week 6/ Lesson 1"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons.",
+        "deepening_knowledge_summary": "Take away the visual so that students have to use a coordinates grid to solve questions: Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT4-W6-L2",
+      "half_term": "HT4",
+      "week": 6,
+      "lesson": 2,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "Multiplying a vector by a scalar"
+        ],
+        "key_knowledge_components": [
+          "I know what a vector is"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Vector, scalar, magnitude, resultant vector"
+        ]
+      },
+      "teaching": {
+        "key_questions": [
+          "Which is correct and why?",
+          "What is 4p as a resultant vector?",
+          "What is 2q as a resultant vector?"
+        ],
+        "worked_examples": [],
+        "suggested_activities_summary": "Teach vector multiplication by a scalar both using vectors and diagrammatically eg.,"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "Copy of CTD 9 HT4.docx",
+        "anchor": "Week 6/ Lesson 2"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student. Staff must make sure they are familiar with the various strategies involved and embed these in their lessons.",
+        "deepening_knowledge_summary": ""
+      }
+    }
+  ]
+}
