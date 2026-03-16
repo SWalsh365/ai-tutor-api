@@ -10,6 +10,7 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 app.use(express.json());
+
 // --- Tenant context resolver (multi-tenant, multi-subject, multi-year) ---
 
 function resolveTenantCtx(req, res, next) {
@@ -38,8 +39,11 @@ function resolveTenantCtx(req, res, next) {
   const s = folderSafe(safeSubject.toLowerCase());
   const y = folderSafe(safeYear);
 
-  const baseDir = path.join(process.cwd(), "tenants", t, "subjects", s, y);
-    const locked = Boolean(lockedTenant);
+  // Match the actual Git-tracked folder structure:
+  // Tenants/<TENANT>/Subjects/Maths/Yr9
+  const subjectDir = s === "maths" ? "Maths" : s;
+  const baseDir = path.join(process.cwd(), "Tenants", t, "Subjects", subjectDir, y);
+  const locked = Boolean(lockedTenant);
 
   // Hard-fail if tenant path is locked but baseDir is missing (no fallback to CCA)
   if (locked && !fs.existsSync(baseDir)) {
@@ -81,11 +85,13 @@ function resolveTenantCtx(req, res, next) {
 
   next();
 }
+
 // --- PATH TENANT DETECTOR (runs before resolveTenantCtx) ---
 app.use((req, _res, next) => {
   const firstSeg = req.path.split("/").filter(Boolean)[0]; // "/CCA/..." -> "CCA"
   if (!firstSeg) return next();
-    // Do not treat reserved top-level routes as tenants
+
+  // Do not treat reserved top-level routes as tenants
   const RESERVED = new Set(["api", "tutor", "healthz", "debug", "public"]);
   if (RESERVED.has(firstSeg.toLowerCase())) return next();
 
@@ -94,7 +100,7 @@ app.use((req, _res, next) => {
 
   if (!safe) return next();
 
-    const tenantsRoot = path.join(process.cwd(), "tenants");
+  const tenantsRoot = path.join(process.cwd(), "Tenants");
 
   // Case-insensitive match to existing tenant folder name
   let matchedTenant = null;
@@ -114,6 +120,7 @@ app.use((req, _res, next) => {
 
   next();
 });
+
 // --- Root landing page (forces school-specific entry URLs) ---
 app.get("/", (req, res) => {
   res
@@ -131,12 +138,11 @@ app.get("/", (req, res) => {
 });
 
 app.use(express.static(path.join(__dirname, "public")));
+
 // --- Tenant entry URL: /CCA, /UnityCollege etc. ---
 app.get("/:tenant/", (req, res) => {
-  // If the tenant folder exists, serve the same frontend
-  // (path-tenant detector already validated existence for req.pathTenant, but we keep it safe)
   const t = String(req.params.tenant || "").replace(/[^a-zA-Z0-9_-]/g, "");
-  const tenantDir = path.join(process.cwd(), "tenants", t);
+  const tenantDir = path.join(process.cwd(), "Tenants", t);
 
   if (!fs.existsSync(tenantDir) || !fs.statSync(tenantDir).isDirectory()) {
     return res.status(404).send("Unknown school.");
@@ -148,7 +154,7 @@ app.get("/:tenant/", (req, res) => {
 // Optional: allow deep refresh under tenant paths (e.g. /CCA/anything)
 app.get("/:tenant", (req, res) => {
   const t = String(req.params.tenant || "").replace(/[^a-zA-Z0-9_-]/g, "");
-  const tenantDir = path.join(process.cwd(), "tenants", t);
+  const tenantDir = path.join(process.cwd(), "Tenants", t);
 
   if (!fs.existsSync(tenantDir) || !fs.statSync(tenantDir).isDirectory()) {
     return res.status(404).send("Unknown school.");
@@ -156,6 +162,7 @@ app.get("/:tenant", (req, res) => {
 
   return res.sendFile(path.join(__dirname, "public", "index.html"));
 });
+
 // --- Enforce tenant lock for this request (path tenant overrides headers/query) ---
 app.use((req, _res, next) => {
   if (req.pathTenant) {
@@ -164,6 +171,7 @@ app.use((req, _res, next) => {
   }
   next();
 });
+
 // --- Guard: if a request uses /:tenant/... but tenant folder doesn't exist, fail fast ---
 app.use((req, res, next) => {
   const firstSeg = req.path.split("/").filter(Boolean)[0] || "";
@@ -177,7 +185,9 @@ app.use((req, res, next) => {
 
   next();
 });
+
 app.use(resolveTenantCtx);
+
 // --- DEBUG: confirm where corbett_videos.json is being loaded from ---
 function debugCorbettHandler(req, res) {
   const filePath = corbettVideosIndexPathFromReq(req);
@@ -206,20 +216,27 @@ function readJsonSafe(filePath) {
     return null;
   }
 }
+
 // Tenant-scoped alias (so /:tenant/api/... is locked by req.pathTenant)
 app.get("/:tenant/api/curriculum/index", (req, res, next) => {
-  // Ensure path tenant detector runs as normal and locks to req.pathTenant.
-  // Then forward to the canonical handler via next() by rewriting the URL.
   req.url = "/api/curriculum/index";
   next();
 });
 
 // --- Curriculum index endpoint for dropdowns ---
 function curriculumIndexHandler(req, res) {
+  console.log("Curriculum index route hit:", req.originalUrl);
   const index = readJsonSafe(curriculumIndexPathFromReq(req));
   if (!index?.half_terms) {
     return res.status(500).json({ error: "Curriculum index not found or invalid." });
   }
+
+  const out = {};
+  for (const [ht, weeksObj] of Object.entries(index.half_terms)) {
+    out[ht] = { weeks: Object.keys(weeksObj || {}) };
+  }
+
+  return res.json(out);
 }
 
 // canonical + tenant-scoped
@@ -282,7 +299,6 @@ LINK ACCURACY & SOURCE RULE (MANDATORY)
   - examqa.com
 - Do NOT suggest using Google, YouTube, or any general web search.
 - ALWAYS try to provide a direct link first to a corbettmaths video then to mathsgenie.
-
 
 - If asked for non-maths or unapproved resources, respond:
   “That isn’t part of maths learning, so I can’t show a video for that. 
@@ -464,12 +480,11 @@ After the student answers the fourth question, your NEXT reply MUST be exactly:
 [[PREFS_DONE]]
 
 Do not add any other text before or after the marker in that reply.
-
 `.trim();
 
 // ---------- Curriculum + Resources (tenant-aware) ----------
 function curriculumRootFromReq(req) {
-  return req.tenantCtx.baseDir; // tenants/<TENANT>/subjects/<subject>/<year>
+  return req.tenantCtx.baseDir; // Tenants/<TENANT>/Subjects/<Subject>/<Year>
 }
 
 function curriculumIndexPathFromReq(req) {
@@ -477,8 +492,9 @@ function curriculumIndexPathFromReq(req) {
 }
 
 function corbettVideosIndexPathFromReq(_req) {
-  return path.join(process.cwd(), "resources_shared", "corbett_videos.json");
+  return path.join(process.cwd(), "Resources_shared", "corbett_videos.json");
 }
+
 // --- DEBUG: confirm where corbett_videos.json is being loaded from ---
 app.get("/debug/corbett", (req, res) => {
   const filePath = corbettVideosIndexPathFromReq(req);
@@ -525,7 +541,6 @@ function getCorbettVideosIndex(req) {
 }
 
 function findLatestMetaMarker(history) {
-  // Looks for a line like: [[META_USED: HT1-W2-L3]]
   for (let i = history.length - 1; i >= 0; i--) {
     const c = history[i]?.content;
     if (typeof c !== "string") continue;
@@ -536,7 +551,6 @@ function findLatestMetaMarker(history) {
 }
 
 function findLatestProgressToken(history) {
-  // Looks for: [[PROGRESS: year9|maths|HT2|W3|L2|passed]]
   for (let i = history.length - 1; i >= 0; i--) {
     const c = history[i]?.content;
     if (typeof c !== "string") continue;
@@ -554,8 +568,8 @@ function findLatestProgressToken(history) {
   }
   return null;
 }
+
 function hasPersonalisationComplete(history) {
-  // Looks for: [[PREFS_DONE]]
   for (let i = history.length - 1; i >= 0; i--) {
     const c = history[i]?.content;
     if (typeof c !== "string") continue;
@@ -579,7 +593,7 @@ function getLessonFileFromIndex(req, pointer) {
 }
 
 function getLessonChunk(req, pointer) {
-const filePath = getLessonFileFromIndex(req, pointer);
+  const filePath = getLessonFileFromIndex(req, pointer);
   if (!filePath) return null;
 
   const htObj = readJsonSafe(filePath);
@@ -599,7 +613,7 @@ function buildCurriculumMenuContext(req) {
   const index = readJsonSafe(curriculumIndexPathFromReq(req));
   if (!index?.half_terms) return "CURRICULUM MENU\n(No curriculum index found.)";
 
-  const htKeys = Object.keys(index.half_terms).sort(); // HT1..HT6
+  const htKeys = Object.keys(index.half_terms).sort();
   const lines = [];
   lines.push("CURRICULUM MENU (teacher-selected)");
   lines.push("The student asked for 'same as my class' but no lesson was selected.");
@@ -617,6 +631,7 @@ function buildCurriculumMenuContext(req) {
   lines.push("If they don’t know, ask what week number they are on in class or what the topic is.");
   return lines.join("\n");
 }
+
 function normaliseQuery(s) {
   return String(s || "")
     .toLowerCase()
@@ -634,15 +649,16 @@ function getLessonDisplayTitle(lesson) {
 
   return "Untitled lesson";
 }
+
 function buildCurriculumContext({ pointer, meta, lesson, includeMeta }) {
   const lines = [];
 
   const displayTitle = getLessonDisplayTitle(lesson);
 
-lines.push(`CURRICULUM CONTEXT (authoritative)`);
-lines.push(`SELECTED LESSON (do not change): ${lesson.id} | ${displayTitle}`);
-lines.push(`INSTRUCTION: You MUST say exactly: "Today we are working on: ${lesson.id} — ${displayTitle}."`);
-lines.push(`Teach this lesson only; do not jump ahead.`);
+  lines.push(`CURRICULUM CONTEXT (authoritative)`);
+  lines.push(`SELECTED LESSON (do not change): ${lesson.id} | ${displayTitle}`);
+  lines.push(`INSTRUCTION: You MUST say exactly: "Today we are working on: ${lesson.id} — ${displayTitle}."`);
+  lines.push(`Teach this lesson only; do not jump ahead.`);
 
   if (lesson.intent?.learning_outcomes?.length) {
     lines.push(`Learning outcomes:`);
@@ -681,6 +697,7 @@ lines.push(`Teach this lesson only; do not jump ahead.`);
 
   return lines.join("\n");
 }
+
 // --- DEBUG: resolve curriculum pointer to file + lesson (remove in production) ---
 app.get("/debug/curriculum", (req, res) => {
   const ht = String(req.query.ht || "").toUpperCase();
@@ -698,12 +715,12 @@ app.get("/debug/curriculum", (req, res) => {
     });
   }
 
-const index = readJsonSafe(curriculumIndexPathFromReq(req));
+  const index = readJsonSafe(curriculumIndexPathFromReq(req));
   const wKey = `W${pointer.week}`;
   const lKey = `L${pointer.lesson}`;
 
   const entry = index?.half_terms?.[pointer.ht]?.[wKey]?.[lKey] ?? null;
-const filePath = entry?.file ? path.join(curriculumRootFromReq(req), entry.file) : null;
+  const filePath = entry?.file ? path.join(curriculumRootFromReq(req), entry.file) : null;
 
   const htObj = filePath ? readJsonSafe(filePath) : null;
 
@@ -726,23 +743,21 @@ const filePath = entry?.file ? path.join(curriculumRootFromReq(req), entry.file)
     total_lessons_in_file: Array.isArray(htObj?.lessons) ? htObj.lessons.length : null,
   });
 });
+
 function parsePointerFromMessage(text) {
   if (typeof text !== "string") return null;
 
-  // Accept: "HT3" or "HT 3"
-const htMatch = text.match(/\bHT\s*([1-6])\b/i);
-if (!htMatch) return null;
+  const htMatch = text.match(/\bHT\s*([1-6])\b/i);
+  if (!htMatch) return null;
 
-// Accept: "W2", "Week 2", "WK2", "wk 2"
-const weekMatch = text.match(/\b(?:W|WK|WEEK)\s*([0-9]{1,2})\b/i);
-if (!weekMatch) return null;
-
+  const weekMatch = text.match(/\b(?:W|WK|WEEK)\s*([0-9]{1,2})\b/i);
+  if (!weekMatch) return null;
 
   const lessonMatch = text.match(/\bL(?:esson)?\s*([0-9]{1,2})\b/i);
 
   const ht = `HT${htMatch[1]}`.toUpperCase();
   const week = Number(weekMatch[1]);
-  const lesson = lessonMatch ? Number(lessonMatch[1]) : 1; // DEFAULT to Lesson 1
+  const lesson = lessonMatch ? Number(lessonMatch[1]) : 1;
 
   if (!Number.isInteger(week) || week < 1) return null;
   if (!Number.isInteger(lesson) || lesson < 1) return null;
@@ -751,20 +766,6 @@ if (!weekMatch) return null;
 }
 
 // Health check route
-app.get("/", (req, res) => {
-  res
-    .status(200)
-    .send(
-      `<html>
-        <head><meta charset="utf-8"><title>AI Tutor</title></head>
-        <body style="font-family: Arial, sans-serif; margin: 24px;">
-          <h1>AI Tutor</h1>
-          <p>Please access the tutor using your school link.</p>
-          <p style="margin-top: 12px;"><strong>Example:</strong> <code>/CCA</code> or <code>/UnityCollege</code></p>
-        </body>
-      </html>`
-    );
-});
 app.get("/healthz", (_req, res) => {
   res.json({ ok: true });
 });
@@ -774,7 +775,7 @@ async function tutorHandler(req, res) {
   try {
     const studentMessage = req.body?.message;
     const history = req.body?.history;
-    const curriculumPointer = req.body?.curriculum_pointer; // optional: { ht: "HT1", week: 2, lesson: 3 }
+    const curriculumPointer = req.body?.curriculum_pointer;
 
     if (!studentMessage || typeof studentMessage !== "string") {
       return res
@@ -782,7 +783,6 @@ async function tutorHandler(req, res) {
         .json({ error: 'Please send JSON with: { "message": "...", "history": [] }' });
     }
 
-    // Validate optional history (stateless, client-provided)
     let safeHistory = [];
     if (Array.isArray(history)) {
       safeHistory = history
@@ -797,7 +797,6 @@ async function tutorHandler(req, res) {
         .map((m) => ({ role: m.role, content: m.content }));
     }
 
-    // Validate optional curriculum pointer (dropdown)
     let safePointer = null;
     if (
       curriculumPointer &&
@@ -814,61 +813,58 @@ async function tutorHandler(req, res) {
         lesson: curriculumPointer.lesson,
       };
     }
-// If no dropdown pointer was provided, allow teacher to type "HT3 week 2" (defaults to L1)
-if (!safePointer) {
-  const parsed = parsePointerFromMessage(studentMessage);
-  console.log("Parsed pointer from message:", parsed, "from:", studentMessage);
-  if (parsed) safePointer = parsed;
-}
+
+    if (!safePointer) {
+      const parsed = parsePointerFromMessage(studentMessage);
+      console.log("Parsed pointer from message:", parsed, "from:", studentMessage);
+      if (parsed) safePointer = parsed;
+    }
+
     console.log("RAW curriculum_pointer from req.body:", req.body?.curriculum_pointer);
     console.log("SAFE pointer after validation:", safePointer);
 
-    // Step 18.2 + 18.3 — inject curriculum context (dropdown pointer OR progress token)
     let curriculumDevMessage = null;
 
-    // choose active pointer: dropdown (safePointer) OR last progress token
-    const progressPointer = findLatestProgressToken(safeHistory); // { ht, week, lesson, status } or null
+    const progressPointer = findLatestProgressToken(safeHistory);
     const activePointer =
       safePointer ??
       (progressPointer
         ? { ht: progressPointer.ht, week: progressPointer.week, lesson: progressPointer.lesson }
         : null);
-const prefsDone = hasPersonalisationComplete(safeHistory);
+
+    const prefsDone = hasPersonalisationComplete(safeHistory);
 
     console.log("Progress pointer:", progressPointer);
     console.log("Active pointer:", activePointer);
 
- const msg = studentMessage.toLowerCase();
- const wantsVideo =
-  msg.includes("video") ||
-  msg.includes("watch") ||
-  msg.includes("clip");
+    const msg = studentMessage.toLowerCase();
 
-const wantsWorksheet =
-  msg.includes("worksheet") ||
-  msg.includes("worksheets") ||
-  msg.includes("practice questions") ||
-  msg.includes("practice") ||
-  msg.includes("exam questions");
+    const wantsVideo =
+      msg.includes("video") ||
+      msg.includes("watch") ||
+      msg.includes("clip");
 
-const wantsSameAsClass =
-  // direct phrases
-  msg.includes("same as class") ||
-  msg.includes("same as my class") ||
-  msg.includes("same as school") ||
-  msg.includes("same topic as class") ||
-  msg.includes("what are we doing") ||
-  msg.includes("what are we learning") ||
-  msg.includes("what is my class doing") ||
-  msg.includes("what's my class doing") ||
-  msg.includes("what topic are we on") ||
+    const wantsWorksheet =
+      msg.includes("worksheet") ||
+      msg.includes("worksheets") ||
+      msg.includes("practice questions") ||
+      msg.includes("practice") ||
+      msg.includes("exam questions");
 
-  // broader intent (regex)
-  (/\bsame\b/.test(msg) && /\bclass\b/.test(msg)) ||
-  (/\bmy\b/.test(msg) && /\bclass\b/.test(msg) && /\bdoing\b/.test(msg)) ||
-  (/\bwe\b/.test(msg) && /\bdoing\b/.test(msg) && /\bclass\b/.test(msg));
+    const wantsSameAsClass =
+      msg.includes("same as class") ||
+      msg.includes("same as my class") ||
+      msg.includes("same as school") ||
+      msg.includes("same topic as class") ||
+      msg.includes("what are we doing") ||
+      msg.includes("what are we learning") ||
+      msg.includes("what is my class doing") ||
+      msg.includes("what's my class doing") ||
+      msg.includes("what topic are we on") ||
+      (/\bsame\b/.test(msg) && /\bclass\b/.test(msg)) ||
+      (/\bmy\b/.test(msg) && /\bclass\b/.test(msg) && /\bdoing\b/.test(msg)) ||
+      (/\bwe\b/.test(msg) && /\bdoing\b/.test(msg) && /\bclass\b/.test(msg));
 
-    // If the student wants "same as class" but no pointer is set, show a menu
     const shouldShowMenu = !activePointer && wantsSameAsClass;
 
     if (shouldShowMenu) {
@@ -880,13 +876,12 @@ const wantsSameAsClass =
       };
     }
 
-    // If we have an active pointer, load and inject lesson context
     if (activePointer) {
-      const pack = getLessonChunk(req, activePointer); // { meta, lesson } or null
+      const pack = getLessonChunk(req, activePointer);
       console.log("Lesson loaded:", pack?.lesson?.id ?? "NOT FOUND");
 
       if (pack?.lesson) {
-        const lessonId = pack.lesson.id; // e.g. HT1-W1-L1
+        const lessonId = pack.lesson.id;
         const lastMetaUsed = findLatestMetaMarker(safeHistory);
         const includeMeta = lastMetaUsed !== lessonId;
 
@@ -905,25 +900,25 @@ const wantsSameAsClass =
     }
 
     console.log("Curriculum dev msg sent:", Boolean(curriculumDevMessage));
-// --- Resource policy: VIDEO requests always go to Corbett Contents (no deep links) ---
-let resourceDevMessage = null;
 
-if (wantsVideo) {
-  resourceDevMessage = {
-    role: "developer",
-    content:
-      "VIDEO POLICY (authoritative): The student asked for a video. " +
-      "You MUST ONLY provide this link: https://corbettmaths.com/contents/ " +
-      "Then give short instructions: open the page, use the search box, type the topic keywords, and choose the video. " +
-      "Do NOT provide any other URLs."
-  };
-}
+    let resourceDevMessage = null;
+
+    if (wantsVideo) {
+      resourceDevMessage = {
+        role: "developer",
+        content:
+          "VIDEO POLICY (authoritative): The student asked for a video. " +
+          "You MUST ONLY provide this link: https://corbettmaths.com/contents/ " +
+          "Then give short instructions: open the page, use the search box, type the topic keywords, and choose the video. " +
+          "Do NOT provide any other URLs."
+      };
+    }
 
     const activeDeveloperMessage = activePointer
-? (prefsDone ? DEVELOPER_MESSAGE_CURRICULUM_MODE : DEVELOPER_MESSAGE_PREFS_ONLY)
-  : shouldShowMenu
-  ? DEVELOPER_MESSAGE_MENU_MODE
-  : DEVELOPER_MESSAGE;
+      ? (prefsDone ? DEVELOPER_MESSAGE_CURRICULUM_MODE : DEVELOPER_MESSAGE_PREFS_ONLY)
+      : shouldShowMenu
+      ? DEVELOPER_MESSAGE_MENU_MODE
+      : DEVELOPER_MESSAGE;
 
     const response = await client.chat.completions.create({
       model: wantsVideo ? "gpt-4.1" : "gpt-4.1-mini",
@@ -932,14 +927,14 @@ if (wantsVideo) {
       messages: [
         { role: "system", content: SYSTEM_MESSAGE },
         { role: "developer", content: activeDeveloperMessage },
-        ...(curriculumDevMessage ? [curriculumDevMessage] : []), // curriculum context/menu (developer)
+        ...(curriculumDevMessage ? [curriculumDevMessage] : []),
         ...(resourceDevMessage ? [resourceDevMessage] : []),
         ...safeHistory,
         { role: "user", content: studentMessage },
       ],
     });
 
-let text = response.choices?.[0]?.message?.content ?? "";
+    let text = response.choices?.[0]?.message?.content ?? "";
 
     const newHistory = [
       ...safeHistory,
@@ -954,9 +949,7 @@ let text = response.choices?.[0]?.message?.content ?? "";
       .status(500)
       .json({ error: "Server error calling OpenAI. Check your API key and logs." });
   }
-  }
-
-
+}
 
 app.post("/tutor", tutorHandler);
 app.post("/:tenant/tutor", tutorHandler);
@@ -966,4 +959,3 @@ const PORT = Number(process.env.PORT) || 3000;
 app.listen(PORT, "0.0.0.0", () => {
   console.log(`Server running on port ${PORT}`);
 });
-
