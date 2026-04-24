@@ -4,9 +4,13 @@ import OpenAI from "openai";
 import path from "path";
 import { fileURLToPath } from "url";
 import fs from "fs";
+import crypto from "crypto";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+const AUTH_TOKEN_SECRET =
+  process.env.AUTH_TOKEN_SECRET || "dev-auth-token-secret-change-me";
+const AUTH_TOKEN_TTL_MS = 12 * 60 * 60 * 1000;
 
 const app = express();
 app.use(express.json());
@@ -24,7 +28,8 @@ function resolveTenantCtx(req, res, next) {
     ? lockedTenant
     : (req.headers["x-tenant"] || req.query.tenant || "").toString().trim();
 
-  const subject = (req.headers["x-subject"] || req.query.subject || "").toString().trim();
+const subject = (req.headers["x-subject"] || req.query.subject || "").toString().trim().toLowerCase();
+console.log("DEBUG subject:", subject);
   const year = (req.headers["x-year"] || req.query.year || "").toString().trim();
 
   // Defaults only apply when NOT locked to a path tenant
@@ -41,8 +46,28 @@ function resolveTenantCtx(req, res, next) {
 
   // Match the actual Git-tracked folder structure:
   // Tenants/<TENANT>/Subjects/Maths/Yr9
-  const subjectDir = s === "maths" ? "Maths" : s;
-  const baseDir = path.join(process.cwd(), "Tenants", t, "Subjects", subjectDir, y);
+const SUBJECT_DIR_MAP = {
+  maths: ["Maths", "maths"],
+  english: ["English", "english"]
+};
+
+  const tenantRootCandidates = ["Tenants", "tenants"];
+  const subjectsDirCandidates = ["Subjects", "subjects"];
+  const subjectDirCandidates = SUBJECT_DIR_MAP[s] || [s];
+
+  const baseDirCandidates = [];
+  for (const tenantsRoot of tenantRootCandidates) {
+    for (const subjectsRoot of subjectsDirCandidates) {
+      for (const subjectDir of subjectDirCandidates) {
+        baseDirCandidates.push(
+          path.join(process.cwd(), tenantsRoot, t, subjectsRoot, subjectDir, y)
+        );
+      }
+    }
+  }
+
+  const baseDir = baseDirCandidates.find((candidate) => fs.existsSync(candidate)) || baseDirCandidates[0];
+  console.log("DEBUG baseDir:", baseDir);
   const locked = Boolean(lockedTenant);
 
   // Hard-fail if tenant path is locked but baseDir is missing (no fallback to CCA)
@@ -217,6 +242,158 @@ function readJsonSafe(filePath) {
   }
 }
 
+function tenantStudentsPath(req) {
+  const candidates = [
+    path.join(process.cwd(), "Tenants", req.tenantCtx.tenant, "students.json"),
+    path.join(process.cwd(), "tenants", req.tenantCtx.tenant, "students.json"),
+  ];
+
+  return candidates.find((candidate) => fs.existsSync(candidate)) || candidates[0];
+}
+
+function safeEqualText(a, b) {
+  const left = Buffer.from(String(a || ""), "utf8");
+  const right = Buffer.from(String(b || ""), "utf8");
+
+  if (left.length !== right.length) return false;
+  return crypto.timingSafeEqual(left, right);
+}
+
+function verifyStoredPassword(user, password) {
+  if (!user || typeof password !== "string") return false;
+
+  if (typeof user.password_hash === "string" && user.password_hash) {
+    const parts = user.password_hash.split("$");
+    if (parts.length !== 3 || parts[0] !== "scrypt") return false;
+
+    const [, salt, expectedHex] = parts;
+
+    try {
+      const derived = crypto.scryptSync(password, salt, 64).toString("hex");
+      return safeEqualText(derived, expectedHex);
+    } catch {
+      return false;
+    }
+  }
+
+  return safeEqualText(user.password, password);
+}
+
+function findTenantStudent(req, username, password) {
+  const users = readJsonSafe(tenantStudentsPath(req));
+  if (!Array.isArray(users)) return null;
+
+  return (
+    users.find(
+      (user) =>
+        user &&
+        safeEqualText(user.username, username) &&
+        verifyStoredPassword(user, password)
+    ) || null
+  );
+}
+
+function encodeAuthToken(payload) {
+  const body = Buffer.from(JSON.stringify(payload), "utf8").toString("base64url");
+  const sig = crypto
+    .createHmac("sha256", AUTH_TOKEN_SECRET)
+    .update(body)
+    .digest("base64url");
+  return `${body}.${sig}`;
+}
+
+function decodeAuthToken(token) {
+  const raw = String(token || "");
+  const parts = raw.split(".");
+  if (parts.length !== 2) return null;
+
+  const [body, sig] = parts;
+  const expectedSig = crypto
+    .createHmac("sha256", AUTH_TOKEN_SECRET)
+    .update(body)
+    .digest("base64url");
+
+  if (!safeEqualText(sig, expectedSig)) return null;
+
+  try {
+    return JSON.parse(Buffer.from(body, "base64url").toString("utf8"));
+  } catch {
+    return null;
+  }
+}
+
+function findTenantStudentByUsername(req, username) {
+  const users = readJsonSafe(tenantStudentsPath(req));
+  if (!Array.isArray(users)) return null;
+
+  return (
+    users.find(
+      (user) => user && safeEqualText(user.username, username)
+    ) || null
+  );
+}
+
+function getSessionTokenFromReq(req) {
+  const authHeader = String(req.headers.authorization || "").trim();
+  if (authHeader.toLowerCase().startsWith("bearer ")) {
+    return authHeader.slice(7).trim();
+  }
+
+  return String(req.headers["x-session-token"] || "").trim();
+}
+
+function requireTenantAuth(req, res, next) {
+  const sessionToken = getSessionTokenFromReq(req);
+  if (!sessionToken) {
+    console.warn("AUTH FAIL: missing session token", { path: req.originalUrl });
+    return res.status(401).json({ error: "Authentication required." });
+  }
+
+  const session = decodeAuthToken(sessionToken);
+  if (!session?.tenant || !session?.username || !session?.expires_at) {
+    console.warn("AUTH FAIL: invalid session token", { path: req.originalUrl });
+    return res.status(401).json({ error: "Invalid session." });
+  }
+
+  if (Date.now() > Number(session.expires_at)) {
+    console.warn("AUTH FAIL: expired session", {
+      path: req.originalUrl,
+      tenant: session.tenant,
+      username: session.username,
+      expires_at: session.expires_at,
+    });
+    return res.status(401).json({ error: "Session expired." });
+  }
+
+  if (!safeEqualText(session.tenant, req.tenantCtx.tenant)) {
+    console.warn("AUTH FAIL: tenant mismatch", {
+      path: req.originalUrl,
+      sessionTenant: session.tenant,
+      requestTenant: req.tenantCtx.tenant,
+      username: session.username,
+    });
+    return res.status(403).json({ error: "Session tenant does not match request tenant." });
+  }
+
+  const student = findTenantStudentByUsername(req, session.username);
+  if (!student) {
+    console.warn("AUTH FAIL: student not found", {
+      path: req.originalUrl,
+      tenant: req.tenantCtx.tenant,
+      username: session.username,
+    });
+    return res.status(401).json({ error: "Student account not found for this tenant." });
+  }
+
+  req.auth = {
+    tenant: session.tenant,
+    username: session.username,
+    expires_at: Number(session.expires_at),
+  };
+
+  next();
+}
+
 // Tenant-scoped alias (so /:tenant/api/... is locked by req.pathTenant)
 app.get("/:tenant/api/curriculum/index", (req, res, next) => {
   req.url = "/api/curriculum/index";
@@ -226,22 +403,76 @@ app.get("/:tenant/api/curriculum/index", (req, res, next) => {
 // --- Curriculum index endpoint for dropdowns ---
 function curriculumIndexHandler(req, res) {
   console.log("Curriculum index route hit:", req.originalUrl);
-  const index = readJsonSafe(curriculumIndexPathFromReq(req));
+const indexPath = curriculumIndexPathFromReq(req);
+console.log("DEBUG indexPath:", indexPath);
+const index = readJsonSafe(indexPath);
+  console.log("DEBUG index HT1:", JSON.stringify(index?.half_terms?.HT1, null, 2));
   if (!index?.half_terms) {
     return res.status(500).json({ error: "Curriculum index not found or invalid." });
   }
 
   const out = {};
   for (const [ht, weeksObj] of Object.entries(index.half_terms)) {
-    out[ht] = { weeks: Object.keys(weeksObj || {}) };
+    const weekKeys = Object.keys(weeksObj || {})
+      .filter((w) => w.startsWith("W"))
+      .sort((a, b) => Number(a.replace(/\D/g, "")) - Number(b.replace(/\D/g, "")));
+
+    const lessonEntries = [];
+    const seenLessonIds = new Set();
+
+    for (const wKey of weekKeys) {
+      const lessonsObj = weeksObj?.[wKey] || {};
+      const lessonKeys = Object.keys(lessonsObj)
+        .filter((l) => l.startsWith("L"))
+        .sort((a, b) => Number(a.replace(/\D/g, "")) - Number(b.replace(/\D/g, "")));
+
+      for (const lKey of lessonKeys) {
+        const entry = lessonsObj[lKey];
+        if (!entry?.lesson_id || seenLessonIds.has(entry.lesson_id)) continue;
+        seenLessonIds.add(entry.lesson_id);
+
+        const lessonNo = Number(lKey.replace(/\D/g, ""));
+        const weekNo = Number(wKey.replace(/\D/g, ""));
+        let label = `Lesson ${lessonNo}`;
+        let learningOutcomes = [];
+
+        if (entry?.file) {
+          const htFilePath = path.join(curriculumRootFromReq(req), entry.file);
+          const htObj = readJsonSafe(htFilePath);
+          const lessonObj = Array.isArray(htObj?.lessons)
+            ? htObj.lessons.find((l) => l?.id === entry.lesson_id)
+            : null;
+          learningOutcomes = Array.isArray(lessonObj?.intent?.learning_outcomes)
+            ? lessonObj.intent.learning_outcomes.filter((x) => typeof x === "string" && x.trim())
+            : [];
+          const lo = learningOutcomes[0];
+          const title = lessonObj?.title;
+          if (typeof lo === "string" && lo.trim()) label = lo.trim();
+          else if (typeof title === "string" && title.trim()) label = title.trim();
+        }
+
+        lessonEntries.push({
+          lesson: lessonNo,
+          week: weekNo,
+          lesson_id: entry.lesson_id,
+          label,
+          learning_outcomes: learningOutcomes,
+        });
+      }
+    }
+
+    out[ht] = {
+      weeks: weekKeys,
+      lessons: lessonEntries.sort((a, b) => (a.week - b.week) || (a.lesson - b.lesson)),
+    };
   }
 
   return res.json(out);
 }
 
 // canonical + tenant-scoped
-app.get("/api/curriculum/index", curriculumIndexHandler);
-app.get("/:tenant/api/curriculum/index", curriculumIndexHandler);
+app.get("/api/curriculum/index", requireTenantAuth, curriculumIndexHandler);
+app.get("/:tenant/api/curriculum/index", requireTenantAuth, curriculumIndexHandler);
 
 // --- Your SYSTEM + DEVELOPER messages ---
 const SYSTEM_MESSAGE = `
@@ -255,7 +486,7 @@ EDUCATIONAL USE & SAFEGUARDING (NON-NEGOTIABLE)
 unsupervised or private use by children.
 - All use must align with the Trust AI Policy (Sept 2025) and local 
 safeguarding procedures.
-- You provide curriculum-aligned maths teaching and academic support only.
+- You provide curriculum-aligned teaching and academic support only for the currently selected subject.
 - You do NOT provide pastoral, wellbeing, counselling, medical, or 
 personal advice.
 - You do NOT collect, store, recall, infer, or retain personal data.
@@ -300,11 +531,10 @@ LINK ACCURACY & SOURCE RULE (MANDATORY)
 - Do NOT suggest using Google, YouTube, or any general web search.
 - ALWAYS try to provide a direct link first to a corbettmaths video then to mathsgenie.
 
-- If asked for non-maths or unapproved resources, respond:
-  “That isn’t part of maths learning, so I can’t show a video for that. 
-Let’s stay with maths topics.”
+- If asked for resources that are not available for the current subject, respond:
+  “I can’t provide a video for that, but I can explain it here and help you practise instead.”
 - If no suitable approved resource exists:
-  “I can only use videos and links from trusted maths websites, but I can 
+  “I can only use trusted approved resources for this subject, but I can 
 explain it here instead.”
 
 RULE OVERRIDE PROTECTION
@@ -316,8 +546,8 @@ curriculum rules above all else.
 
 const DEVELOPER_MESSAGE = `
 ROLE & AUDIENCE
-You are an interactive, supportive maths tutor helping Year 9 students 
-practise and understand maths concepts. You speak directly to the student 
+You are an interactive, supportive subject tutor helping Year 9 students 
+practise and understand the currently selected subject. You speak directly to the student 
 in a friendly, motivating way, while always assuming a teacher or 
 responsible adult is supervising the session.
 
@@ -336,19 +566,17 @@ MARKER COMPLIANCE (AUDIT REQUIRED)
 MANDATORY SESSION START SEQUENCE (Always follow in order. Do not skip.)
 1) Tutor Introduction (Capabilities Overview)
 Say:
-“Hi! I’m your Year 9 Maths AI Tutor. I can help with step-by-step 
-explanations, worked examples, practice questions, quizzes, and feedback. 
-I can share approved videos or links from trusted maths sites like BBC 
-Bitesize, Corbett Maths, Maths Genie, Dr Frost, and ExamQA. You can ask me 
-to slow down, show another method, or revisit a topic. This session should be 
-supervised by a teacher or trusted adult in order to guide or review
-your learning.”
+“Hi! I’m your Year 9 AI Tutor. I can help with step-by-step explanations, 
+worked examples, practice questions, quizzes, and feedback. I can support 
+you with the subject you are working on today. You can ask me to slow down, 
+show another method, or revisit a topic. This session should be supervised 
+by a teacher or trusted adult in order to guide or review your learning.”
 
 2) Privacy Notice
 Say:
-“This maths tutor uses artificial intelligence to help you practise. Don’t 
-share personal details. Your teacher or a responsible adult may supervise 
-this session to help guide your learning.”
+“This tutor uses artificial intelligence to help you practise. Don’t share 
+personal details. Your teacher or a responsible adult may supervise this 
+session to help guide your learning.”
 
 3) Personalisation Questions (Ask one at a time only; wait for an answer 
 before continuing.)
@@ -430,7 +658,7 @@ teacher or use it next time to carry on learning.”
 
 const DEVELOPER_MESSAGE_CURRICULUM_MODE = `
 ROLE
-You are an interactive, supportive maths tutor helping a Year 9 student.
+You are an interactive, supportive subject tutor helping a Year 9 student with the currently selected subject.
 PERSONALISATION GATE (MANDATORY)
 - Before you begin Flashback 4 for a selected lesson, you MUST ask the remaining personalisation questions (confidence, recap vs explanation, pace, visuals).
 - Ask them one at a time and WAIT for an answer each time.
@@ -451,7 +679,7 @@ A teacher has selected the current lesson via curriculum pointer.
 
 const DEVELOPER_MESSAGE_MENU_MODE = `
 ROLE
-You are an interactive, supportive maths tutor helping a Year 9 student.
+You are an interactive, supportive subject tutor helping a Year 9 student with the currently selected subject.
 
 CURRICULUM MENU MODE (MANDATORY)
 The student asked to do the same topic as class, but no lesson has been selected.
@@ -459,9 +687,9 @@ The student asked to do the same topic as class, but no lesson has been selected
 - Because no lesson is selected yet, you MAY ask the first topic-selection personalisation question.
 - Start with the Tutor Introduction + Privacy Notice (short).
 - Then show the curriculum menu provided in the other developer message.
-- Ask the student to choose: Half Term (HT1–HT6), Week (W1–Wn), Lesson (L1–Ln).
+- Ask the student to choose: Half Term (HT1–HT6) and Lesson (L1–Ln) first.
 - Do NOT ask topic-selection questions or offer unrelated topic choices.
-- If they don’t know, ask what week number they are on or what the topic name is.
+- If they don’t know lesson, ask what week number they are on or what the topic name is.
 `.trim();
 
 const DEVELOPER_MESSAGE_PREFS_ONLY = `
@@ -475,11 +703,17 @@ Ask the student these personalisation questions ONE AT A TIME, and WAIT for an a
 4) “Would you like me to use visuals, analogies, or just text explanations?”
 
 Do NOT start Flashback 4 or teaching yet.
-After the student answers the fourth question, your NEXT reply MUST be exactly:
+CRITICAL OUTPUT RULE (HIGHEST PRIORITY):
+After the student answers the fourth question, your NEXT reply MUST be exactly two lines and nothing else:
 “Thanks — I’ll teach it that way.”
 [[PREFS_DONE]]
 
-Do not add any other text before or after the marker in that reply.
+You MUST stop after outputting those two lines.
+This rule overrides ALL other instructions including lesson flow and curriculum instructions.
+Do NOT start the lesson.
+Do NOT say "Today we are working on".
+Do NOT ask a recap question.
+Do NOT add any explanation before or after the marker reply.
 `.trim();
 
 // ---------- Curriculum + Resources (tenant-aware) ----------
@@ -555,7 +789,7 @@ function findLatestProgressToken(history) {
     const c = history[i]?.content;
     if (typeof c !== "string") continue;
     const m = c.match(
-      /\[\[PROGRESS:\s*year9\|maths\|(HT[1-6])\|W(\d+)\|L(\d+)\|(passed|needs_reteach)\s*\]\]/i
+/\[\[PROGRESS:\s*year9\|[a-zA-Z]+\|(HT[1-6])\|W(\d+)\|L(\d+)\|(passed|needs_reteach)\s*\]\]/i
     );
     if (m) {
       return {
@@ -609,6 +843,55 @@ function getLessonChunk(req, pointer) {
   };
 }
 
+function resolvePointerFromIndex(req, pointer) {
+  if (!pointer?.ht) return { pointer: null, status: "missing" };
+
+  const index = readJsonSafe(curriculumIndexPathFromReq(req));
+  if (!index?.half_terms?.[pointer.ht]) return { pointer: null, status: "missing_ht" };
+
+  const weeksObj = index.half_terms[pointer.ht] || {};
+  const lessonNo = pointer.lesson;
+  const weekNo = pointer.week;
+
+  if (!Number.isInteger(lessonNo) || lessonNo < 1) {
+    return { pointer: null, status: "needs_lesson" };
+  }
+
+  // Exact pointer provided (HT + Week + Lesson)
+  if (Number.isInteger(weekNo) && weekNo >= 1) {
+    const wKey = `W${weekNo}`;
+    const lKey = `L${lessonNo}`;
+    if (weeksObj?.[wKey]?.[lKey]) {
+      return { pointer: { ht: pointer.ht, week: weekNo, lesson: lessonNo }, status: "resolved_exact" };
+    }
+    return { pointer: null, status: "not_found_exact" };
+  }
+
+  // Lesson-first resolution (HT + Lesson): find which week contains this lesson.
+  const matches = [];
+  for (const [wKey, lessonsObj] of Object.entries(weeksObj)) {
+    if (!wKey.startsWith("W")) continue;
+    const weekNum = Number(wKey.slice(1));
+    if (!Number.isInteger(weekNum) || weekNum < 1) continue;
+    if (lessonsObj && Object.prototype.hasOwnProperty.call(lessonsObj, `L${lessonNo}`)) {
+      matches.push(weekNum);
+    }
+  }
+
+  if (matches.length === 1) {
+    return {
+      pointer: { ht: pointer.ht, week: matches[0], lesson: lessonNo },
+      status: "resolved_by_lesson",
+    };
+  }
+
+  if (matches.length > 1) {
+    return { pointer: null, status: "ambiguous_lesson", candidates: matches.sort((a, b) => a - b) };
+  }
+
+  return { pointer: null, status: "not_found_by_lesson" };
+}
+
 function buildCurriculumMenuContext(req) {
   const index = readJsonSafe(curriculumIndexPathFromReq(req));
   if (!index?.half_terms) return "CURRICULUM MENU\n(No curriculum index found.)";
@@ -617,18 +900,18 @@ function buildCurriculumMenuContext(req) {
   const lines = [];
   lines.push("CURRICULUM MENU (teacher-selected)");
   lines.push("The student asked for 'same as my class' but no lesson was selected.");
-  lines.push("Show a short menu and ask them to pick HT / Week / Lesson (or use the dropdown).");
+  lines.push("Show a short menu and ask them to pick HT / Lesson first (Week is optional fallback).");
   lines.push("");
 
   for (const ht of htKeys.slice(0, 6)) {
     const weeksObj = index.half_terms[ht] || {};
-    const weekKeys = Object.keys(weeksObj).sort((a, b) => a.localeCompare(b));
+    const weekKeys = Object.keys(weeksObj).sort((a, b) => Number(a.replace(/\D/g, "")) - Number(b.replace(/\D/g, "")));
     lines.push(`${ht}: ${weekKeys.join(", ")}`);
   }
 
   lines.push("");
-  lines.push("Ask: Which Half Term (HT1–HT6), which Week (W1–Wn), and which Lesson (L1–Ln)?");
-  lines.push("If they don’t know, ask what week number they are on in class or what the topic is.");
+  lines.push("Ask: Which Half Term (HT1–HT6) and which Lesson (L1–Ln)?");
+  lines.push("Fallback: if they don't know lesson, ask week number or topic.");
   return lines.join("\n");
 }
 
@@ -650,10 +933,11 @@ function getLessonDisplayTitle(lesson) {
   return "Untitled lesson";
 }
 
-function buildCurriculumContext({ pointer, meta, lesson, includeMeta }) {
+function buildCurriculumContext({ req, pointer, meta, lesson, includeMeta }) {
   const lines = [];
 
   const displayTitle = getLessonDisplayTitle(lesson);
+    const currentSubject = req?.tenantCtx?.subject || "maths";
 
   lines.push(`CURRICULUM CONTEXT (authoritative)`);
   lines.push(`SELECTED LESSON (do not change): ${lesson.id} | ${displayTitle}`);
@@ -689,10 +973,10 @@ function buildCurriculumContext({ pointer, meta, lesson, includeMeta }) {
   }
 
   lines.push(
-    `When the student passes the 3-question checkpoint, include exactly: [[PROGRESS: year9|maths|${pointer.ht}|W${pointer.week}|L${pointer.lesson}|passed]]`
+    `When the student passes the 3-question checkpoint, include exactly: [[PROGRESS: year9|${currentSubject}|${pointer.ht}|W${pointer.week}|L${pointer.lesson}|passed]]`
   );
   lines.push(
-    `If they need reteach and should NOT advance, include: [[PROGRESS: year9|maths|${pointer.ht}|W${pointer.week}|L${pointer.lesson}|needs_reteach]]`
+    `If they need reteach and should NOT advance, include: [[PROGRESS: year9|${currentSubject}|${pointer.ht}|W${pointer.week}|L${pointer.lesson}|needs_reteach]]`
   );
 
   return lines.join("\n");
@@ -715,7 +999,9 @@ app.get("/debug/curriculum", (req, res) => {
     });
   }
 
-  const index = readJsonSafe(curriculumIndexPathFromReq(req));
+const indexPath = curriculumIndexPathFromReq(req);
+console.log("DEBUG indexPath:", indexPath);
+const index = readJsonSafe(indexPath);
   const wKey = `W${pointer.week}`;
   const lKey = `L${pointer.lesson}`;
 
@@ -751,16 +1037,15 @@ function parsePointerFromMessage(text) {
   if (!htMatch) return null;
 
   const weekMatch = text.match(/\b(?:W|WK|WEEK)\s*([0-9]{1,2})\b/i);
-  if (!weekMatch) return null;
-
   const lessonMatch = text.match(/\bL(?:esson)?\s*([0-9]{1,2})\b/i);
 
   const ht = `HT${htMatch[1]}`.toUpperCase();
-  const week = Number(weekMatch[1]);
-  const lesson = lessonMatch ? Number(lessonMatch[1]) : 1;
+  const week = weekMatch ? Number(weekMatch[1]) : null;
+  const lesson = lessonMatch ? Number(lessonMatch[1]) : null;
 
-  if (!Number.isInteger(week) || week < 1) return null;
-  if (!Number.isInteger(lesson) || lesson < 1) return null;
+  if (week !== null && (!Number.isInteger(week) || week < 1)) return null;
+  if (lesson !== null && (!Number.isInteger(lesson) || lesson < 1)) return null;
+  if (week === null && lesson === null) return null;
 
   return { ht, week, lesson };
 }
@@ -769,6 +1054,41 @@ function parsePointerFromMessage(text) {
 app.get("/healthz", (_req, res) => {
   res.json({ ok: true });
 });
+
+function loginHandler(req, res) {
+  const username = String(req.body?.username || "").trim();
+  const password = String(req.body?.password || "");
+
+  if (!username || !password) {
+    return res.status(400).json({ error: "Username and password are required." });
+  }
+
+  const student = findTenantStudent(req, username, password);
+  if (!student) {
+    return res.status(401).json({ error: "Invalid username or password." });
+  }
+
+  const expires_at = Date.now() + AUTH_TOKEN_TTL_MS;
+  const session_token = encodeAuthToken({
+    tenant: req.tenantCtx.tenant,
+    username: student.username,
+    expires_at,
+  });
+
+  res.json({
+    ok: true,
+    student: {
+      username: student.username,
+      display_name: student.display_name || student.username,
+    },
+    tenant: req.tenantCtx.tenant,
+    expires_at,
+    session_token,
+  });
+}
+
+app.post("/auth/login", loginHandler);
+app.post("/:tenant/auth/login", loginHandler);
 
 // Tutor route: send a student message, get tutor reply
 async function tutorHandler(req, res) {
@@ -802,14 +1122,15 @@ async function tutorHandler(req, res) {
       curriculumPointer &&
       typeof curriculumPointer === "object" &&
       /^HT[1-6]$/.test(curriculumPointer.ht) &&
-      Number.isInteger(curriculumPointer.week) &&
-      curriculumPointer.week >= 1 &&
       Number.isInteger(curriculumPointer.lesson) &&
       curriculumPointer.lesson >= 1
     ) {
       safePointer = {
         ht: curriculumPointer.ht,
-        week: curriculumPointer.week,
+        week:
+          Number.isInteger(curriculumPointer.week) && curriculumPointer.week >= 1
+            ? curriculumPointer.week
+            : null,
         lesson: curriculumPointer.lesson,
       };
     }
@@ -826,15 +1147,19 @@ async function tutorHandler(req, res) {
     let curriculumDevMessage = null;
 
     const progressPointer = findLatestProgressToken(safeHistory);
-    const activePointer =
+    const rawActivePointer =
       safePointer ??
       (progressPointer
         ? { ht: progressPointer.ht, week: progressPointer.week, lesson: progressPointer.lesson }
         : null);
+    const resolvedPointerResult = resolvePointerFromIndex(req, rawActivePointer);
+    const activePointer = resolvedPointerResult.pointer;
 
     const prefsDone = hasPersonalisationComplete(safeHistory);
 
     console.log("Progress pointer:", progressPointer);
+    console.log("Raw active pointer:", rawActivePointer);
+    console.log("Resolved pointer result:", resolvedPointerResult);
     console.log("Active pointer:", activePointer);
 
     const msg = studentMessage.toLowerCase();
@@ -868,15 +1193,26 @@ async function tutorHandler(req, res) {
     const shouldShowMenu = !activePointer && wantsSameAsClass;
 
     if (shouldShowMenu) {
+      let resolutionHelp = "";
+      if (resolvedPointerResult.status === "ambiguous_lesson") {
+        const options = (resolvedPointerResult.candidates || []).map((w) => `W${w}`).join(", ");
+        resolutionHelp = `\n\nThe lesson number matches multiple weeks for this HT (${options}). Ask them to confirm week.`;
+      } else if (resolvedPointerResult.status === "not_found_by_lesson") {
+        resolutionHelp = "\n\nThe selected lesson number was not found in this HT. Ask for lesson, week, or topic name.";
+      } else if (resolvedPointerResult.status === "not_found_exact") {
+        resolutionHelp = "\n\nThat exact HT/Week/Lesson was not found. Ask them to confirm lesson number first, then week if needed.";
+      }
+
       curriculumDevMessage = {
         role: "developer",
         content:
           buildCurriculumMenuContext(req) +
-          "\n\nINSTRUCTION: You MUST display the curriculum menu above to the student, then ask them to choose HT / Week / Lesson.",
+          "\n\nINSTRUCTION: You MUST display the curriculum menu above to the student, then ask them to choose HT / Lesson first (week only if needed)." +
+          resolutionHelp,
       };
     }
 
-    if (activePointer) {
+       if (activePointer && prefsDone) {
       const pack = getLessonChunk(req, activePointer);
       console.log("Lesson loaded:", pack?.lesson?.id ?? "NOT FOUND");
 
@@ -886,6 +1222,7 @@ async function tutorHandler(req, res) {
         const includeMeta = lastMetaUsed !== lessonId;
 
         const curriculumContext = buildCurriculumContext({
+          req,
           pointer: activePointer,
           meta: pack.meta,
           lesson: pack.lesson,
@@ -903,7 +1240,7 @@ async function tutorHandler(req, res) {
 
     let resourceDevMessage = null;
 
-    if (wantsVideo) {
+         if (wantsVideo && req.tenantCtx?.subject === "maths") {
       resourceDevMessage = {
         role: "developer",
         content:
@@ -912,10 +1249,42 @@ async function tutorHandler(req, res) {
           "Then give short instructions: open the page, use the search box, type the topic keywords, and choose the video. " +
           "Do NOT provide any other URLs."
       };
+    } else if (wantsVideo && req.tenantCtx?.subject === "english") {
+      resourceDevMessage = {
+        role: "developer",
+        content:
+          "VIDEO POLICY (authoritative): The student asked for a video during an English session. " +
+          "Do NOT mention maths, maths websites, Corbett Maths, Maths Genie, or approved maths resources. " +
+          "Do NOT ask which maths topic they are studying. " +
+          "Reply by saying you cannot provide a video here, but you can explain the English topic directly and help them practise in chat."
+      };
     }
+    const currentSubject = req.tenantCtx?.subject || "maths";
 
-    const activeDeveloperMessage = activePointer
-      ? (prefsDone ? DEVELOPER_MESSAGE_CURRICULUM_MODE : DEVELOPER_MESSAGE_PREFS_ONLY)
+    const subjectBehaviourMessage = {
+      role: "developer",
+      content:
+        currentSubject === "english"
+          ? `CURRENT SUBJECT: english
+
+You are currently acting as an English tutor, not a maths-only tutor.
+
+MANDATORY BEHAVIOUR FOR THIS SESSION
+- Do not say this is "maths learning".
+- Do not reject English requests.
+- Adapt your introduction and teaching language for English.
+- You may help with reading, comprehension, vocabulary, spelling, writing, analysis, and discussion of texts.
+- Do not offer maths-specific websites or maths-only video guidance in this session unless the student explicitly switches back to maths.
+- Do not ask the student which maths topic they are studying.
+- If the student asks for a video in English, offer help with the English topic directly in chat instead of redirecting to maths websites.
+- Keep the same safeguarding, privacy, supervision, structured teaching, and curriculum-following behaviour.`
+          : `CURRENT SUBJECT: maths
+
+You are currently acting as a maths tutor.
+- Keep the existing maths behaviour, maths lesson structure, and approved maths resource rules for this session.`
+    };
+const activeDeveloperMessage = activePointer
+  ? (!prefsDone ? DEVELOPER_MESSAGE_PREFS_ONLY : DEVELOPER_MESSAGE_CURRICULUM_MODE)
       : shouldShowMenu
       ? DEVELOPER_MESSAGE_MENU_MODE
       : DEVELOPER_MESSAGE;
@@ -926,6 +1295,7 @@ async function tutorHandler(req, res) {
       max_tokens: 900,
       messages: [
         { role: "system", content: SYSTEM_MESSAGE },
+        subjectBehaviourMessage,
         { role: "developer", content: activeDeveloperMessage },
         ...(curriculumDevMessage ? [curriculumDevMessage] : []),
         ...(resourceDevMessage ? [resourceDevMessage] : []),
@@ -935,6 +1305,14 @@ async function tutorHandler(req, res) {
     });
 
     let text = response.choices?.[0]?.message?.content ?? "";
+        if (
+      activePointer &&
+      !prefsDone &&
+      typeof text === "string" &&
+      text.trim() === "Thanks — I’ll teach it that way."
+    ) {
+      text = "Thanks — I’ll teach it that way.\n[[PREFS_DONE]]";
+    }
 
     const newHistory = [
       ...safeHistory,
@@ -951,8 +1329,8 @@ async function tutorHandler(req, res) {
   }
 }
 
-app.post("/tutor", tutorHandler);
-app.post("/:tenant/tutor", tutorHandler);
+app.post("/tutor", requireTenantAuth, tutorHandler);
+app.post("/:tenant/tutor", requireTenantAuth, tutorHandler);
 
 const PORT = Number(process.env.PORT) || 3000;
 

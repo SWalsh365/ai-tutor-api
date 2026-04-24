@@ -24,17 +24,73 @@
     .row { display: flex; gap: 8px; }
     #messageInput { flex: 1; padding: 10px; }
     #sendBtn { padding: 10px 14px; }
+    #loginPanel {
+      max-width: 360px;
+      border: 1px solid #ccc;
+      padding: 16px;
+      background: #fafafa;
+    }
+    #loginPanel label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    #loginPanel input {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-top: 4px;
+    }
+    #loginError {
+      color: #b00020;
+      min-height: 20px;
+      margin: 8px 0;
+    }
+    #tutorApp { display: none; }
   </style>
 </head>
 <body>
 
   <h1>AI Tutor</h1>
 
+  <div id="loginPanel">
+    <form id="loginForm">
+      <label>
+        Username
+        <input type="text" id="usernameInput" autocomplete="username" required />
+      </label>
+      <label>
+        Password
+        <input type="password" id="passwordInput" autocomplete="current-password" required />
+      </label>
+      <div id="loginError"></div>
+      <button id="loginBtn" type="submit">Log in</button>
+    </form>
+  </div>
+
+  <div id="tutorApp">
+  <div class="row" style="margin-bottom: 12px;">
+  <label>
+    Subject:
+    <select id="subjectSelect">
+      <option value="maths">Maths</option>
+      <option value="english">English</option>
+    </select>
+  </label>
+</div>
+
   <div id="chat"></div>
   <div class="row" style="margin-bottom: 12px;">
     <label>
       Half Term:
       <select id="htSelect" disabled>
+        <option value="">Select…</option>
+      </select>
+    </label>
+
+    <label>
+      Lesson:
+      <select id="lessonSelect" disabled>
         <option value="">Select…</option>
       </select>
     </label>
@@ -63,18 +119,76 @@
   function getPathTenant() {
     return location.pathname.split("/").filter(Boolean)[0] || "";
   }
+  function normalizeTenant(value) {
+    return String(value || "").trim().toLowerCase();
+  }
+  let currentAuth = JSON.parse(sessionStorage.getItem("tutor_auth") || "null");
+  let currentStudent = currentAuth?.student || null;
   let history = JSON.parse(sessionStorage.getItem("tutor_history") || "[]");
+
+  const loginPanel = document.getElementById("loginPanel");
+  const tutorApp = document.getElementById("tutorApp");
+  const loginForm = document.getElementById("loginForm");
+  const usernameInput = document.getElementById("usernameInput");
+  const passwordInput = document.getElementById("passwordInput");
+  const loginError = document.getElementById("loginError");
+  const loginBtn = document.getElementById("loginBtn");
 
   const chatEl = document.getElementById("chat");
   const inputEl = document.getElementById("messageInput");
   const sendBtn = document.getElementById("sendBtn");
-  // --- Dropdowns: HT + Week ---
+  // --- Dropdowns: HT + Lesson (+ optional Week fallback) ---
   let curriculumIndex = null;
   const htSelect = document.getElementById("htSelect");
+  const lessonSelect = document.getElementById("lessonSelect");
   const weekSelect = document.getElementById("weekSelect");
+  const subjectSelect = document.getElementById("subjectSelect");
+
+  function clearAuthState() {
+    sessionStorage.removeItem("tutor_auth");
+    sessionStorage.removeItem("tutor_student");
+    currentAuth = null;
+    currentStudent = null;
+  }
+
+  function hasValidCurrentAuth() {
+    return (
+      currentAuth &&
+      normalizeTenant(currentAuth.tenant) === normalizeTenant(getPathTenant()) &&
+      typeof currentAuth.session_token === "string" &&
+      currentAuth.session_token &&
+      Number.isFinite(Number(currentAuth.expires_at)) &&
+      Date.now() < Number(currentAuth.expires_at) &&
+      currentStudent?.username
+    );
+  }
+
+  function buildAuthHeaders(extraHeaders = {}) {
+    return {
+      ...extraHeaders,
+      "x-session-token": currentAuth?.session_token || "",
+    };
+  }
+
+  async function readErrorMessage(res, fallback) {
+    try {
+      const data = await res.json();
+      if (data && typeof data.error === "string" && data.error.trim()) {
+        return data.error.trim();
+      }
+    } catch {}
+    return fallback;
+  }
 
   async function loadCurriculumIndex() {
-    const res = await fetch(`/${getPathTenant()}/api/curriculum/index`);
+const res = await fetch(`/${getPathTenant()}/api/curriculum/index?subject=${encodeURIComponent(subjectSelect.value)}&year=Yr9`, {
+  headers: buildAuthHeaders()
+});
+    if (res.status === 401 || res.status === 403) {
+      const authError = await readErrorMessage(res, "Your session has expired. Please log in again.");
+      clearAuthState();
+      throw new Error(authError);
+    }
     if (!res.ok) throw new Error("Failed to load curriculum index");
     curriculumIndex = await res.json();
 
@@ -116,55 +230,181 @@
     weekSelect.disabled = false;
   }
 
-  htSelect.addEventListener("change", refreshWeeksForSelectedHT);
+  function refreshLessonsForSelectedHT() {
+    const ht = htSelect.value;
+    lessonSelect.innerHTML = `<option value="">Select…</option>`;
+
+    if (htSelect.disabled) {
+      lessonSelect.disabled = true;
+      return;
+    }
+
+    const lessons = curriculumIndex?.[ht]?.lessons;
+    if (!ht || !Array.isArray(lessons) || lessons.length === 0) {
+      lessonSelect.disabled = true;
+      return;
+    }
+
+    lessons.forEach((item) => {
+      const opt = document.createElement("option");
+      opt.value = `W${item.week}|L${item.lesson}`;
+      const outcomes = Array.isArray(item.learning_outcomes) ? item.learning_outcomes : [];
+      const shortOutcomes = outcomes.slice(0, 2);
+      const extraCount = Math.max(0, outcomes.length - shortOutcomes.length);
+      const summary = shortOutcomes.length
+        ? `${shortOutcomes.join(" | ")}${extraCount > 0 ? ` (+${extraCount} more)` : ""}`
+        : (item.label || "Untitled lesson");
+      opt.textContent = `W${item.week} L${item.lesson} — ${summary}`;
+      if (outcomes.length) {
+        opt.title = outcomes.join("\n");
+      }
+      lessonSelect.appendChild(opt);
+    });
+
+    lessonSelect.disabled = false;
+  }
+
+  htSelect.addEventListener("change", () => {
+    refreshWeeksForSelectedHT();
+    refreshLessonsForSelectedHT();
+    saveDropdownState();
+    updateConfirmButtonState();
+  });
   // Persist dropdown selections in this tab (survives refresh)
   function saveDropdownState() {
-    sessionStorage.setItem("selected_ht", htSelect.value || "");
-    sessionStorage.setItem("selected_week", weekSelect.value || "");
-  }
+  sessionStorage.setItem("selected_subject", subjectSelect.value || "maths");
+  sessionStorage.setItem("selected_ht", htSelect.value || "");
+  sessionStorage.setItem("selected_lesson", lessonSelect.value || "");
+  sessionStorage.setItem("selected_week", weekSelect.value || "");
+}
 
   function restoreDropdownState() {
-    const savedHT = sessionStorage.getItem("selected_ht") || "";
-    const savedWeek = sessionStorage.getItem("selected_week") || "";
+  const savedSubject = sessionStorage.getItem("selected_subject") || "maths";
+  const savedHT = sessionStorage.getItem("selected_ht") || "";
+  const savedLesson = sessionStorage.getItem("selected_lesson") || "";
+  const savedWeek = sessionStorage.getItem("selected_week") || "";
 
-    if (savedHT) htSelect.value = savedHT;
-    refreshWeeksForSelectedHT(); // rebuild week options for selected HT
+  subjectSelect.value = savedSubject;
 
-    if (savedWeek) weekSelect.value = savedWeek;
-  }
+  if (savedHT) htSelect.value = savedHT;
+  refreshWeeksForSelectedHT();
+  refreshLessonsForSelectedHT();
 
-  // Save whenever the user changes HT or Week
-  htSelect.addEventListener("change", () => {
+  if (savedLesson) lessonSelect.value = savedLesson;
+  if (savedWeek) weekSelect.value = savedWeek;
+}
+
+  // Save whenever the user changes Lesson or Week
+  lessonSelect.addEventListener("change", () => {
     saveDropdownState();
+    updateConfirmButtonState();
   });
-
   weekSelect.addEventListener("change", () => {
     saveDropdownState();
+    updateConfirmButtonState();
   });
+  subjectSelect.addEventListener("change", async () => {
+  try {
+    htSelect.value = "";
+    lessonSelect.innerHTML = `<option value="">Select…</option>`;
+    lessonSelect.disabled = true;
+    weekSelect.innerHTML = `<option value="">Select…</option>`;
+    weekSelect.disabled = true;
+    saveDropdownState();
+    await loadCurriculumIndex();
+    updateConfirmButtonState();
+  } catch (e) {
+    console.error("Subject change load error:", e);
+  }
+});
   const confirmLessonBtn = document.getElementById("confirmLessonBtn");
 
   function updateConfirmButtonState() {
     const htSelected = !!htSelect.value;
-    const weekSelected = !!weekSelect.value;
+    const lessonSelected = !!lessonSelect.value;
 
-    confirmLessonBtn.disabled = !(htSelected && weekSelected);
+    confirmLessonBtn.disabled = !(htSelected && lessonSelected);
   }
 
   // Update button state whenever dropdowns change
-  htSelect.addEventListener("change", updateConfirmButtonState);
-  weekSelect.addEventListener("change", updateConfirmButtonState);
+  lessonSelect.addEventListener("change", updateConfirmButtonState);
 
   // Also update after restoring dropdown state
   updateConfirmButtonState();
 
-  // Load dropdown options on page load
-  window.addEventListener("DOMContentLoaded", async () => {
-    try {
-            await loadCurriculumIndex();
-      restoreDropdownState(); // restores HT/week if previously selected, otherwise keeps defaults
+  async function startTutorApp() {
+    loginPanel.style.display = "none";
+    tutorApp.style.display = "block";
 
-    } catch (e) {
-      console.error("Dropdown load error:", e);
+  try {
+    const savedSubject = sessionStorage.getItem("selected_subject") || "maths";
+    subjectSelect.value = savedSubject;
+    await loadCurriculumIndex();
+    restoreDropdownState();
+
+  } catch (e) {
+    console.error("Dropdown load error:", e);
+  }
+  }
+
+  loginForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    loginError.textContent = "";
+    loginBtn.disabled = true;
+
+    try {
+      const res = await fetch(`/${getPathTenant()}/auth/login`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          username: usernameInput.value.trim(),
+          password: passwordInput.value,
+        }),
+      });
+
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        throw new Error(data.error || "Login failed.");
+      }
+
+      if (
+        typeof data.session_token !== "string" ||
+        !data.session_token ||
+        !Number.isFinite(Number(data.expires_at))
+      ) {
+        throw new Error("Login response is missing session details. Please restart the server and try again.");
+      }
+
+      currentAuth = {
+        tenant: data.tenant,
+        student: data.student,
+        session_token: data.session_token,
+        expires_at: data.expires_at,
+      };
+      currentStudent = currentAuth.student;
+      sessionStorage.setItem("tutor_auth", JSON.stringify(currentAuth));
+      sessionStorage.removeItem("tutor_student");
+      passwordInput.value = "";
+      await startTutorApp();
+    } catch (err) {
+      loginError.textContent = err.message;
+      passwordInput.value = "";
+      passwordInput.focus();
+    } finally {
+      loginBtn.disabled = false;
+    }
+  });
+
+  // Load tutor only after a successful login in this browser tab
+  window.addEventListener("DOMContentLoaded", async () => {
+    if (hasValidCurrentAuth()) {
+      await startTutorApp();
+    } else {
+      clearAuthState();
+      loginPanel.style.display = "block";
+      tutorApp.style.display = "none";
+      usernameInput.focus();
     }
   });
 
@@ -210,6 +450,14 @@ function looksLikePersonalInfo(text) {
   // for (const m of history) addMessage(m.role === "user" ? "student" : "tutor", m.content);
 
   async function sendMessage() {
+    if (!hasValidCurrentAuth()) {
+      clearAuthState();
+      loginPanel.style.display = "block";
+      tutorApp.style.display = "none";
+      usernameInput.focus();
+      return;
+    }
+
     const message = inputEl.value.trim();
     if (!message) return;
 // Client-side safeguard: block obvious personal details
@@ -232,13 +480,24 @@ if (looksLikePersonalInfo(message)) {
     inputEl.focus();
 
     try {
-           // Build curriculum_pointer from dropdowns (defaults lesson to 1)
+           // Build curriculum_pointer from dropdowns (lesson-first, week optional fallback)
       const ht = document.getElementById("htSelect")?.value;       // e.g. "HT3"
+      const lessonToken = document.getElementById("lessonSelect")?.value; // e.g. "W5|L9"
       const wKey = document.getElementById("weekSelect")?.value;   // e.g. "W2"
 
+      const tokenMatch = lessonToken ? lessonToken.match(/^W(\d+)\|L(\d+)$/i) : null;
+      const lessonNo = tokenMatch ? Number(tokenMatch[2]) : null;
+      const weekFromLesson = tokenMatch ? Number(tokenMatch[1]) : null;
+      const weekNo = wKey ? Number(wKey.replace("W", "")) : null;
       const curriculum_pointer =
-        ht && wKey
-          ? { ht, week: Number(wKey.replace("W", "")), lesson: 1 }
+        ht && Number.isInteger(lessonNo)
+          ? {
+              ht,
+              lesson: lessonNo,
+              ...(Number.isInteger(weekFromLesson)
+                ? { week: weekFromLesson }
+                : (Number.isInteger(weekNo) ? { week: weekNo } : {})),
+            }
           : null;
 
       const payload = {
@@ -251,11 +510,19 @@ if (looksLikePersonalInfo(message)) {
       console.log("Last history item:", history[history.length - 1]);
 
           const res = await fetch(`/${getPathTenant()}/tutor`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload)
-      });
+  method: "POST",
+  headers: buildAuthHeaders({
+    "Content-Type": "application/json",
+    "x-subject": subjectSelect.value
+  }),
+  body: JSON.stringify(payload)
+});
 
+      if (res.status === 401 || res.status === 403) {
+        const authError = await readErrorMessage(res, "Your session has expired. Please log in again.");
+        clearAuthState();
+        throw new Error(authError);
+      }
 
       if (!res.ok) throw new Error("Server error: " + res.status);
 
@@ -281,10 +548,11 @@ if (looksLikePersonalInfo(message)) {
 }
 
             // Unlock dropdowns when server says we're in curriculum menu mode
-      if (data.show_menu === true) {
-        htSelect.disabled = false;
-        refreshWeeksForSelectedHT(); // Week stays disabled until HT is chosen
-      }
+	      if (data.show_menu === true) {
+	        htSelect.disabled = false;
+	        refreshWeeksForSelectedHT(); // Week stays disabled until HT is chosen
+          refreshLessonsForSelectedHT();
+	      }
       chatEl.scrollTop = chatEl.scrollHeight;
             // Auto-continue: if tutor just finished prefs, send a "start" message to begin the lesson
       // Prevent loops by only auto-starting once per prefs completion
@@ -314,11 +582,13 @@ if (looksLikePersonalInfo(message)) {
 
   sendBtn.addEventListener("click", sendMessage);
     confirmLessonBtn.addEventListener("click", () => {
-    // Safety: only act when both are selected
-    if (!htSelect.value || !weekSelect.value) return;
+    // Safety: lesson-first selection
+    if (!htSelect.value || !lessonSelect.value) return;
 
     // Put a short, non-personal selection message into the input and send
-    inputEl.value = `${htSelect.value} ${weekSelect.value}`;
+    inputEl.value = weekSelect.value
+      ? `${htSelect.value} ${weekSelect.value} ${lessonSelect.value}`
+      : `${htSelect.value} ${lessonSelect.value}`;
     sendMessage();
   });
   inputEl.addEventListener("keydown", (e) => {
@@ -326,8 +596,7 @@ if (looksLikePersonalInfo(message)) {
   });
 </script>
 
-
+  </div>
 
 </body>
 </html>
-
