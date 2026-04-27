@@ -1,0 +1,408 @@
+{
+  "meta": {
+    "half_term": "HT6",
+    "prior_learning": [
+      "Year 7: - Autumn 1 and 2:  character analysis/ descriptive writing",
+      "Year 8 - Autumn 1: theme study. Summer 1 and 2: character analysis and development/ narrative writing short stories (suspense)",
+      "Year 9 - (Currently Summer 1 and 2): descriptive and theme study"
+    ],
+    "common_misconceptions": [
+      "Assuming that a theme can be reduced to a single word or phrase.",
+      "Missing the presence of sub themes within a novel",
+      "Overlooking the importance of reader interpretation",
+      "Ignoring character development through the themes selected",
+      "Neglecting context and how it can impact the interpretation of a theme"
+    ]
+  },
+  "lessons": [
+    {
+      "id": "HT6-W1-L1",
+      "half_term": "HT6",
+      "week": 1,
+      "lesson": 1,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can describe Crooks’s characteristics and his treatment by others."
+        ],
+        "key_knowledge_components": [
+          "Learn how Steinbeck presents the character Crooks to the reader through reading and analysis of Chapter 4."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Characterisation",
+          "Prejudice",
+          "PEE (Point, Evidence, Explanation)"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "ORACY: Begin with a brief discussion on what students know about Crooks from previous chapters. Ask: \"What are your initial impressions of Crooks?\" Read Chapter 4 of \"Of Mice and Men\" as a class, focusing on the sections that describe Crooks and his interactions with others. As you read, pause to annotate key passages that highlight Crooks's characteristics and how he is treated by others. Encourage students to underline or highlight significant…"
+      },
+      "assessment": {
+        "afl_notes_summary": "3-a-day",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W2-L2",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT6.docx",
+        "anchor": "Lesson 1"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Ask students to choose another quotation from Chapter 4 and write their own PEE response about Crooks. Provide sentence starters if necessary. Summarise the main points discussed in the lesson about Crooks’s character and how Steinbeck presents him.",
+        "deepening_knowledge_summary": "How does the historical context of racial segregation influence Crooks's experiences on the ranch? What societal attitudes towards race and disability are reflected in the treatment of Crooks? Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT6-W2-L2",
+      "half_term": "HT6",
+      "week": 2,
+      "lesson": 2,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can research the topic well and present clear, accurate information about racism, life for African Americans, Jim Crow laws, Reconstruction, or the Civil Rights Movement.",
+          "I can understand how the 1930s racial segregation relates to Crooks in \"Of Mice and Men\" during discussions and reflections."
+        ],
+        "key_knowledge_components": [
+          "To develop knowledge and understanding of racial segregation in 1930s America."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Racial Segregation",
+          "Racism",
+          "Jim Crow Laws",
+          "Reconstruction",
+          "Civil Rights Movement"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Show a short video clip or present a few images from the 1930s that illustrate racial segregation to set the context. ORACY: Facilitate a class discussion on the connections between the historical context of the 1930s and the character of Crooks in \"Of Mice and Men. Assessment: Research Task: Find out about racism in America of the 1930s.  What was life like for African Americans? What were the Jim Crow laws?"
+      },
+      "assessment": {
+        "afl_notes_summary": "3-a-day",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W3-L3",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT6.docx",
+        "anchor": "Lesson 2"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Provide students with a set of guiding questions for their research: What was the general attitude towards African Americans in the 1930s? How did Jim Crow laws affect the daily lives of African Americans? What were the main goals and outcomes of Reconstruction? What was the Civil Rights Movement about, and what were its early beginnings in the 1930s? Provide a list of reliable websites, books, and articles for students to use. Ensure they have …",
+        "deepening_knowledge_summary": "How do the Jim Crow laws and the social norms of the 1930s explain the treatment of Crooks in \"Of Mice and Men\"? In what ways does Steinbeck reflect the realities of racial segregation through the character of Crooks? Why do you think Steinbeck chose to highlight the character of Crooks in the context of racial segregation? Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes"
+      }
+    },
+    {
+      "id": "HT6-W3-L3",
+      "half_term": "HT6",
+      "week": 3,
+      "lesson": 3,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can  define the concept of marginalisation and identify marginalised characters in Chapter 3 of \"Of Mice and Men\" using specific textual evidence."
+        ],
+        "key_knowledge_components": [
+          "Understand the concept of marginalisation and its importance in \"Of Mice and Men."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Impression",
+          "Marginalisation"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Write the key words \"Impression\" and \"Marginalisation\" on the board. ORACY: Begin by asking students what they think marginalisation means. Write their ideas on the board to build a working definition. Provide a clear definition: Marginalisation is the process by which certain groups or individuals are pushed to the edge of society, limiting their access to resources and opportunities. ORACY: Discuss real-world examples of marginalisation (e.g.,…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W3-L4",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT6.docx",
+        "anchor": "Lesson 3+4"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Ensure students clearly understand the definitions of marginalisation and its related terms (e.g., discrimination, exclusion). Use real-life examples and visual aids to illustrate these concepts. Break down complex passages and discuss them as a class to ensure comprehension. Draw explicit connections between the marginalisation of characters and the broader themes of the novel, such as the American Dream and isolation. Use graphic organisers li…",
+        "deepening_knowledge_summary": "Have you ever witnessed or experienced marginalisation in your own life? How did it affect your perceptions or actions? How might understanding marginalisation in literature help us to address it in real life? Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT6-W3-L4",
+      "half_term": "HT6",
+      "week": 3,
+      "lesson": 4,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can  define the concept of marginalisation and identify marginalised characters in Chapter 3 of \"Of Mice and Men\" using specific textual evidence."
+        ],
+        "key_knowledge_components": [
+          "Understand the concept of marginalisation and its importance in \"Of Mice and Men."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Impression",
+          "Marginalisation"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Write the key words \"Impression\" and \"Marginalisation\" on the board. ORACY: Begin by asking students what they think marginalisation means. Write their ideas on the board to build a working definition. Provide a clear definition: Marginalisation is the process by which certain groups or individuals are pushed to the edge of society, limiting their access to resources and opportunities. ORACY: Discuss real-world examples of marginalisation (e.g.,…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W4-L5",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT6.docx",
+        "anchor": "Lesson 3+4"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Ensure students clearly understand the definitions of marginalisation and its related terms (e.g., discrimination, exclusion). Use real-life examples and visual aids to illustrate these concepts. Break down complex passages and discuss them as a class to ensure comprehension. Draw explicit connections between the marginalisation of characters and the broader themes of the novel, such as the American Dream and isolation. Use graphic organisers li…",
+        "deepening_knowledge_summary": "Have you ever witnessed or experienced marginalisation in your own life? How did it affect your perceptions or actions? How might understanding marginalisation in literature help us to address it in real life? Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT6-W4-L5",
+      "half_term": "HT6",
+      "week": 4,
+      "lesson": 5,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can analyse how Steinbeck portrays marginalisation through the character of Crooks",
+          "I can express these ideas through a well-organised and authentic character letter."
+        ],
+        "key_knowledge_components": [
+          "Analyse how Steinbeck portrays marginalisation through the character Crooks."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "inference",
+          "annotation",
+          "marginalisation",
+          "racism"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "ORACY:Begin with a brief discussion on what students remember about Crooks from previous readings. Ask them to share their initial impressions of his character. ORACY: Briefly discuss the historical context of racism in 1930s America, particularly in the rural setting where \"Of Mice and Men\" is set. Highlight examples of systemic racism, segregation, and discrimination prevalent during this time period. Select the key passage from Chapter 4 that…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W4-L6",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT6.docx",
+        "anchor": "Lesson 5+6"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Extend the context activity to a 10-minute mini-lecture on 1930s racism, using visuals and handouts summarising key points. Provide a clear explanation and examples of inferences, including a think-aloud strategy to model the inference-making process.",
+        "deepening_knowledge_summary": "How do Crooks' interactions with other characters highlight his marginalisation? What does Crooks’ marginalisation reveal about the society depicted in the novel? How does Steinbeck use Crooks to comment on race and power dynamics? Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes"
+      }
+    },
+    {
+      "id": "HT6-W4-L6",
+      "half_term": "HT6",
+      "week": 4,
+      "lesson": 6,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can analyse how Steinbeck portrays marginalisation through the character of Crooks",
+          "I can express these ideas through a well-organised and authentic character letter."
+        ],
+        "key_knowledge_components": [
+          "Analyse how Steinbeck portrays marginalisation through the character Crooks."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "inference",
+          "annotation",
+          "marginalisation",
+          "racism"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "ORACY:Begin with a brief discussion on what students remember about Crooks from previous readings. Ask them to share their initial impressions of his character. ORACY: Briefly discuss the historical context of racism in 1930s America, particularly in the rural setting where \"Of Mice and Men\" is set. Highlight examples of systemic racism, segregation, and discrimination prevalent during this time period. Select the key passage from Chapter 4 that…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W5-L7",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT6.docx",
+        "anchor": "Lesson 5+6"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Extend the context activity to a 10-minute mini-lecture on 1930s racism, using visuals and handouts summarising key points. Provide a clear explanation and examples of inferences, including a think-aloud strategy to model the inference-making process.",
+        "deepening_knowledge_summary": "How do Crooks' interactions with other characters highlight his marginalisation? What does Crooks’ marginalisation reveal about the society depicted in the novel? How does Steinbeck use Crooks to comment on race and power dynamics? Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes"
+      }
+    },
+    {
+      "id": "HT6-W5-L7",
+      "half_term": "HT6",
+      "week": 5,
+      "lesson": 7,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can identify and highlight key words and phrases",
+          "I can break down a selected quotation",
+          "I can write and share well-supported inferences about why Steinbeck chose to marginalise Curley's wife, using textual evidence."
+        ],
+        "key_knowledge_components": [
+          "Develop skills to infer Steinbeck’s intentions behind depicting marginalised characters, focusing on Curley's wife."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Inferences",
+          "Annotation",
+          "Marginalisation",
+          "Quotation",
+          "Analysis",
+          "Oppression"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Select key passages from \"Of Mice and Men\" that highlight the marginalisation of Curley's wife. Read the passages aloud to the class. Distribute copies of the passages and model how to annotate them, highlighting significant words or phrases that indicate marginalisation. Have students individually annotate their copies, focusing on language, tone, and context that suggest why Steinbeck portrays Curley's wife in this manner. Students write their…"
+      },
+      "assessment": {
+        "afl_notes_summary": "3-a-day",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT6-W6-L8",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT6.docx",
+        "anchor": "Lesson 7"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Provide sentence starters such as \"Steinbeck portrays Curley's wife as lonely because...\" or \"The depiction of Curley's wife suggests that Steinbeck wanted to highlight...\" Encourage students to use sentence starters like \"The use of the word... suggests...\" or \"This phrase highlights...\"",
+        "deepening_knowledge_summary": "Highlight how understanding Curley's wife's marginalisation adds depth to our interpretation of the novel. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT6-W6-L8",
+      "half_term": "HT6",
+      "week": 6,
+      "lesson": 8,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can successfully match challenging vocabulary words with their definitions, demonstrating understanding of the new terms introduced in Chapter Five.",
+          "I can identify and analyse literary techniques in Chapter Five, providing insightful explanations of how these techniques contribute to Steinbeck's descriptive language."
+        ],
+        "key_knowledge_components": [
+          "To develop knowledge and understanding of Steinbeck’s use of vocabulary and description in Chapter Five."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Vocabulary",
+          "Description",
+          "Imagery",
+          "Tone",
+          "Mood"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Start with a brief discussion on the importance of descriptive language in literature. Ask: \"How can an author's choice of words affect our perception of a story?\" Provide students with a list of challenging vocabulary words from Chapter Five and their definitions. Have students match each word with its correct definition. ORACY: Review the matches as a class and discuss the meanings of the words. Ask students to use each word in a sentence rela…"
+      },
+      "assessment": {
+        "afl_notes_summary": "3-a-day",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT6.docx",
+        "anchor": "Lesson 8"
+      },
+      "notes": {
+        "addressing_gaps_summary": "As you read, pause to annotate key phrases and vocabulary that create vivid imagery, establish tone, or convey mood. Encourage students to highlight these in their books and write notes in the margins. Provide students with guiding questions to help them identify potential gaps in the text.",
+        "deepening_knowledge_summary": "There are a number of references to nature in the opening paragraphs of Chapter Five. How does Steinbeck use natural images to convey character, theme and plot? Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    }
+  ]
+}

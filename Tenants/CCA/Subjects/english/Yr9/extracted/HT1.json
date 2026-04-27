@@ -1,0 +1,741 @@
+{
+  "meta": {
+    "half_term": "HT1",
+    "prior_learning": [
+      "Year 7: - Autumn 1: Character analysis. Spring 2: Reading to comprehend and analyse mood/tone/atmosphere",
+      "Year 8 - Autumn 1: Character Analysis and development. Spring 2: Writing to advise and inform. Summer 2: Theme Study"
+    ],
+    "common_misconceptions": [
+      "Reading cannot be for pleasure",
+      "Literature is full of hidden meaning",
+      "Short stories can be limited and not engaging",
+      "Lacking concrete character detail",
+      "Not understanding the POV",
+      "Over identifying the content with the author",
+      "Separating writer’s craft from reading - examining how authors use language, structure and techniques to achieve specific effects."
+    ]
+  },
+  "lessons": [
+    {
+      "id": "HT1-W1-L1",
+      "half_term": "HT1",
+      "week": 1,
+      "lesson": 1,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can strengthen my reading comprehension and text decoding skills (skimming, scanning, mental models, summarising etc.)",
+          "I can understand the form of short stories and writer’s craft."
+        ],
+        "key_knowledge_components": [
+          "To know how to strengthen reading comprehension and text decoding skills (skimming, scanning, summarising etc.)",
+          "To know an awareness of the short story form and writer’s craft."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Skimming",
+          "Scanning",
+          "Word decoding",
+          "Short story forms",
+          "Experimental techniques",
+          "Writer’s craft",
+          "T2:  meticulous, unaccountable"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Comprehension and analysing the writer’s craft: Check students understand the difference between skimming and scanning. Encourage students in pairs to discuss what they think the story is about after skim reading ‘The Things We Ate’. Monitor and encourage discussion of ‘powerful’ or ‘intriguing’ words and encourage students to add them to the word bank. Oracy: Discuss findings as a class Activity 1: Students scan the text to create a quick food …"
+      },
+      "assessment": {
+        "afl_notes_summary": "Retrieval Practice Grid",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT1-W2-L2",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT1.docx",
+        "anchor": "Lesson 1"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Depending on your seating plan and attainment grouping, you may wish to differentiate the pairs for these activities. Frequently check understanding during activities 2+3 Ask students to show their food maps. Who drew the most foods? Use low stakes competition to engage. Put students in mixed attainment groups for all activities. Elicit feedback from…",
+        "deepening_knowledge_summary": "Students might have noticed the unusual first-person narration, elliptical sentences, stream of consciousness etc. Why has the author incorporated this? What is its effect on the reader? Does it prompt any further discussion? Consider the narration and style used. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT1-W2-L2",
+      "half_term": "HT1",
+      "week": 2,
+      "lesson": 2,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can explain how the writer methodically tracks characters/ themes and how/why these shift/ develop",
+          "I can develop oracy and writing skills and have more confidence in making judgements about a text."
+        ],
+        "key_knowledge_components": [
+          "To know how the writer methodically tracks characters/ themes and how/why these shift/ develop",
+          "To know how to develop oracy and writing skills and have more confidence in making judgements about a text."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Word mapping",
+          "Writer’s craft",
+          "Diction."
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Diction detectives, decision alley and writing skills: Students make a list of what they learnt about the family and compare ideas in pairs or small groups Students look at quotations from the story: ‘West Indian bread with jewels of pork fat’, ‘Johnny cakes sweet as dumplings’, ‘Saturday’s cauldron of St Kitts soup’ What do they notice about the technique/s and effects? Encourage wider discussion about hybrid or mixed heritage and ideas about i…"
+      },
+      "assessment": {
+        "afl_notes_summary": "Retrieval Practice Grid",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT1-W3-L3",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT1.docx",
+        "anchor": "Lesson 2"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Show images relating to the text e.g. coco bread, Johnny cakes to aid understanding further. Encourage mixed attainment groups for this scanning task. Ask for feedback from each pair/group. You may need to think about how a theme/ ideas change between the text/ paragraphs.",
+        "deepening_knowledge_summary": "ORACY: Elicit ideas from students in class discussion: Do you think this story is autobiographical? Why/why not? Create other word groups such as colour, anatomical, texture, sensory etc. Choose one quotation that you feel effectively represents the story’s experimental qualities. Why do you think Kit de Waal chose to use experimental techniques in the story? Week/ Lesson Key Question?"
+      }
+    },
+    {
+      "id": "HT1-W3-L3",
+      "half_term": "HT1",
+      "week": 3,
+      "lesson": 3,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can define the terms ‘epistolary’ and ‘personification’",
+          "I can analyse their effect in the story."
+        ],
+        "key_knowledge_components": [
+          "To know how the writer uses the epistolary form and personification to engage the reader."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Word decoding",
+          "Short story form",
+          "Effect",
+          "Personification.",
+          "Epistolary (letter form)"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Personification, form and creative writing: Personification activity and video Pre-reading vocabulary: wailing, brutality,concept, insignificant Students skim read the short story (2 minutes) ORACY: discuss what they think this story is about, gathering three ideas to share with others. Students read the story and highlight any examples of personification. They underline any unfamiliar words."
+      },
+      "assessment": {
+        "afl_notes_summary": "Retrieval Practice Grid",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT1-W4-L4",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT1.docx",
+        "anchor": "Lesson 3"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Depending on your seating plan and attainment grouping, you may wish to differentiate the pairs for these activities. Select feedback from a range of students. The exemplar personification image should help with activity 1a. Activity 1b is scaffolded with the sentence starter: Throughout the story ‘Dear Nobody’, Alex Wheatle uses personification such…",
+        "deepening_knowledge_summary": "Why do you think Wheatle uses capitals for this personification? Did you notice any other techniques Wheatle uses? Students should incorporate this in their writing task. What does the writer want us to know about how loneliness can make somebody feel? What line from the story shows this? How is this line effective in presenting the writer’s ideas about loneliness? Week/ Lesson Key Question?"
+      }
+    },
+    {
+      "id": "HT1-W4-L4",
+      "half_term": "HT1",
+      "week": 4,
+      "lesson": 4,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can understand a writer’s craft by commenting on sentences, punctuation and grammar."
+        ],
+        "key_knowledge_components": [
+          "To know how sentences and unpicking the punctuation/ grammar affects the reader’s interpretation of a text."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Word decoding",
+          "Short story forms",
+          "Experimental techniques",
+          "Writer’s craft",
+          "Reading (skimming, visualising texts, summarising)",
+          "Analytical writing",
+          "Language and form",
+          "Oracy"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Reading comprehension, analysing the writer’s craft and writing analytically: ORACY: Encourage students to discuss: ‘How did you feel when you read the story? What emotions did the writer create in you as a reader?’ Students summarise the story in their own words (2-3 sentences). Activity 1: Students answer the questions on an extract from the story to develop their reading comprehension skills. Students should work independently on these questi…"
+      },
+      "assessment": {
+        "afl_notes_summary": "Retrieval Practice Grid",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT1-W5-L5",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT1.docx",
+        "anchor": "Lesson 4"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Ensure pairs are supportive. Encourage feedback from a range of students. Analytical sentence starters You may need to think about the importance of emotive language and varied sentence lengths. How can you incorporate this into your own writing?",
+        "deepening_knowledge_summary": "Students summarise their learning in five words, images or literary devices. Students who read the The Guardian article might comment on the many challenges he faced and the parallels with the story’s themes. Opportunity to assess students’ understanding of the story. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes"
+      }
+    },
+    {
+      "id": "HT1-W5-L5",
+      "half_term": "HT1",
+      "week": 5,
+      "lesson": 5,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can show empathy in my writing and follow the structure of advice writing."
+        ],
+        "key_knowledge_components": [
+          "To know how to demonstrate empathy, analyse character situations, and provide advice by writing an agony aunt letter in response to the novel 'Dear Nobody' by Alex Wheatle."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Empathy",
+          "Advice",
+          "Agony Aunt",
+          "Response",
+          "Recommendations"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Round Robin activity. Briefly discuss the novel 'Dear Nobody' by Alex Wheatle. Explain that students will be stepping into the role of an agony aunt, providing advice and guidance to one of the characters in the novel. Oracy:discuss and analyse the character's situation, challenges, and emotions. Encourage them to consider the character's background, relationships, and personal growth throughout the story. Present the guidelines for writing an a…"
+      },
+      "assessment": {
+        "afl_notes_summary": "Retrieval Practice Grid",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT1-W6-L6",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT1.docx",
+        "anchor": "Lesson 5"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Provide a brief summary of the story and its main themes, emphasising the challenging situations faced by the characters. Model sentence starters and format of an agony aunt advice response Word bank of emotions for students available Consider the power of words and the impact they can have on the reader.",
+        "deepening_knowledge_summary": "Remind students to consider the power of their words and the impact they can have on someone facing challenges. ORACY: Encourage students to reflect on the significance of empathy and advice-giving in real-life situations. Students share their letter responses  with the class, highlighting the advice and insights they provided. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they …"
+      }
+    },
+    {
+      "id": "HT1-W6-L6",
+      "half_term": "HT1",
+      "week": 6,
+      "lesson": 6,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can comment on how writers use the opening of short stories to engage readers."
+        ],
+        "key_knowledge_components": [
+          "To know how writers use the opening of short stories to engage readers."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Structure and",
+          "Short story",
+          "Effective",
+          "Opening paragraph.",
+          "Express",
+          "Ideas.",
+          "Vocabulary development",
+          "Analytical writing",
+          "Understanding a writer’s choices (language and form)",
+          "Oracy",
+          "ORACY: Students discuss the effect of random acts of kindness. How did it make you feel? Did it change you? How important do you feel kindness is?",
+          "Take a look at paragraph one. What do you think of this as an opening to a story? Discuss with the person next to you, focusing on the structure of sentences as well as the words the writer uses.",
+          "Students consider the effectiveness of the opening of the story (structure of sentences and words the writer uses).",
+          "Activity 1: Students summarise the key elements of the story (who, what, when, where and how) and update their word bank.",
+          "Activity 2: Students complete the reading comprehension questions on the text (independently or in pairs).",
+          "Assessment",
+          "Activity 3: Students write analytically about the opening of the story.",
+          "Encourage students to comment on the elements of the story they like the most in pairs."
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "5Ws, reading comprehension questions and analysing the writer’s craft:"
+      },
+      "assessment": {
+        "afl_notes_summary": "Retrieval Practice Grid",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT1-W7-L7",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT1.docx",
+        "anchor": "Lesson 6"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Consider the effectiveness of the opening of the story (structure of sentences and words the writer uses). Sentence starters are provided in the PPT and teaching pack. You might find it helpful to think about the following: Pronouns (s/he) and nouns (boy, woman) rather than characters’ names Use of simple words (adjectives and verbs)",
+        "deepening_knowledge_summary": "Students complete the characterisation summary for Roger. How does the writer introduce and develop the character of Roger? Choose a range of quotations from the story. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT1-W7-L7",
+      "half_term": "HT1",
+      "week": 7,
+      "lesson": 7,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can comment on the writers use dialogue, setting and characterisation in short stories.",
+          "I can explain how a story arc can be used for plotting short stories."
+        ],
+        "key_knowledge_components": [
+          "To know how writers use dialogue, setting and characterisation in short stories.",
+          "To know how a story arc can be used for plotting short stories."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Understanding how",
+          "Characters",
+          "Settings",
+          "Dialogue.",
+          "Plot a short story",
+          "Narrative styles",
+          "."
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Setting, plotting and story arc and key themes: Students compare their summary of the presentation of Roger (from previous lesson) Reread the selected extract from ‘Thank You, Ma’am’. ORACY: Ask students about any contextual clues in the characters’ dialogue regarding when and where the story was set. Activity 1: Students identify the ways in which Hughes creates the setting by drawing a play set including props for the story. They should draw a…"
+      },
+      "assessment": {
+        "afl_notes_summary": "Retrieval Practice Grid",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT1-W8-L8",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT1.docx",
+        "anchor": "Lesson 7"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Monitor and help students to look at non-standard and contracted forms of English ('ain't, 'Yes'm') and some dialectical phrases 'I didn't aim to' and 'You a lie' etc. Encouraging students to use contextual clues is necessary. Consider characterisation: What does this setting tell us about the character? Consider how short stories have to be very tig…",
+        "deepening_knowledge_summary": "Ask students to predict what they think will happen to Roger next? Why? Students imagine that Roger did manage to say more than ‘Thank you, ma’am’ to Mrs Jones. What do you think he would have said? Write using the same style of dialogue that Langston Hughes uses for Roger in the story. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT1-W8-L8",
+      "half_term": "HT1",
+      "week": 8,
+      "lesson": 8,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can write informatively to create an advice guide in response to the short story ‘Thank you, Ma’am’."
+        ],
+        "key_knowledge_components": [
+          "To know how to analyse character actions and themes in the story 'Thank You, Ma'am' by Langston Hughes and create a guide on how to stay safe, incorporating practical tips and advice."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Themes",
+          "Guide",
+          "Advice",
+          "Recommendations"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Round Robin - summarise the short story 'Thank You, Ma'am' by Langston Hughes. Explain that the students will be creating a guide on how to stay safe, drawing inspiration from the events and characters in the story. Present the guidelines for writing a guide on how to stay safe. Explain that the guide should provide practical tips, advice, and strategies to ensure personal safety in different situations. Encourage students to incorporate specifi…"
+      },
+      "assessment": {
+        "afl_notes_summary": "Retrieval Practice Grid",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT1-W9-L9",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT1.docx",
+        "anchor": "Lesson 8"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Provide a brief summary of the story, emphasising the theme of compassion and the consequences of actions. Consider including: practical advice, such as being aware of surroundings, trusting instincts, and seeking help when needed. Consider and reflect on the themes and lessons learned from the story 'Thank You, Ma'am' in the context of personal safe…",
+        "deepening_knowledge_summary": "·Summarise the lesson by emphasising the significance of personal safety and the importance of making responsible choices. Discuss how the story 'Thank You, Ma'am' connects to the real world and the guide-writing activity. Encourage students to apply the strategies and advice shared in their guides to their own lives. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes"
+      }
+    },
+    {
+      "id": "HT1-W9-L9",
+      "half_term": "HT1",
+      "week": 9,
+      "lesson": 9,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can explore how characters and narrators can be introduced.",
+          "I can comment on the plotting of short stories and how they can build tension, looking closely at characterisation."
+        ],
+        "key_knowledge_components": [
+          "To know how characters and narrators can be introduced.",
+          "To know how the plotting of short stories can build tension through characterisation."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "First-person narrative style.",
+          "writer’s craft",
+          "plot",
+          "colloquial",
+          "‘racism’",
+          "‘anti-racism’",
+          "Reading (comprehension, visualising characters, summarising key events)",
+          "Understanding a writer’s choices (language and form)",
+          "Oracy"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Exploring the writer’s craft, key characters and plotting: What is racism? What is anti-racism? What is non-racist? Can you write a definition of each? Students read the opening of the story, summarise it and identify who the pronouns ‘you’ and ‘I’ might be referring to. Students consider the narrative style (first person) and what they find intriguing about how the story is told. Activity 1: Students explore key features of the writer’s craft w…"
+      },
+      "assessment": {
+        "afl_notes_summary": "Retrieval Practice Grid",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT1-W10-L10",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT1.docx",
+        "anchor": "Lesson 9"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Discuss ideas as a class with sensitivity using the traffic light tool to allow students to communicate their discomfort Consider the following questions: What is the effect of the question? What words are used to describe the narrator’s food? What are the connotations? What technique does the writer use in the following quotation and what is the eff…",
+        "deepening_knowledge_summary": "What form of narration is this story written in? What do you find intriguing about the way the story is told? The writer uses the foods as metaphors to describe the differences between them (can you create your own?) Students read the rest of the story What is the effect of Bali Rai’s use of colloquial or street language in the story in the description of Brandon and his gang? Why do you think the main characters, ‘I’ and ‘you’, remain nameless?"
+      }
+    },
+    {
+      "id": "HT1-W10-L10",
+      "half_term": "HT1",
+      "week": 10,
+      "lesson": 10,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can write analytically about themes and writer’s intention (PEA)"
+        ],
+        "key_knowledge_components": [
+          "To know how to write analytically about themes and writer’s intentions."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Plot",
+          "Analytical writing",
+          "Writer’s choices (language and form)",
+          "Oracy",
+          "Persuasive"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Reader reactions: Recall questions linking to pre-read from last lesson Students complete the tension graph from the previous lesson with the final, shocking events from the story’s ending. Monitor to check students have read the story and pairings are suitable. Activity 1: Students consider the ending of the story and the key theme/intention of the writer. Is the story about racism, ‘anti-racist’ or about freedom? Activity 2: Students consider …"
+      },
+      "assessment": {
+        "afl_notes_summary": "Retrieval Practice Grid",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT1-W10-L11",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT1.docx",
+        "anchor": "Lesson 10+11"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Activity2: Think about the title of this short story, the final, third section of the story when the narrator reveals the lasting impact of the attack on him as the victim. What do you think is the writer’s message? You might want to include a comment about the following features of the story: narrative form (first person, confessional) use of pronou…",
+        "deepening_knowledge_summary": "Students research the work of anti-racism and hate crimes charities. Consider how we can all work together to contribute to a more equal, less prejudiced society. Discuss the importance of addressing racism and promoting inclusivity. ORACY: Conduct a class debate on specific issues related to racism, encouraging students to apply their advice and engage in meaningful dialogue. Week/ Lesson Key Question?"
+      }
+    },
+    {
+      "id": "HT1-W10-L11",
+      "half_term": "HT1",
+      "week": 10,
+      "lesson": 11,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can write analytically about themes and writer’s intention (PEA)"
+        ],
+        "key_knowledge_components": [
+          "To know how to write analytically about themes and writer’s intentions."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Plot",
+          "Analytical writing",
+          "Writer’s choices (language and form)",
+          "Oracy",
+          "Persuasive"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Reader reactions: Recall questions linking to pre-read from last lesson Students complete the tension graph from the previous lesson with the final, shocking events from the story’s ending. Monitor to check students have read the story and pairings are suitable. Activity 1: Students consider the ending of the story and the key theme/intention of the writer. Is the story about racism, ‘anti-racist’ or about freedom? Activity 2: Students consider …"
+      },
+      "assessment": {
+        "afl_notes_summary": "Retrieval Practice Grid",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT1-W11-L12",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT1.docx",
+        "anchor": "Lesson 10+11"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Activity2: Think about the title of this short story, the final, third section of the story when the narrator reveals the lasting impact of the attack on him as the victim. What do you think is the writer’s message? You might want to include a comment about the following features of the story: narrative form (first person, confessional) use of pronou…",
+        "deepening_knowledge_summary": "Students research the work of anti-racism and hate crimes charities. Consider how we can all work together to contribute to a more equal, less prejudiced society. Discuss the importance of addressing racism and promoting inclusivity. ORACY: Conduct a class debate on specific issues related to racism, encouraging students to apply their advice and engage in meaningful dialogue. Week/ Lesson Key Question?"
+      }
+    },
+    {
+      "id": "HT1-W11-L12",
+      "half_term": "HT1",
+      "week": 11,
+      "lesson": 12,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I employ the skills learnt this half term to confidently respond to a text."
+        ],
+        "key_knowledge_components": [
+          "SUMMATIVE ASSESSMENT",
+          "To know how to confidently articulate your own response to a text."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Humanity",
+          "Second person",
+          "Direct address",
+          "Foreshadowing",
+          "Repetition",
+          "Similarities",
+          "Differences"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Recall quiz: key events from the story ‘The Colour of Humanity’ ‘The Colour of Humanity’: Reading comprehension Time allowed: 1 hour (20 marks in total) Assessment: Q1. Reread the paragraph. List four things you learn about the park in this section. Q2. Read the extract. How has the writer used language to show the relationship between the two boys? You could include the writer’s choice of: Words and phrases/ Language features and techniques/ Se…"
+      },
+      "assessment": {
+        "afl_notes_summary": "Retrieval Practice Grid",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT1-W11-L13",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT1.docx",
+        "anchor": "Lesson 12+13"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Q2. Things to consider: the writer’s choice of: words and phrases/ ·language features and techniques/ sentence forms Q3. Things to consider:what the writer focuses your attention on at the beginning/ how and why the writer changes the focus as the source develops/  any other structural features that you think are interesting forms Consider how the author repeats ‘the last time’ three times to show the sense of finality, the start of the distance…",
+        "deepening_knowledge_summary": "Explain clearly the effects of the writer’s choices of language Selects a range of relevant textual detail Makes clear and accurate use of subject terminology Explain clearly the effects of the writer’s structural choices Select a range of relevant textual detail Make clear and accurate use of subject terminology"
+      }
+    },
+    {
+      "id": "HT1-W11-L13",
+      "half_term": "HT1",
+      "week": 11,
+      "lesson": 13,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I employ the skills learnt this half term to confidently respond to a text."
+        ],
+        "key_knowledge_components": [
+          "SUMMATIVE ASSESSMENT",
+          "To know how to confidently articulate your own response to a text."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Humanity",
+          "Second person",
+          "Direct address",
+          "Foreshadowing",
+          "Repetition",
+          "Similarities",
+          "Differences"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Recall quiz: key events from the story ‘The Colour of Humanity’ ‘The Colour of Humanity’: Reading comprehension Time allowed: 1 hour (20 marks in total) Assessment: Q1. Reread the paragraph. List four things you learn about the park in this section. Q2. Read the extract. How has the writer used language to show the relationship between the two boys? You could include the writer’s choice of: Words and phrases/ Language features and techniques/ Se…"
+      },
+      "assessment": {
+        "afl_notes_summary": "Retrieval Practice Grid",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT1-W12-L14",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT1.docx",
+        "anchor": "Lesson 12+13"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Q2. Things to consider: the writer’s choice of: words and phrases/ ·language features and techniques/ sentence forms Q3. Things to consider:what the writer focuses your attention on at the beginning/ how and why the writer changes the focus as the source develops/  any other structural features that you think are interesting forms Consider how the author repeats ‘the last time’ three times to show the sense of finality, the start of the distance…",
+        "deepening_knowledge_summary": "Explain clearly the effects of the writer’s choices of language Selects a range of relevant textual detail Makes clear and accurate use of subject terminology Explain clearly the effects of the writer’s structural choices Select a range of relevant textual detail Make clear and accurate use of subject terminology"
+      }
+    },
+    {
+      "id": "HT1-W12-L14",
+      "half_term": "HT1",
+      "week": 12,
+      "lesson": 14,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can use the marking criteria to identify what I did well and what I need to do to improve my response."
+        ],
+        "key_knowledge_components": [
+          "Reflection Lesson",
+          "To know how identify WWW in your summative assessment"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Success criteria",
+          "Marking",
+          "Feedback"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Quotation quiz: ‘The Colour of Humanity’ by Bali Rai/ writer’s craft recall task Allow students time to reflect on their responses and respond to marking feedback. Show them the marking criteria and highlight what they have done and what they ended to do to improve their response next time. ORACY: share some examples with the class. Students can identify which techniques have been used and comment on the writer’s technique. USe visualiser and an…"
+      },
+      "assessment": {
+        "afl_notes_summary": "Retrieval Practice Grid",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT1.docx",
+        "anchor": "Lesson 14"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Provide all students with a success criteria You may need to think about how you can develop your critical response further by looking at the success criteria and the bandings.",
+        "deepening_knowledge_summary": "Give students the opportunity to pause and re-read their responses back Encourage pupils to also apply knowledge of SPaG throughout their writing. ORACY: Tell a partner why you are choosing a specific technique/ structure when commenting on the writer’s craft. Progress Pathways for summative assessment of component & composite knowledge: Assessment Focus BELOW"
+      }
+    }
+  ]
+}

@@ -1,0 +1,811 @@
+{
+  "meta": {
+    "half_term": "HT5",
+    "prior_learning": [
+      "Year 7: - Autumn 1 and 2:  character analysis/ descriptive writing",
+      "Year 8 - Autumn 1: theme study. Summer 1 and 2: character analysis and development/ narrative writing short stories (suspense)",
+      "Year 9 - (Currently Summer 1 and 2): descriptive and theme study"
+    ],
+    "common_misconceptions": [
+      "Recognising the differences in descriptive and narrative writing but understanding how narratives include description",
+      "Description only applies to characters.",
+      "Descriptive writing is only about physical description",
+      "Descriptive writing is only for static scenes",
+      "Descriptive writing is subjective and lacks structure"
+    ]
+  },
+  "lessons": [
+    {
+      "id": "HT5-W1-L1",
+      "half_term": "HT5",
+      "week": 1,
+      "lesson": 1,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can examine how writers reveal character traits through description",
+          "I can explore how setting contributes to the mood of the novel"
+        ],
+        "key_knowledge_components": [
+          "To know how writers use description for characters and setting in a novel."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "description",
+          "character",
+          "setting",
+          "traits",
+          "mood"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Begin by briefly introducing the novel \"Of Mice and Men\" by John Steinbeck and its central characters, George and Lennie. Explain that today, students will be playing a game called \"Description Pong\" to analyse and compare the descriptions of George and Lennie. Divide the class into two teams, Team George and Team Lennie. Play Question Pong with the following  statements: George: George is a small, tough individual who takes care of his friend."
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT5-W2-L2",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT5.docx",
+        "anchor": "Lesson 1"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Ensure all students understand how to play Description Pong by providing straightforward guidelines at the start. Motivate all students to join in the game and discussion, especially those who may be hesitant or quieter. Support students by offering prompts or questions to help them analyse character descriptions effectively. Make sure descriptions of George and Lennie are equally detailed and challenging. Provide extra help/ reading strategies/…",
+        "deepening_knowledge_summary": "After the game, facilitate a discussion about the descriptions of George and Lennie. Ask students to share their observations about the key traits revealed in the descriptions. Encourage students to provide evidence from the text to support their observations. Compare and contrast the descriptions of George and Lennie, noting similarities and differences in their characteristics. Week/ Lesson Key Question?"
+      }
+    },
+    {
+      "id": "HT5-W2-L2",
+      "half_term": "HT5",
+      "week": 2,
+      "lesson": 2,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can explore a range of vocabulary related to sight, sound, and smell.",
+          "I can understand how sensory descriptions contribute to the overall atmosphere and mood in a text."
+        ],
+        "key_knowledge_components": [
+          "To know how vocabulary can be used to describe sight, sound and smell"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "vocabulary",
+          "senses",
+          "describe"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Display a list of sensory-related words on the board. Divide them into categories: sight, sound, and smell. ORACY: Discuss each category with the class, providing examples and encouraging students to brainstorm additional words. Model how sensory words can be used to enhance descriptive writing by creating sentences using the words provided. Distribute copies of the novel. ORACY: Discuss the front cover and blurb, making predictions about the st…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT5-W2-L3",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT5.docx",
+        "anchor": "Lesson 2+3"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Use pictures or word lists to help students understand sensory words, especially if they have trouble reading. Read together as a group or mark important parts of the text to make sure everyone understands the sensory descriptions. Give different activities based on how well students can read, like easier versions of the text or listening to recordings. Pair students with different reading levels so they can help each other during group work.",
+        "deepening_knowledge_summary": "ORACY: Ask students to share their findings from the group activity and discuss how sensory descriptions enhance their understanding of the text. Have students write a descriptive paragraph using sensory-related vocabulary to describe a scene from \"Of Mice and Men\" Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT5-W2-L3",
+      "half_term": "HT5",
+      "week": 2,
+      "lesson": 3,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can explore a range of vocabulary related to sight, sound, and smell.",
+          "I can understand how sensory descriptions contribute to the overall atmosphere and mood in a text."
+        ],
+        "key_knowledge_components": [
+          "To know how vocabulary can be used to describe sight, sound and smell"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "vocabulary",
+          "senses",
+          "describe"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Display a list of sensory-related words on the board. Divide them into categories: sight, sound, and smell. ORACY: Discuss each category with the class, providing examples and encouraging students to brainstorm additional words. Model how sensory words can be used to enhance descriptive writing by creating sentences using the words provided. Distribute copies of the novel. ORACY: Discuss the front cover and blurb, making predictions about the st…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT5-W3-L4",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT5.docx",
+        "anchor": "Lesson 2+3"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Use pictures or word lists to help students understand sensory words, especially if they have trouble reading. Read together as a group or mark important parts of the text to make sure everyone understands the sensory descriptions. Give different activities based on how well students can read, like easier versions of the text or listening to recordings. Pair students with different reading levels so they can help each other during group work.",
+        "deepening_knowledge_summary": "ORACY: Ask students to share their findings from the group activity and discuss how sensory descriptions enhance their understanding of the text. Have students write a descriptive paragraph using sensory-related vocabulary to describe a scene from \"Of Mice and Men\" Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT5-W3-L4",
+      "half_term": "HT5",
+      "week": 3,
+      "lesson": 4,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can understand how physical appearance, behaviour, dialogue, and interactions contribute to character development."
+        ],
+        "key_knowledge_components": [
+          "To know how the writer uses description to create impressions of George and Lennie."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "impression",
+          "appearance",
+          "behaviour",
+          "dialogue",
+          "interactions",
+          "relationships"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Begin the lesson by asking students to recall the main characters, George and Lennie, from the novel \"Of Mice and Men.\" ORACY: Discuss the importance of character development in literature and how authors use various techniques, such as description, to bring characters to life. Divide the class into small groups. Provide each group with excerpts from the novel that describe George and Lennie. Instruct students to closely read the excerpts and id…"
+      },
+      "assessment": {
+        "afl_notes_summary": "3-a-day",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT5-W3-L5",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT5.docx",
+        "anchor": "Lesson 4+5"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Practice analysing descriptions together before individual work to ensure everyone understands the process. Provide templates for creating character profiles and offer support in organising thoughts and using evidence. Include peer feedback sessions for students to help each other improve their profiles and deepen their understanding together. Use various discussion techniques to engage all students, including quieter ones and those with differe…",
+        "deepening_knowledge_summary": "ORACY: Facilitate a whole-class discussion on how the writer uses description to create impressions of George and Lennie. ORACY: Encourage students to share their interpretations and observations, referring to specific textual evidence. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT5-W3-L5",
+      "half_term": "HT5",
+      "week": 3,
+      "lesson": 5,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can understand how physical appearance, behaviour, dialogue, and interactions contribute to character development."
+        ],
+        "key_knowledge_components": [
+          "To know how the writer uses description to create impressions of George and Lennie."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "impression",
+          "appearance",
+          "behaviour",
+          "dialogue",
+          "interactions",
+          "relationships"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Begin the lesson by asking students to recall the main characters, George and Lennie, from the novel \"Of Mice and Men.\" ORACY: Discuss the importance of character development in literature and how authors use various techniques, such as description, to bring characters to life. Divide the class into small groups. Provide each group with excerpts from the novel that describe George and Lennie. Instruct students to closely read the excerpts and id…"
+      },
+      "assessment": {
+        "afl_notes_summary": "3-a-day",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT5-W4-L6",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT5.docx",
+        "anchor": "Lesson 4+5"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Practice analysing descriptions together before individual work to ensure everyone understands the process. Provide templates for creating character profiles and offer support in organising thoughts and using evidence. Include peer feedback sessions for students to help each other improve their profiles and deepen their understanding together. Use various discussion techniques to engage all students, including quieter ones and those with differe…",
+        "deepening_knowledge_summary": "ORACY: Facilitate a whole-class discussion on how the writer uses description to create impressions of George and Lennie. ORACY: Encourage students to share their interpretations and observations, referring to specific textual evidence. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT5-W4-L6",
+      "half_term": "HT5",
+      "week": 4,
+      "lesson": 6,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can understand social conditions and inequalities prevalent during the Great Depression, including issues of class, race, and gender."
+        ],
+        "key_knowledge_components": [
+          "To know the historical, social, and cultural context of John Steinbeck's novel \"Of Mice and Men\"."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "context",
+          "social",
+          "historical",
+          "migrant workers",
+          "rural",
+          "American Dream"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Activity 1: Historical Context Timeline): Divide the class into small groups and provide each group with a set of events or developments related to the Great Depression. Instruct students to create a timeline of significant events, highlighting their impact on society, economy, and individuals' lives. ORACY: Encourage groups to discuss the connections between these events and the themes explored in \"Of Mice and Men.\" Activity 2: Perspectives Thr…"
+      },
+      "assessment": {
+        "afl_notes_summary": "3-a-day",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT5-W5-L7",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT5.docx",
+        "anchor": "Lesson 6"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Offer additional examples of anecdotes from the Great Depression era to illustrate the diversity of experiences and perspectives during that time. Provide clear explanations and context for historical events mentioned in the lesson, ensuring students understand their significance and how they relate to the novel. Incorporate multimedia resources, such as videos or interactive timelines, to enhance students' understanding and engagement with the …",
+        "deepening_knowledge_summary": "Explore real-life stories or testimonies from the Great Depression era to gain a deeper understanding of individuals' experiences and struggles. Analyse how specific events, such as the Dust Bowl or the stock market crash, affected different groups of people and shaped their lives during this time. Consider how societal norms and attitudes portrayed in primary sources from the era influenced the characters' behaviours and interactions in \"Of Mic…"
+      }
+    },
+    {
+      "id": "HT5-W5-L7",
+      "half_term": "HT5",
+      "week": 5,
+      "lesson": 7,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can define prepositional phrases",
+          "I can identify prepositional phrases in a text (in, on, under, between)",
+          "I can discuss the importance of clear and cohesive paragraph structure in effective writing."
+        ],
+        "key_knowledge_components": [
+          "To know how prepositional phrases are used to open paragraphs."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "prepositional phrase",
+          "paragraphs",
+          "cohesive",
+          "structure",
+          "effective"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Begin by asking students if they are familiar with the term \"prepositional phrase.\" Explain that a prepositional phrase consists of a preposition, its object, and any modifiers. Provide examples such as \"in the house,\" \"on the table,\" or \"under the bridge.\" Discuss how prepositional phrases can be used to provide details about location, time, direction, or relationship between objects in a sentence. Read the description of the bunkhouse on pages…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT5-W5-L8",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT5.docx",
+        "anchor": "Lesson 7+8"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Provide additional examples of prepositional phrases in different contexts to reinforce understanding and recognition. Break down complex sentences containing prepositional phrases into simpler parts, allowing students to grasp the components more easily. Use visual aids such as diagrams or illustrations to illustrate how prepositional phrases add detail and depth to writing, making the concept more tangible for students.",
+        "deepening_knowledge_summary": "ORACY: Can you identify any patterns or common themes in the use of prepositional phrases to open paragraphs within the excerpt from the bunkhouse description? ORACY: How might the use of different prepositions change the mood or atmosphere conveyed in a descriptive paragraph? Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT5-W5-L8",
+      "half_term": "HT5",
+      "week": 5,
+      "lesson": 8,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can define prepositional phrases",
+          "I can identify prepositional phrases in a text (in, on, under, between)",
+          "I can discuss the importance of clear and cohesive paragraph structure in effective writing."
+        ],
+        "key_knowledge_components": [
+          "To know how prepositional phrases are used to open paragraphs."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "prepositional phrase",
+          "paragraphs",
+          "cohesive",
+          "structure",
+          "effective"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Begin by asking students if they are familiar with the term \"prepositional phrase.\" Explain that a prepositional phrase consists of a preposition, its object, and any modifiers. Provide examples such as \"in the house,\" \"on the table,\" or \"under the bridge.\" Discuss how prepositional phrases can be used to provide details about location, time, direction, or relationship between objects in a sentence. Read the description of the bunkhouse on pages…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT5-W6-L9",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT5.docx",
+        "anchor": "Lesson 7+8"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Provide additional examples of prepositional phrases in different contexts to reinforce understanding and recognition. Break down complex sentences containing prepositional phrases into simpler parts, allowing students to grasp the components more easily. Use visual aids such as diagrams or illustrations to illustrate how prepositional phrases add detail and depth to writing, making the concept more tangible for students.",
+        "deepening_knowledge_summary": "ORACY: Can you identify any patterns or common themes in the use of prepositional phrases to open paragraphs within the excerpt from the bunkhouse description? ORACY: How might the use of different prepositions change the mood or atmosphere conveyed in a descriptive paragraph? Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT5-W6-L9",
+      "half_term": "HT5",
+      "week": 6,
+      "lesson": 9,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can define social ranking of individuals (wealth, occupation, race, and gender).",
+          "I can discuss the implications of social ranking on individuals."
+        ],
+        "key_knowledge_components": [
+          "To know and understand the theme of social ranking and explore how characters' social statuses impact their lives and relationships within the narrative."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "theme",
+          "hierarchy",
+          "status",
+          "inequality",
+          "marginalisation"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "ORACY: Begin the lesson by discussing the concept of social hierarchy, defining it as the ranking of individuals. Show students staff members at school. Explain how understanding social hierarchy is crucial for interpreting the characters and themes in \"Of Mice and Men.\" Read the assigned pages (39-62) of \"Of Mice and Men\" independently or in small groups. Instruct students to identify instances where social hierarchy is evident, paying attentio…"
+      },
+      "assessment": {
+        "afl_notes_summary": "",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT5-W6-L12",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT5.docx",
+        "anchor": "Lesson 9"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Provide clear definitions of terms like \"wealth,\" \"occupation,\" \"race,\" and \"gender.\" Use relatable examples to illustrate each concept. Use visual aids such as diagrams, charts, or graphic organisers to illustrate concepts related to social hierarchy and character analysis",
+        "deepening_knowledge_summary": "Describe a scene from the selected pages of \"Of Mice and Men\" where social hierarchy plays a significant role. How do the characters in \"Of Mice and Men\" navigate the challenges of social hierarchy, and what does their experiences reveal about the broader societal issues of the Great Depression era? Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT5-W6-L12",
+      "half_term": "HT5",
+      "week": 6,
+      "lesson": 12,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can employ prepositional phrases, zoom in/out and sensory details in my description."
+        ],
+        "key_knowledge_components": [
+          "To know how to write a description based on the pivotal moment when Candy's dog is shot, employing sensory details and emotive language."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "sensory",
+          "emotive",
+          "symbolism: friendship/ loyalty/ isolation",
+          "narrative voice"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Begin by displaying the images related to the scene of Candy's dog being shot. Ask students to make predictions about what they think will happen in the scene based on the images. ORACY: Facilitate a brief discussion on the emotions and atmosphere conveyed by the images and how they might relate to the story. Show students the video clip of the scene from a film adaptation of \"Of Mice and Men\" where Candy's dog is shot. Encourage students to pay…"
+      },
+      "assessment": {
+        "afl_notes_summary": "3-a-day",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT5-W6-L13",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT5.docx",
+        "anchor": "Week/ Lesson 12+13"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Provide step by step sentence guide: Describe the setting and add a sensory detail with an action. Example: \"In the quiet bunkhouse, the old wood creaked with every step.\" Write what a character does with a feeling attached. Example: \"Lennie hesitated, his heart racing with nervousness.\" Start with an adverb, then describe what happens with a prepositional phrase.",
+        "deepening_knowledge_summary": "How does the scene of Candy's dog being shot in \"Of Mice and Men\" reflect larger themes or conflicts present in the novel? Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT5-W6-L13",
+      "half_term": "HT5",
+      "week": 6,
+      "lesson": 13,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can employ prepositional phrases, zoom in/out and sensory details in my description."
+        ],
+        "key_knowledge_components": [
+          "To know how to write a description based on the pivotal moment when Candy's dog is shot, employing sensory details and emotive language."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "sensory",
+          "emotive",
+          "symbolism: friendship/ loyalty/ isolation",
+          "narrative voice"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Begin by displaying the images related to the scene of Candy's dog being shot. Ask students to make predictions about what they think will happen in the scene based on the images. ORACY: Facilitate a brief discussion on the emotions and atmosphere conveyed by the images and how they might relate to the story. Show students the video clip of the scene from a film adaptation of \"Of Mice and Men\" where Candy's dog is shot. Encourage students to pay…"
+      },
+      "assessment": {
+        "afl_notes_summary": "3-a-day",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT5-W7-L10",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT5.docx",
+        "anchor": "Week/ Lesson 12+13"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Provide step by step sentence guide: Describe the setting and add a sensory detail with an action. Example: \"In the quiet bunkhouse, the old wood creaked with every step.\" Write what a character does with a feeling attached. Example: \"Lennie hesitated, his heart racing with nervousness.\" Start with an adverb, then describe what happens with a prepositional phrase.",
+        "deepening_knowledge_summary": "How does the scene of Candy's dog being shot in \"Of Mice and Men\" reflect larger themes or conflicts present in the novel? Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT5-W7-L10",
+      "half_term": "HT5",
+      "week": 7,
+      "lesson": 10,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can select words and phrases that create vivid images and convey sensory details about characters.",
+          "I can explain the concept of zooming and out, where writers focus on specific details or features of characters to provide intimate insights into their personalities and appearances."
+        ],
+        "key_knowledge_components": [
+          "To know how writers use language to describe characters."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "zoom",
+          "adjectives",
+          "sensory",
+          "insight",
+          "imagery"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Begin by asking students to recall the characters introduced in the previous sections of \"Of Mice and Men.\" Define the terms \"zooming in\" and \"zooming out\" in writing, using examples if necessary. ORACY: Read pages 63-70, encouraging students to discuss descriptive language that stands out to them. Encourage students to note instances of \"zooming in\" and \"zooming out\" in the text. ORACY: Lead a discussion on the descriptive language found in the…"
+      },
+      "assessment": {
+        "afl_notes_summary": "3-a-day",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT5-W7-L14",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT5.docx",
+        "anchor": "Lesson 10"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Break down descriptive passages into smaller, more manageable segments to facilitate comprehension among students. ORACY: Incorporate structured peer discussions to encourage collaborative analysis of descriptive language and its impact on character portrayal. Provide differentiated tasks to accommodate diverse student abilities, ensuring that all learners are appropriately challenged and supported. Emphasise the explicit connection between desc…",
+        "deepening_knowledge_summary": "Choose a character from \"Of Mice and Men\" and write a descriptive paragraph using the techniques discussed in class. They should practise both \"zooming in\" and \"zooming out\" to provide a comprehensive portrayal of the character. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strateg…"
+      }
+    },
+    {
+      "id": "HT5-W7-L14",
+      "half_term": "HT5",
+      "week": 7,
+      "lesson": 14,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can analyse how characters interact with each other",
+          "I can empathise with the emotional experiences of characters",
+          "I can explore the feelings of empathy, sympathy, anger, sadness  in this scene"
+        ],
+        "key_knowledge_components": [
+          "To know how the character dynamics, themes, and emotional impact are conveyed through visual storytelling."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "dynamics",
+          "emotional",
+          "convey",
+          "empathy"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Discuss the importance of empathy in understanding and connecting with characters' experiences and emotions. Watch the scene where Candy's dog is killed. ORACY: Guide students to observe and analyse the interactions between characters during the scene, paying attention to body language, facial expressions, and dialogue. ORACY: Facilitate a discussion on the emotions elicited by the scene, focusing on empathy, sympathy, and sadness. Watch the sce…"
+      },
+      "assessment": {
+        "afl_notes_summary": "3-a-day",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT5-W8-L11",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT5.docx",
+        "anchor": "Week/ Lesson 14"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Pause at key moments and discuss how characters are interacting. Look at their body language, facial expressions, and tone of voice. What do these cues tell us about their relationships and emotions? Focus on specific emotional responses elicited by the scenes, such as empathy, sympathy, anger, or sadness. Have students discuss moments in the scenes that triggered these emotions. Encourage them to explain why they felt that way and how the chara…",
+        "deepening_knowledge_summary": "How does seeing characters' facial expressions and body language help us understand their emotions and relationships in visual storytelling? Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT5-W8-L11",
+      "half_term": "HT5",
+      "week": 8,
+      "lesson": 11,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can compare and contrast the portrayal of characters' social statuses"
+        ],
+        "key_knowledge_components": [
+          "To know the impact of characters' social statuses on their lives and relationships within the narrative through reading the text and viewing film adaptations."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "social",
+          "status",
+          "dynamics",
+          "power",
+          "authority",
+          "conflicts"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Engage students by asking them to brainstorm the different roles and positions within the school staff hierarchy (e.g., headteacher, SLT,  teachers, support, administrative staff, cleaners etc). Discuss the similarities and differences in social statuses among staff members, considering factors such as responsibilities, authority, and recognition. Introduce the concept of social status in literature and film, explaining its significance in shapi…"
+      },
+      "assessment": {
+        "afl_notes_summary": "3-a-day",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT5-W8-L15",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT5.docx",
+        "anchor": "Lesson 11"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Guide students to identify examples of characters' social statuses in the text and explain their significance. Encourage students to think critically about how characters' social standings impact their actions, dreams, and relationships. Prompt students to consider the broader historical context and real-world implications of social hierarchies depicted in the novel.",
+        "deepening_knowledge_summary": "ORACY: How do the social statuses of characters in \"Of Mice and Men\" contribute to the overall themes and messages of the novel so far? Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT5-W8-L15",
+      "half_term": "HT5",
+      "week": 8,
+      "lesson": 15,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can use descriptive language that effectively conveys the physicality and emotions of the fight scene, including action verbs, adjectives, and adverbs.",
+          "I can use sensory details to engage the reader's senses and create a vivid mental image of the scene, including sights, sounds and smells."
+        ],
+        "key_knowledge_components": [
+          "To plan and write a vivid description of a fight scene."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "vivid",
+          "description",
+          "visualise",
+          "engage"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Starter task to reinforce action verbs, adjectives, and adverbs in conveying physical actions and emotions. ORACY: Discuss how sensory details, such as sights, sounds, and smells, enhance the reader's immersion in the scene. Re-read the fight scene between Lennie and Curley Guide students through brainstorming ideas for their fight scene, including the physical actions, emotions, and sensory details they want to include. Encourage students to cr…"
+      },
+      "assessment": {
+        "afl_notes_summary": "3-a-day",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT5-W8-L16",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT5.docx",
+        "anchor": "Week/ Lesson 15+16"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Imagine Yourself: Picture yourself in the fight. What would you do? How would you feel? Use action words like \"hit\" or \"shout\" to show what's happening. Think about what you can see, hear, and feel in the scene. Use Your Senses: Close your eyes and imagine the fight. What sounds can you hear? What does it smell like?",
+        "deepening_knowledge_summary": "Encourage students to reflect on their own writing process and the strategies they used to craft descriptive and engaging scenes. Plan and write a full description based on a moment/ character  in the novel. Write a sophisticated description of a specific setting. L10.pptx - Google Slides Progress Pathways for summative assessment of component & composite knowledge: Assessment Focus"
+      }
+    },
+    {
+      "id": "HT5-W8-L16",
+      "half_term": "HT5",
+      "week": 8,
+      "lesson": 16,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can use descriptive language that effectively conveys the physicality and emotions of the fight scene, including action verbs, adjectives, and adverbs.",
+          "I can use sensory details to engage the reader's senses and create a vivid mental image of the scene, including sights, sounds and smells."
+        ],
+        "key_knowledge_components": [
+          "To plan and write a vivid description of a fight scene."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "vivid",
+          "description",
+          "visualise",
+          "engage"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Starter task to reinforce action verbs, adjectives, and adverbs in conveying physical actions and emotions. ORACY: Discuss how sensory details, such as sights, sounds, and smells, enhance the reader's immersion in the scene. Re-read the fight scene between Lennie and Curley Guide students through brainstorming ideas for their fight scene, including the physical actions, emotions, and sensory details they want to include. Encourage students to cr…"
+      },
+      "assessment": {
+        "afl_notes_summary": "3-a-day",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT5.docx",
+        "anchor": "Week/ Lesson 15+16"
+      },
+      "notes": {
+        "addressing_gaps_summary": "Imagine Yourself: Picture yourself in the fight. What would you do? How would you feel? Use action words like \"hit\" or \"shout\" to show what's happening. Think about what you can see, hear, and feel in the scene. Use Your Senses: Close your eyes and imagine the fight. What sounds can you hear? What does it smell like?",
+        "deepening_knowledge_summary": "Encourage students to reflect on their own writing process and the strategies they used to craft descriptive and engaging scenes. Plan and write a full description based on a moment/ character  in the novel. Write a sophisticated description of a specific setting. L10.pptx - Google Slides Progress Pathways for summative assessment of component & composite knowledge: Assessment Focus"
+      }
+    }
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "meta": {
+    "half_term": "HT2",
+    "prior_learning": [
+      "Year 7 Summer 1 - Writing to persuade",
+      "Year 8 Autumn 2 - Writing to persuade and review"
+    ],
+    "common_misconceptions": [
+      "Writing in the wrong form of presentation",
+      "Limited vocabulary choice",
+      "Limited sentences structures leading to difficulties in expressing ideas effectively and coherently",
+      "Limited use of generating ideas and planning in advance"
+    ]
+  },
+  "lessons": [
+    {
+      "id": "HT2-W1-L1",
+      "half_term": "HT2",
+      "week": 1,
+      "lesson": 1,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can identify the most important information and events in a non-fiction text",
+          "I can explain the difference between facts, opinions and opinions presented as facts",
+          "I can take part in class discussions and relate my opinions to others"
+        ],
+        "key_knowledge_components": [
+          "To know how to determine the most important information and events in a non-fiction text",
+          "To know the differences between facts, opinions and opinions presented as facts",
+          "To know how my own, others’ opinions and expert opinions differ"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Non- fiction",
+          "Facts",
+          "Opinions",
+          "Expert",
+          "Presented",
+          "Reviews"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Show range of images to decipher the topic of reviews What is a review? Students to feedback and generate ideas/ share prior learning ORACY: Discuss: types of reviews/ types of review readers/ what reviews provide Read an example review as a class (link to contemporary topic) Unpick the language features as a group. This could be completed as a carousel activity having pupils write ideas to the following questions on the table: What do you notic…"
+      },
+      "assessment": {
+        "afl_notes_summary": "What are non-fiction texts? What non- fiction texts have been studied in previous lessons/ years? Give me 5 things you should include in a review.",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W1-L2",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT2.docx",
+        "anchor": "Week/ Lesson 1"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Provide differentiated question prompts surrounding the review example Provide definitions for SEN students to reinforce understanding of key language",
+        "deepening_knowledge_summary": "Compare opinions and how they can be presented in texts Discuss expert opinions and how they affect the reader Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT2-W1-L2",
+      "half_term": "HT2",
+      "week": 1,
+      "lesson": 2,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can identify and explain the DAFOREST techniques in a non-fiction text",
+          "I can identify colons in the text and explain why they are effective"
+        ],
+        "key_knowledge_components": [
+          "To know how ethos, pathos and logos  can be used to persuade the reader",
+          "To know how colons are used for emphasis and to introduce a list"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Persuade",
+          "Direct address",
+          "Facts",
+          "Opinions",
+          "Repetition",
+          "Rhetorical",
+          "Emotive",
+          "Statistics",
+          "Three part list"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Matching task to determine pupil understanding of DAFOREST. Provide an example grid for those with gaps in their learning. Students complete the technique table and complete the missing sections. E,.g technique/ definitions/ examples Re-read and make links to the last lesson review and identify any techniques in the text. Students are given individual paragraphs from the text (they can work in pairs) to identify specific techniques including col…"
+      },
+      "assessment": {
+        "afl_notes_summary": "Colon starter activity What does DAFOREST stand for? Quiz showing range of techniques and students to decide what technique it is ( use whiteboards to determine who knows what)",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W2-L3",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT2.docx",
+        "anchor": "Week/ Lesson 2"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Provide DAFOREST grid with examples and definitions Provide persuasive writing map PEA plan and sentence starters to aid structured response Success criteria for PEA",
+        "deepening_knowledge_summary": "Students can write their own sentence/ paragraph including DAFOREST techniques on their whiteboards to embed their knowledge and practise writing to persuade How does the writer create a distinctive voice and viewpoint, which is sustained throughout the text? Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT2-W2-L3",
+      "half_term": "HT2",
+      "week": 2,
+      "lesson": 3,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can identify the structure of a text",
+          "I can understand how quotations, statistical anecdotes, strong opinions and expert opinions engage the reader and can be used to open and close non-fiction texts",
+          "I can explain how anecdotes can influence the reader",
+          "I can input commas to demarcate clauses"
+        ],
+        "key_knowledge_components": [
+          "To know how cyclical structures can be used for review writing",
+          "To know how quotes, statistical anecdotes, strong opinions and expert opinions can be used to open and close non-fiction texts",
+          "To know how anecdotes can be used to influence the reader",
+          "To know how commas are used to demarcate clauses"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Structure",
+          "Cyclical structure",
+          "Quotations",
+          "Statistical anecdotes",
+          "Influence",
+          "Commas",
+          "Clauses"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Read review as a class (link to contemporary topic) Unpick the structure as a group, focussing on key sections: opening and closing paragraphs Ask students: What do they notice about the structure of the text? Have any techniques been used to influence the reader? What do you notice about the tone of the text?"
+      },
+      "assessment": {
+        "afl_notes_summary": "Commas and clauses activity",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W2-L4",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT2.docx",
+        "anchor": "Week/ Lesson 3"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Question prompts during analysis of structure task Definitions for key terminology WAGOLL for independent task Provide interactive sentence starters and vocabulary word bank for students where appropriate",
+        "deepening_knowledge_summary": "Compare the cyclical structure of today’s review to previous review looked at Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT2-W2-L4",
+      "half_term": "HT2",
+      "week": 2,
+      "lesson": 4,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "To identify headings and sub-headings in a text",
+          "To recognise anaphora, hypophora and epistrophe and how it persuades the reader"
+        ],
+        "key_knowledge_components": [
+          "To know how headings and sub-headings are used to guide the reader",
+          "To know how anaphora, hypophora and epistrophe are used to influence the reader"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Headings",
+          "Sub-headings",
+          "Emphasis",
+          "Anaphora",
+          "Hypophora",
+          "Epistrophe",
+          "Clauses"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Explain that writers also use headings and subheadings to guide the reader. ORACY: Ask students why they do this? Prompt for answers such as: Headings and sub-headings represent the key concepts and supporting ideas in the text They visually convey levels of importance Differences in text format guide the readers to distinguish the main points from the rest Headings are generally bigger, if not more conspicuous, than sub-headings"
+      },
+      "assessment": {
+        "afl_notes_summary": "What does cyclical mean? How is it used in non-fiction writing? Provide examples of structure and ask students to comment on them",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W3-L5",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT2.docx",
+        "anchor": "Week/ Lesson 4"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Word bank and sentence starters to aid targeted students Success criteria For visual learners; image stimulus to help recall key terminology from the lesson e.g repetition/ beginning  image  for anaphora, question mark for hypophora and repetition/ ending image for epistrophe",
+        "deepening_knowledge_summary": "Have we come across any of the techniques learnt today in previous lessons? Can students find an example? Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT2-W3-L5",
+      "half_term": "HT2",
+      "week": 3,
+      "lesson": 5,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can effectively use note- taking skills to understand a non-fiction text",
+          "I can plan a detailed review"
+        ],
+        "key_knowledge_components": [
+          "To know how note-taking skills can be used to understand a non-fiction task",
+          "To know how to plan a review"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Note-taking",
+          "Plan",
+          "Vocabulary"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Explain to students that today they will be implementing the skill of note-taking to plan and prepare to write their own review Ask students why note-taking is essential in English. Prompt for answers such as: preparing for GCSE, structures your ideas, outlines your points Show students a range of adverts for mobile phones. Watch first then when they watch for a second time, model on the whiteboard note-taking. Students will generate ideas and c…"
+      },
+      "assessment": {
+        "afl_notes_summary": "Recap anaphora, hypophora and epistrophe",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W3-L6",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT2.docx",
+        "anchor": "Week/ Lesson 5"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Model note-taking Provide students who are visual learners with facts/ vocabulary evident in the adverts watched Provide a plan with prompted questions to generate ideas and key language features they will include (refer back to previous lessons) DAFOREST to be displayed on tables for all students",
+        "deepening_knowledge_summary": "Recall previous learning and implement it in your plan ORACY: Tell a partner why you are choosing a specific technique/ structure Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT2-W3-L6",
+      "half_term": "HT2",
+      "week": 3,
+      "lesson": 6,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can confidently write a section of a review for a particular purpose",
+          "I can identify and use a full range of connectives (within and between paragraphs)",
+          "I can use topic sentences at the beginning of paragraphs",
+          "I can understand and implement  persuasive features in my writing",
+          "I can include appropriate vocabulary to meet the PAFT of my writing"
+        ],
+        "key_knowledge_components": [
+          "To know how to write a section of a review",
+          "To know the full range of connectives (within and between paragraphs)",
+          "To know how topic sentences are used at the beginning of paragraphs",
+          "To know how writers compose a persuasive paragraph",
+          "I know how to select vocabulary to meet the needs of the task and audience"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Review",
+          "Connectives",
+          "Topic sentences",
+          "Structured paragraphs",
+          "Persuasion",
+          "Vocabulary"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Recap the task:: Write a review for the new iphone 14 Pro Max Students will have 5 minutes to finalise their plan Give students a success criteria of what is expected in their write up of a review Remind students about the effective use of vocabulary, structure, headings, sub- headings, DAFOREST and other persuasive techniques studied this half term *Teacher can provide an example review and model on the visualiser to aid students and their abil…"
+      },
+      "assessment": {
+        "afl_notes_summary": "What facts did you learn about the iphone 14 Pro Max from last lesson’s adverts? What is our review task?",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W4-L7",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT2.docx",
+        "anchor": "Week/ Lesson 6"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Provide all students with a success criteria Provide topic sentence starters and a word bank of connectives to use in their writing * Some students will write a section of the review/ others will write the full review (teacher to direct discretely according to needs)",
+        "deepening_knowledge_summary": "Give students the opportunity to pause and re-read their work back to ensure they are influencing their reader Encourage pupils to also apply knowledge of SPaG throughout their writng. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT2-W4-L7",
+      "half_term": "HT2",
+      "week": 4,
+      "lesson": 7,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can find evidence of the success criteria in my writing",
+          "I can analyse my effectiveness of persuasion and its effect on the reader"
+        ],
+        "key_knowledge_components": [
+          "To know how to recognise the success criteria in my writing",
+          "To know how to effectively use purple pen to consolidate my understanding of review writing"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Consolidate",
+          "Review",
+          "Effectiveness",
+          "Effect on the reader"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Students will read back their written review ORACY: share some examples with the class. Students can identify which techniques have been used and comment on their effect. If students do not want to read aloud - use the visualised and anonymise the name of the student’s work Purple pen own review using the success criteria from previous lesson Assessment Students to select one technique employed in their writing and create a PEA paragraph Model P…"
+      },
+      "assessment": {
+        "afl_notes_summary": "State two language features used in your review",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W4-L8",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT2.docx",
+        "anchor": "Week/ Lesson 7"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Success criteria provided from previous lesson PEA structure provided for students who need",
+        "deepening_knowledge_summary": "Pupils to swap books and comment on following questions:: -How does the review opening engage the reader? - What technique do you think persuades the reader? Explain our reasons. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes"
+      }
+    },
+    {
+      "id": "HT2-W4-L8",
+      "half_term": "HT2",
+      "week": 4,
+      "lesson": 8,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can  take part in class discussions and relate my opinions to others",
+          "I can identify and explain the DAFOREST techniques in a non-fiction text",
+          "To recognise anaphora, hypophora and epistrophe and how it persuades the reader",
+          "I can find subordinate clauses (relative and adverbials) in a paragraph"
+        ],
+        "key_knowledge_components": [
+          "To know how my own, others’ opinions and expert opinions and expert  opinions differ",
+          "To know how DAFOREST techniques can be used to persuade the reader",
+          "To know how anaphora, hypophora and epistrophe are used to influence a reader",
+          "To know how subordinate clauses can be used (relative clauses/ adverbials)"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Opinions",
+          "Expert opinions",
+          "Differ",
+          "DAFOREST",
+          "Anaphora",
+          "Hypophora",
+          "Epistrophe",
+          "Subordinate clauses",
+          "Adverbials"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Show image of Martin Luther King (or a modern speech on racism). ask students who he is and why he is influential in society (and still is today) Watch/ listen to MLK’s speech and encourage students to make notes on vocabulary used ORACY: Summarise his speech/ identity repeated words used and their effect/ prompt students to recall anaphora, hypophora and epistrophe and how MLK  persuades the reader/ audience with these techniques Read an extrac…"
+      },
+      "assessment": {
+        "afl_notes_summary": "Define the word speech Subordinate clause activity/ adverbials",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W5-L9",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT2.docx",
+        "anchor": "Week/ Lesson 8"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Differentiated MLK speech with prompts to guide students to relevant persuasive techniques For students with limited understanding of the wider world and current issues, provide a list of ideas and information to use in their writing Connective resource Create  interactive sentence starters",
+        "deepening_knowledge_summary": "Encourage pupils to also apply knowledge of SPaG throughout their writng. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT2-W5-L9",
+      "half_term": "HT2",
+      "week": 5,
+      "lesson": 9,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can use the internet to research a current global issue",
+          "I can understand how ideas about a topic can be compared across more than one piece of resource",
+          "I can vary my vocabulary when discussing topical discussion"
+        ],
+        "key_knowledge_components": [
+          "To know how to research current global issues",
+          "To know how ideas about the same topic can be across texts",
+          "To know a repertoire of effective vocabulary"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Current",
+          "Global",
+          "Issue",
+          "Comparison"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Use a range of images which provoke current world issues ORACY: Discuss the images and their status in the world. Ask students their opinions on them. Explain to students the importance of them and how they are reported. Explain to students that we will be writing our own speech based on a current world issue Explain to students that the persuasive techniques learnt this half term will be used to write persuasively Pose the title:: Write a persu…"
+      },
+      "assessment": {
+        "afl_notes_summary": "Vocabulary game: synonyms Features of a speech",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W5-L10",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT2.docx",
+        "anchor": "Week/ Lesson 9"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Directed questions to research on the laptop Teacher to work with students with limited understanding of the topic: racism and help them source relevant information",
+        "deepening_knowledge_summary": "Students will be encouraged to look for opinions and expert opinions online Students will be encouraged to look for facts and statistics relating to their topic Students will be encouraged to look at how the topic is reported on different websites/ vlogs Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes"
+      }
+    },
+    {
+      "id": "HT2-W5-L10",
+      "half_term": "HT2",
+      "week": 5,
+      "lesson": 10,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can plan a persuasive speech",
+          "I can effectively compose a persuasive speech",
+          "I can use connectives (within and between paragraphs)",
+          "I know how to use topic sentences in my writing",
+          "I can use commas effectively to demarcate clauses"
+        ],
+        "key_knowledge_components": [
+          "To know how to plan a speech",
+          "To know how to compose a persuasive speech",
+          "To know the full range of connectives (within and between paragraphs)",
+          "To know how topic sentences are used at the beginning of paragraphs",
+          "To know how commas are used to demarcate clauses"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Effective planning",
+          "Vocabulary",
+          "Persuasion",
+          "DAFOREST"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Explain to students that today they will be planning to write their own speech based on the topic: racism remind students the importance of planning and structure Show students a video clip of a well known celebrity speaking out about racism. Watch first then when they watch for a second time, model on the whiteboard note-taking. Students will generate ideas and create a bank of vocabulary to be used in their written task. ORACY: discuss languag…"
+      },
+      "assessment": {
+        "afl_notes_summary": "Recap anecdotes",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W6-L11",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT2.docx",
+        "anchor": "Week/ Lesson 10"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Model note-taking while the students watch the speech Have the transcript of the speech for visual learners available Provide students who are visual learners with facts/ vocabulary evident in the adverts watched Provide a plan with prompted questions to generate ideas and key language features they will include (refer back to previous lessons) DAFOR…",
+        "deepening_knowledge_summary": "Explore different ways of manipulating and applying opinions to affect the reader.. Encourage students to use commas in their writing for effect Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT2-W6-L11",
+      "half_term": "HT2",
+      "week": 6,
+      "lesson": 11,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can write persuasively, using all my knowledge from this term to write about racism",
+          "I can analyse my effectiveness of persuasion and its effect on the reader"
+        ],
+        "key_knowledge_components": [
+          "To write a persuasive speech about a global issue",
+          "Reflection lesson: To know how to recognise the success criteria in my writing",
+          "To know how to effectively use purple pen to consolidate my understanding of speech writing"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Speech",
+          "Connectives",
+          "Topic sentences",
+          "Structured paragraphs",
+          "Persuasion"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Recap the task:: Write a persuasive speech about racism Students will have 5 minutes to finalise their plan Refer back to class success criteria of what is expected in their write up of a speech Remind students about the effective use of vocabulary, structure,, DAFOREST and other persuasive techniques studied this half term *Teacher can provide an example speech and model on the visualiser to aid students and their ability to write Word bank of …"
+      },
+      "assessment": {
+        "afl_notes_summary": "Students will recall the ingredients needed to write a persuasive speech (this will become their success criteria for the lesson. Teacher to prompt with ideas.",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT2-W6-L12",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT2.docx",
+        "anchor": "Week/ Lesson 11 +12"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Provide all students with a success criteria Provide topic sentence starters and a word bank of connectives to use in their writing Some students will write a section of the review/ others will write the full review (teacher to direct discretely according to needs)",
+        "deepening_knowledge_summary": "Give students the opportunity to pause and re-read their work back to ensure they are influencing their reader Encourage pupils to also apply knowledge of SPaG throughout their writng. ORACY: Tell a partner why you are choosing a specific technique/ structure"
+      }
+    },
+    {
+      "id": "HT2-W6-L12",
+      "half_term": "HT2",
+      "week": 6,
+      "lesson": 12,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can write persuasively, using all my knowledge from this term to write about racism",
+          "I can analyse my effectiveness of persuasion and its effect on the reader"
+        ],
+        "key_knowledge_components": [
+          "To write a persuasive speech about a global issue",
+          "Reflection lesson: To know how to recognise the success criteria in my writing",
+          "To know how to effectively use purple pen to consolidate my understanding of speech writing"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Speech",
+          "Connectives",
+          "Topic sentences",
+          "Structured paragraphs",
+          "Persuasion"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Recap the task:: Write a persuasive speech about racism Students will have 5 minutes to finalise their plan Refer back to class success criteria of what is expected in their write up of a speech Remind students about the effective use of vocabulary, structure,, DAFOREST and other persuasive techniques studied this half term *Teacher can provide an example speech and model on the visualiser to aid students and their ability to write Word bank of …"
+      },
+      "assessment": {
+        "afl_notes_summary": "Students will recall the ingredients needed to write a persuasive speech (this will become their success criteria for the lesson. Teacher to prompt with ideas.",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT2.docx",
+        "anchor": "Week/ Lesson 11 +12"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Provide all students with a success criteria Provide topic sentence starters and a word bank of connectives to use in their writing Some students will write a section of the review/ others will write the full review (teacher to direct discretely according to needs)",
+        "deepening_knowledge_summary": "Give students the opportunity to pause and re-read their work back to ensure they are influencing their reader Encourage pupils to also apply knowledge of SPaG throughout their writng. ORACY: Tell a partner why you are choosing a specific technique/ structure"
+      }
+    }
+  ]
+}

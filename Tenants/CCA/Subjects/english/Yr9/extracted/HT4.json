@@ -1,0 +1,731 @@
+{
+  "meta": {
+    "half_term": "HT4",
+    "prior_learning": [
+      "Year 7: - Spring 1: writing to inform and advise/ Summer 1: writing to persuade",
+      "Year 8 - Autumn 2: writing to persuade and review/ Spring 2: writing to advise and inform",
+      "Year 9 - (Currently Spring 2): writing to argue and persuade"
+    ],
+    "common_misconceptions": [
+      "Reports are just a summary of information: reports should not only summarise the information but also analyse and evaluate it. Students should avoid simply listing information without offering any analysis or evaluation.",
+      "Reports should be written in a casual style: reports should be written in a formal style with proper grammar, punctuation, and sentence structure.",
+      "Reports do not require evidence: reports should be evidence-based and include facts, statistics, and examples to support their points.",
+      "Reports should not have opinions: a report can be strengthened by incorporating the student's perspective and analysis.",
+      "Reports do not require planning: planning is an important step in the report writing process. Students should consider the purpose of the report, the audience, and the structure of the report before starting to write.",
+      "Reports should not be persuasive."
+    ]
+  },
+  "lessons": [
+    {
+      "id": "HT4-W1-L1",
+      "half_term": "HT4",
+      "week": 1,
+      "lesson": 1,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can identify the most important information in a report",
+          "I can understand the importance of balance."
+        ],
+        "key_knowledge_components": [
+          "To know how to determine the most important information and events in a report.",
+          "To know the importance of balance in a report."
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Report",
+          "VIctorian-era",
+          "Balance",
+          "PAFT",
+          "Statistic"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Show range of images to decipher the topic of reports What is a report? Students to feedback and generate ideas/ share prior learning ORACY: Discuss: types of reports/ what reports provide Read an example report as a class (link to Victorian-era schooling) Unpick the language features as a group. This could be completed as a carousel activity having pupils write ideas to the following questions on the table: What do you notice about the layout o…"
+      },
+      "assessment": {
+        "afl_notes_summary": "What are non-fiction texts? What non- fiction texts have been studied in previous lessons/ years? Give me 5 things you should include in a report.",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W2-L2",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT4.docx",
+        "anchor": "Lesson 1"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Provide differentiated question prompts surrounding the report example Provide definitions for SEN students to reinforce understanding of key language",
+        "deepening_knowledge_summary": "Compare opinions of the Victorian-era schooling Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remembering more"
+      }
+    },
+    {
+      "id": "HT4-W2-L2",
+      "half_term": "HT4",
+      "week": 2,
+      "lesson": 2,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can research the Victorian-era",
+          "I can successfully note take to aid understanding of a non-fiction text"
+        ],
+        "key_knowledge_components": [
+          "To know how to research the Victorian-era",
+          "To know how note-taking skills can be used to understand a non-fiction text"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Report",
+          "Impersonal",
+          "Victorian-era",
+          "Discipline",
+          "Rote learning",
+          "Corporal punishment",
+          "Note-taking",
+          "Research"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Discuss the main features of Victorian-era schooling, including discipline, rote learning, and the use of corporal punishment. Students will look at a range of sources about Victorian-era schooling such as diary entries, letters and newspapers Students work in groups to discuss the directed questions and share their ideas with the rest of the class. Handouts with discussion questions to aid note taking and understanding Assessment: ORACY: Lead a…"
+      },
+      "assessment": {
+        "afl_notes_summary": "Begin by asking students what they can recall from the previous lesson about Victorian-era schooling Model their answers on the WB",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W3-L3",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT4.docx",
+        "anchor": "Lesson 2"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Directed questioning to students to recall previous lesson Simplified definitions of discipline, rote learning, and corporal punishment. Specific pairing of students to engage and prompt some learners Differentiated questions when sharing ideas as a class",
+        "deepening_knowledge_summary": "Summarise the main points of the lesson and ask students to share one thing they learned today. Encourage students to continue their research on Victorian-era schooling and its impact on education today. Criticise/ rank the best or worst things about Victorian-era schooling Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes"
+      }
+    },
+    {
+      "id": "HT4-W3-L3",
+      "half_term": "HT4",
+      "week": 3,
+      "lesson": 3,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can identify connectives",
+          "I can locate topic sentences",
+          "I can explain how facts and evidence are used in report writing"
+        ],
+        "key_knowledge_components": [
+          "To know the full range of connectives (within and between paragraphs)",
+          "To know how topic sentences are used at the beginning of paragraphs",
+          "To know how to use facts and evidence to support claims"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Connectives",
+          "Topic sentences",
+          "Paragraphs",
+          "Facts",
+          "Evidence",
+          "Effect",
+          "Inform",
+          "Success criteria"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Matching task to determine pupil understanding of connectives, topic sentences, paragraphs to the appropriate definitions. Re-read and make links to the last lesson report and identify any techniques in the text. Students are given individual paragraphs from the text (they can work in pairs) to identify specific techniques, facts and evidence. Pose the question: How does the writer inform the reader? Handout paragraphs from a report, cut up into…"
+      },
+      "assessment": {
+        "afl_notes_summary": "What is the importance of ‘balance’ in report writing Can you recall any examples of report writing so far?",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W4-L4",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT4.docx",
+        "anchor": "Lesson 3"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Provide an example grid for those with gaps in their learning Provide definitions of key terms Sentence starters and model Provide statistics for writing their own paragraph",
+        "deepening_knowledge_summary": "Students can write their own sentence/ paragraph from the perspective of a student in the Victorian-era How does the writer create a distinctive voice, which is sustained throughout the text? Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT4-W4-L4",
+      "half_term": "HT4",
+      "week": 4,
+      "lesson": 4,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can identify the layout of a report",
+          "I can comment on the use of direct and reported speech",
+          "I can employ interview skills and questioning about a specific topic"
+        ],
+        "key_knowledge_components": [
+          "To know how headings and subheadings are used to guide the reader",
+          "To know how to use direct and reported speech",
+          "To know how to identify the main features of an interview"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Modern",
+          "Paragraphs",
+          "Structure",
+          "Direct and reported speech",
+          "Interview",
+          "Techniques",
+          "Behaviour systems"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Read a second report (as a class (link to modern day schooling) Unpick the structure as a group, focussing on key sections: opening and closing paragraphs Ask students: What do they notice about the structure of the text? Have any techniques been used to inform the reader? What do you notice about the tone of the text? How does the report structure its ideas? This can be done as a carousel activity with focused questions at each station Once the…"
+      },
+      "assessment": {
+        "afl_notes_summary": "Recap PAFT and report features",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W5-L5",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT4.docx",
+        "anchor": "Lesson 4"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Model interview questioning Provide definitions of: headings/ subheadings/ direct and reported speech",
+        "deepening_knowledge_summary": "Discuss  techniques learnt today and in previous lessons Can students provide examples? Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT4-W5-L5",
+      "half_term": "HT4",
+      "week": 5,
+      "lesson": 5,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can recall the elements of report writing",
+          "I can explain how writers compose informative paragraphs",
+          "I can use appropriate verb tenses"
+        ],
+        "key_knowledge_components": [
+          "To know the different elements and layout of a report writing",
+          "To know how writers compose informative paragraphs",
+          "To know appropriate verb tenses"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Elements",
+          "Informative",
+          "Paragraphs",
+          "Verb tenses",
+          "Layout",
+          "Report",
+          "Introduction",
+          "Body",
+          "Conclusion",
+          "Formatting",
+          "Organise"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Begin by asking students what they know about the layout of reports and why they are important. Write down their responses on the whiteboard. Introduce the different elements and layout of a report, including the title page, table of contents, introduction, body, conclusion, and references Use a sample report to show students the different elements and layout. Discuss the importance of using proper formatting, such as font size, spacing, and mar…"
+      },
+      "assessment": {
+        "afl_notes_summary": "Appropriate verb tense quiz",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W5-L10",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT4.docx",
+        "anchor": "Lesson 5"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Provide some groups with a report template TA support to directed students For visual learners; image stimulus to help recall key terminology from the lesson Observe the students' participation and engagement in the group activity.",
+        "deepening_knowledge_summary": "Summarise the main points of the lesson and ask students to share one thing they learned today. Encourage students to continue practising their report writing skills. Five types of reports they might see in the future Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes"
+      }
+    },
+    {
+      "id": "HT4-W5-L10",
+      "half_term": "HT4",
+      "week": 5,
+      "lesson": 10,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can write a report according to the PAFT",
+          "I can use punctuation effectively",
+          "I can write with appropriate verb tenses"
+        ],
+        "key_knowledge_components": [
+          "To write a report",
+          "To know how punctuation gives clarity to make the text easy to read",
+          "To know appropriate verb tenses"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Write",
+          "Report",
+          "Punctuation",
+          "Connectives",
+          "Paragraphs",
+          "Verb tense",
+          "Behaviour",
+          "Success criteria",
+          "Vocabulary",
+          "Structure",
+          "Report features"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Recap the written task: Write a report about the behaviour systems in your school Students will have 5 minutes to finalise their plan Refer back to class success criteria/ checklist of what is expected in their write up of a report Remind students about the effective use of vocabulary, structure, language and other report writing techniques studied this half term *Teacher can provide an example report and model on the visualiser to aid students …"
+      },
+      "assessment": {
+        "afl_notes_summary": "Give me 5 facts you will include about the behaviour system in your school What tone will you write in?",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W5-L11",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT4.docx",
+        "anchor": "Week/ Lesson 10/11"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Provide all students with a success criteria Provide topic sentence starters and a word bank of connectives to use in their writing Some students will write a section of the report/ others will write the full report (teacher to direct discretely according to needs)",
+        "deepening_knowledge_summary": "Give students the opportunity to pause and re-read their work back to ensure they are informing their reader ORACY: Tell a partner why you are choosing a specific technique/ structure Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT4-W5-L11",
+      "half_term": "HT4",
+      "week": 5,
+      "lesson": 11,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can write a report according to the PAFT",
+          "I can use punctuation effectively",
+          "I can write with appropriate verb tenses"
+        ],
+        "key_knowledge_components": [
+          "To write a report",
+          "To know how punctuation gives clarity to make the text easy to read",
+          "To know appropriate verb tenses"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Write",
+          "Report",
+          "Punctuation",
+          "Connectives",
+          "Paragraphs",
+          "Verb tense",
+          "Behaviour",
+          "Success criteria",
+          "Vocabulary",
+          "Structure",
+          "Report features"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Recap the written task: Write a report about the behaviour systems in your school Students will have 5 minutes to finalise their plan Refer back to class success criteria/ checklist of what is expected in their write up of a report Remind students about the effective use of vocabulary, structure, language and other report writing techniques studied this half term *Teacher can provide an example report and model on the visualiser to aid students …"
+      },
+      "assessment": {
+        "afl_notes_summary": "Give me 5 facts you will include about the behaviour system in your school What tone will you write in?",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W6-L6",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT4.docx",
+        "anchor": "Week/ Lesson 10/11"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Provide all students with a success criteria Provide topic sentence starters and a word bank of connectives to use in their writing Some students will write a section of the report/ others will write the full report (teacher to direct discretely according to needs)",
+        "deepening_knowledge_summary": "Give students the opportunity to pause and re-read their work back to ensure they are informing their reader ORACY: Tell a partner why you are choosing a specific technique/ structure Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do?"
+      }
+    },
+    {
+      "id": "HT4-W6-L6",
+      "half_term": "HT4",
+      "week": 6,
+      "lesson": 6,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can compare the differences between two eras",
+          "I can explain why writers use clear and concise language"
+        ],
+        "key_knowledge_components": [
+          "To know the differences between two eras",
+          "To know how to use clear and concise language"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Compare",
+          "Concise",
+          "Clear",
+          "Features of reports",
+          "Note-taking",
+          "Education",
+          "Teaching",
+          "Discipline",
+          "Similarities",
+          "Differences"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Explain to students that today they will be implementing the skill of note-taking to plan and prepare to write their own report Ask students why note-taking is essential in English. Prompt for answers such as: preparing for GCSE, structures your ideas, outlines your points Watch the video comparing and contrasting the similarities and differences between Victorian-era schooling and modern-day schooling. Encourage students to note-take during thi…"
+      },
+      "assessment": {
+        "afl_notes_summary": "Recap report checklist from previous lesson (quiz)",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W6-L12",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT4.docx",
+        "anchor": "Lesson 6"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Model note-taking Provide students who are visual learners with facts/ vocabulary evident in the video watched Provide a plan with prompted questions to generate ideas",
+        "deepening_knowledge_summary": "Students can draw upon how modern-day schools place a greater emphasis on critical thinking and creativity, while Victorian-era schools focused more on discipline and rote learning. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes What do students need to know & what should they be able to do? Pedagogy & Assessment– How do we teach and assess this at Coal Clough Academy? Strategies to support students knowing more & remember…"
+      }
+    },
+    {
+      "id": "HT4-W6-L12",
+      "half_term": "HT4",
+      "week": 6,
+      "lesson": 12,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can reflect on my own writing"
+        ],
+        "key_knowledge_components": [
+          "Reflection lesson: To know how to recognise the success criteria in my writing",
+          "To know how to effectively use purple pen to consolidate my understanding of report writing"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Consolidate",
+          "Reflect",
+          "Effectiveness",
+          "Success criteria"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Students will read back their written report ORACY: share some examples with the class. Students can identify which techniques have been used and comment on their effect. If students do not want to read aloud - use the visualised and anonymise the name of the student’s work Purple pen own review using the success criteria from previous lesson Assessment Students to select one technique employed in their writing and create a PEA paragraph Model P…"
+      },
+      "assessment": {
+        "afl_notes_summary": "State two features used in your report",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W7-L7",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT4.docx",
+        "anchor": "Week/ Lesson 12"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Success criteria provided from previous lesson PEA structure provided for students who need",
+        "deepening_knowledge_summary": "Pupils to swap books and comment on following questions: How does the report opening inform the reader? What techniques have been employed? Explain our reasons. Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes"
+      }
+    },
+    {
+      "id": "HT4-W7-L7",
+      "half_term": "HT4",
+      "week": 7,
+      "lesson": 7,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can research effectively",
+          "I can select appropriate vocabulary (PAFT)"
+        ],
+        "key_knowledge_components": [
+          "To know how to research effectively",
+          "To know how to select vocabulary to meet the needs of the task and audience"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Research",
+          "Vocabulary",
+          "PAFT",
+          "Report",
+          "Evidence",
+          "Behaviour systems"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Explain to students that they will be planning and writing their own report Explain to students that the techniques learnt this half term will be used to write informatively Pose the title: Write a report about the behaviour systems in your school. Teacher/ class to brainstorm thoughts of the CCA behaviour system on the WB and prompt ideas and understanding Remind students to look at subheadings used in the previous lesson to begin to structure …"
+      },
+      "assessment": {
+        "afl_notes_summary": "Recall information from previous lesson: looking at the similarities and differences between Victorian-era schooling and modern-day schooling",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W7-L8",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT4.docx",
+        "anchor": "Lesson 7/8"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Directed questions to research on the laptop Teacher to work with students with limited understanding of the topic to help them source relevant information",
+        "deepening_knowledge_summary": "Students will be encouraged to look at the CCA behaviour policy Students will be encouraged to look for facts and statistics relating to their topic Students will be encouraged to look at how the topic is reported on different websites/ vlog Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes"
+      }
+    },
+    {
+      "id": "HT4-W7-L8",
+      "half_term": "HT4",
+      "week": 7,
+      "lesson": 8,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can research effectively",
+          "I can select appropriate vocabulary (PAFT)"
+        ],
+        "key_knowledge_components": [
+          "To know how to research effectively",
+          "To know how to select vocabulary to meet the needs of the task and audience"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Research",
+          "Vocabulary",
+          "PAFT",
+          "Report",
+          "Evidence",
+          "Behaviour systems"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Explain to students that they will be planning and writing their own report Explain to students that the techniques learnt this half term will be used to write informatively Pose the title: Write a report about the behaviour systems in your school. Teacher/ class to brainstorm thoughts of the CCA behaviour system on the WB and prompt ideas and understanding Remind students to look at subheadings used in the previous lesson to begin to structure …"
+      },
+      "assessment": {
+        "afl_notes_summary": "Recall information from previous lesson: looking at the similarities and differences between Victorian-era schooling and modern-day schooling",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W7-L13",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT4.docx",
+        "anchor": "Lesson 7/8"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Directed questions to research on the laptop Teacher to work with students with limited understanding of the topic to help them source relevant information",
+        "deepening_knowledge_summary": "Students will be encouraged to look at the CCA behaviour policy Students will be encouraged to look for facts and statistics relating to their topic Students will be encouraged to look at how the topic is reported on different websites/ vlog Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes"
+      }
+    },
+    {
+      "id": "HT4-W7-L13",
+      "half_term": "HT4",
+      "week": 7,
+      "lesson": 13,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can take part in a class debate and present an argument clearly."
+        ],
+        "key_knowledge_components": [
+          "To know how to summarise the main arguments in a debate"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Speaking and listening",
+          "Debate",
+          "Argue",
+          "Discuss",
+          "Policy",
+          "Advantages and disadvantages",
+          "Evidence",
+          "Statistics"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "S+L debate Begin by discussing the importance of behaviour policies in schools and their impact on student behaviour and academic achievement. Introduce the different behaviour policies and explain their basic principles and goals. Use CCA behaviour policy to demonstrate how it works and its impact on students. Discuss the advantages and disadvantages of the policy, and how it affects student behaviour and academic performance. Divide the class …"
+      },
+      "assessment": {
+        "afl_notes_summary": "Define the word ‘argument’",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "HT4-W8-L9",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT4.docx",
+        "anchor": "Week/ Lesson 13"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Groups selected based on peer on peer support Provide plan with prompts to generate ideas Provide sentence starters/ ques to allow students to speak confidently",
+        "deepening_knowledge_summary": "Summarise the main arguments made by each side and ask students to share their thoughts and opinions. Provide feedback on the debate and encourage students to continue to develop their argumentation and debate skills. How  does the writer create a distinctive voice and viewpoint, which is sustained throughout the text? Discuss the similarities and differences between modern school systems and Victorian schooling. Write  a report on the behaviour…"
+      }
+    },
+    {
+      "id": "HT4-W8-L9",
+      "half_term": "HT4",
+      "week": 8,
+      "lesson": 9,
+      "title": "",
+      "intent": {
+        "learning_outcomes": [
+          "I can plan a report",
+          "I can use the correct tone",
+          "I can include an active voice to make my writing clear"
+        ],
+        "key_knowledge_components": [
+          "To know how to plan a report",
+          "To know how tone can be used to inform the reader",
+          "To know how an active voice can make the content more engaging/ informative.",
+          "To know how to select vocabulary to meet the needs of the task and audience"
+        ]
+      },
+      "diagnostic": {
+        "prereqs": [],
+        "common_misconceptions": []
+      },
+      "language": {
+        "key_vocab": [
+          "Planning",
+          "Impersonal",
+          "Active voice",
+          "Concise",
+          "Direct",
+          "Structure",
+          "Organise",
+          "Language choices"
+        ]
+      },
+      "teaching": {
+        "key_questions": [],
+        "worked_examples": [],
+        "suggested_activities_summary": "Explain to students that today they will be planning to write their own report based on their research Remind students the importance of planning and structure Show students a video clip of features of report writing Create a report checklist as a class (after watching the clip) Students will generate ideas and create a bank of vocabulary (using the displays in the classroom) to be used in their written task. ORACY: discuss report features and i…"
+      },
+      "assessment": {
+        "afl_notes_summary": "What facts did you learn about the behaviour systems in schools? What is our report task?",
+        "assessment_links": []
+      },
+      "bounds": {
+        "next_lesson_id": "",
+        "do_not_teach_beyond": true
+      },
+      "source": {
+        "doc": "HT4.docx",
+        "anchor": "Lesson 9"
+      },
+      "notes": {
+        "addressing_gaps_summary": "SEND learners have a Pupil Passport that informs strategies for learning bespoke to that student Model note-taking while the students watch the clip Provide a plan with prompted questions to generate ideas (refer back to previous lessons) Report writing checklist to be displayed on tables for all students",
+        "deepening_knowledge_summary": "Explore different ways of presenting information for the reader.. Encourage students to use commas in their writing for effect Introduce students to active voice and passive voice and discuss the impact of each Week/ Lesson Key Question? Key knowledge components & Lesson Outcomes"
+      }
+    }
+  ]
+}

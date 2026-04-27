@@ -1,0 +1,2045 @@
+{
+  "meta": {
+    "tenant": "CCA",
+    "subject": "english",
+    "year_group": "Yr9",
+    "generated_at": "2026-04-14T05:43:19.980Z",
+    "source": "draft_index_from_sol"
+  },
+  "lessons": [
+    {
+      "canonical_id": "CCA-english-Yr9-HT1-W1-L1",
+      "half_term": "HT1",
+      "week": 1,
+      "lesson": 1,
+      "source_doc": "HT1.docx",
+      "source_anchor": "Lesson 1",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can strengthen my reading comprehension and text decoding skills (skimming, scanning, mental models, summarising etc.)",
+          "I can understand the form of short stories and writer’s craft."
+        ],
+        "key_knowledge_components": [
+          "To know how to strengthen reading comprehension and text decoding skills (skimming, scanning, summarising etc.)",
+          "To know an awareness of the short story form and writer’s craft."
+        ],
+        "key_vocab": [
+          "Skimming",
+          "Scanning",
+          "Word decoding",
+          "Short story forms",
+          "Experimental techniques",
+          "Writer’s craft",
+          "T2:  meticulous, unaccountable"
+        ],
+        "suggested_activities_summary": "Comprehension and analysing the writer’s craft: Check students understand the difference between skimming and scanning. Encourage students in pairs to discuss what they think the story is about after skim reading ‘The Things We Ate’. Monitor and encourage discussion of ‘powerful’ or ‘intriguing’ words and encourage students to add them to the word bank. Oracy: Discuss findings as a class Activity 1: Students scan the text to create a quick food …"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT1-W2-L2",
+      "half_term": "HT1",
+      "week": 2,
+      "lesson": 2,
+      "source_doc": "HT1.docx",
+      "source_anchor": "Lesson 2",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can explain how the writer methodically tracks characters/ themes and how/why these shift/ develop",
+          "I can develop oracy and writing skills and have more confidence in making judgements about a text."
+        ],
+        "key_knowledge_components": [
+          "To know how the writer methodically tracks characters/ themes and how/why these shift/ develop",
+          "To know how to develop oracy and writing skills and have more confidence in making judgements about a text."
+        ],
+        "key_vocab": [
+          "Word mapping",
+          "Writer’s craft",
+          "Diction."
+        ],
+        "suggested_activities_summary": "Diction detectives, decision alley and writing skills: Students make a list of what they learnt about the family and compare ideas in pairs or small groups Students look at quotations from the story: ‘West Indian bread with jewels of pork fat’, ‘Johnny cakes sweet as dumplings’, ‘Saturday’s cauldron of St Kitts soup’ What do they notice about the technique/s and effects? Encourage wider discussion about hybrid or mixed heritage and ideas about i…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT1-W3-L3",
+      "half_term": "HT1",
+      "week": 3,
+      "lesson": 3,
+      "source_doc": "HT1.docx",
+      "source_anchor": "Lesson 3",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can define the terms ‘epistolary’ and ‘personification’",
+          "I can analyse their effect in the story."
+        ],
+        "key_knowledge_components": [
+          "To know how the writer uses the epistolary form and personification to engage the reader."
+        ],
+        "key_vocab": [
+          "Word decoding",
+          "Short story form",
+          "Effect",
+          "Personification.",
+          "Epistolary (letter form)"
+        ],
+        "suggested_activities_summary": "Personification, form and creative writing: Personification activity and video Pre-reading vocabulary: wailing, brutality,concept, insignificant Students skim read the short story (2 minutes) ORACY: discuss what they think this story is about, gathering three ideas to share with others. Students read the story and highlight any examples of personification. They underline any unfamiliar words."
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT1-W4-L4",
+      "half_term": "HT1",
+      "week": 4,
+      "lesson": 4,
+      "source_doc": "HT1.docx",
+      "source_anchor": "Lesson 4",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can understand a writer’s craft by commenting on sentences, punctuation and grammar."
+        ],
+        "key_knowledge_components": [
+          "To know how sentences and unpicking the punctuation/ grammar affects the reader’s interpretation of a text."
+        ],
+        "key_vocab": [
+          "Word decoding",
+          "Short story forms",
+          "Experimental techniques",
+          "Writer’s craft",
+          "Reading (skimming, visualising texts, summarising)",
+          "Analytical writing",
+          "Language and form",
+          "Oracy"
+        ],
+        "suggested_activities_summary": "Reading comprehension, analysing the writer’s craft and writing analytically: ORACY: Encourage students to discuss: ‘How did you feel when you read the story? What emotions did the writer create in you as a reader?’ Students summarise the story in their own words (2-3 sentences). Activity 1: Students answer the questions on an extract from the story to develop their reading comprehension skills. Students should work independently on these questi…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT1-W5-L5",
+      "half_term": "HT1",
+      "week": 5,
+      "lesson": 5,
+      "source_doc": "HT1.docx",
+      "source_anchor": "Lesson 5",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can show empathy in my writing and follow the structure of advice writing."
+        ],
+        "key_knowledge_components": [
+          "To know how to demonstrate empathy, analyse character situations, and provide advice by writing an agony aunt letter in response to the novel 'Dear Nobody' by Alex Wheatle."
+        ],
+        "key_vocab": [
+          "Empathy",
+          "Advice",
+          "Agony Aunt",
+          "Response",
+          "Recommendations"
+        ],
+        "suggested_activities_summary": "Round Robin activity. Briefly discuss the novel 'Dear Nobody' by Alex Wheatle. Explain that students will be stepping into the role of an agony aunt, providing advice and guidance to one of the characters in the novel. Oracy:discuss and analyse the character's situation, challenges, and emotions. Encourage them to consider the character's background, relationships, and personal growth throughout the story. Present the guidelines for writing an a…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT1-W6-L6",
+      "half_term": "HT1",
+      "week": 6,
+      "lesson": 6,
+      "source_doc": "HT1.docx",
+      "source_anchor": "Lesson 6",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can comment on how writers use the opening of short stories to engage readers."
+        ],
+        "key_knowledge_components": [
+          "To know how writers use the opening of short stories to engage readers."
+        ],
+        "key_vocab": [
+          "Structure and",
+          "Short story",
+          "Effective",
+          "Opening paragraph.",
+          "Express",
+          "Ideas.",
+          "Vocabulary development",
+          "Analytical writing",
+          "Understanding a writer’s choices (language and form)",
+          "Oracy",
+          "ORACY: Students discuss the effect of random acts of kindness. How did it make you feel? Did it change you? How important do you feel kindness is?",
+          "Take a look at paragraph one. What do you think of this as an opening to a story? Discuss with the person next to you, focusing on the structure of sentences as well as the words the writer uses.",
+          "Students consider the effectiveness of the opening of the story (structure of sentences and words the writer uses).",
+          "Activity 1: Students summarise the key elements of the story (who, what, when, where and how) and update their word bank.",
+          "Activity 2: Students complete the reading comprehension questions on the text (independently or in pairs).",
+          "Assessment",
+          "Activity 3: Students write analytically about the opening of the story.",
+          "Encourage students to comment on the elements of the story they like the most in pairs."
+        ],
+        "suggested_activities_summary": "5Ws, reading comprehension questions and analysing the writer’s craft:"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT1-W7-L7",
+      "half_term": "HT1",
+      "week": 7,
+      "lesson": 7,
+      "source_doc": "HT1.docx",
+      "source_anchor": "Lesson 7",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can comment on the writers use dialogue, setting and characterisation in short stories.",
+          "I can explain how a story arc can be used for plotting short stories."
+        ],
+        "key_knowledge_components": [
+          "To know how writers use dialogue, setting and characterisation in short stories.",
+          "To know how a story arc can be used for plotting short stories."
+        ],
+        "key_vocab": [
+          "Understanding how",
+          "Characters",
+          "Settings",
+          "Dialogue.",
+          "Plot a short story",
+          "Narrative styles",
+          "."
+        ],
+        "suggested_activities_summary": "Setting, plotting and story arc and key themes: Students compare their summary of the presentation of Roger (from previous lesson) Reread the selected extract from ‘Thank You, Ma’am’. ORACY: Ask students about any contextual clues in the characters’ dialogue regarding when and where the story was set. Activity 1: Students identify the ways in which Hughes creates the setting by drawing a play set including props for the story. They should draw a…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT1-W8-L8",
+      "half_term": "HT1",
+      "week": 8,
+      "lesson": 8,
+      "source_doc": "HT1.docx",
+      "source_anchor": "Lesson 8",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can write informatively to create an advice guide in response to the short story ‘Thank you, Ma’am’."
+        ],
+        "key_knowledge_components": [
+          "To know how to analyse character actions and themes in the story 'Thank You, Ma'am' by Langston Hughes and create a guide on how to stay safe, incorporating practical tips and advice."
+        ],
+        "key_vocab": [
+          "Themes",
+          "Guide",
+          "Advice",
+          "Recommendations"
+        ],
+        "suggested_activities_summary": "Round Robin - summarise the short story 'Thank You, Ma'am' by Langston Hughes. Explain that the students will be creating a guide on how to stay safe, drawing inspiration from the events and characters in the story. Present the guidelines for writing a guide on how to stay safe. Explain that the guide should provide practical tips, advice, and strategies to ensure personal safety in different situations. Encourage students to incorporate specifi…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT1-W9-L9",
+      "half_term": "HT1",
+      "week": 9,
+      "lesson": 9,
+      "source_doc": "HT1.docx",
+      "source_anchor": "Lesson 9",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can explore how characters and narrators can be introduced.",
+          "I can comment on the plotting of short stories and how they can build tension, looking closely at characterisation."
+        ],
+        "key_knowledge_components": [
+          "To know how characters and narrators can be introduced.",
+          "To know how the plotting of short stories can build tension through characterisation."
+        ],
+        "key_vocab": [
+          "First-person narrative style.",
+          "writer’s craft",
+          "plot",
+          "colloquial",
+          "‘racism’",
+          "‘anti-racism’",
+          "Reading (comprehension, visualising characters, summarising key events)",
+          "Understanding a writer’s choices (language and form)",
+          "Oracy"
+        ],
+        "suggested_activities_summary": "Exploring the writer’s craft, key characters and plotting: What is racism? What is anti-racism? What is non-racist? Can you write a definition of each? Students read the opening of the story, summarise it and identify who the pronouns ‘you’ and ‘I’ might be referring to. Students consider the narrative style (first person) and what they find intriguing about how the story is told. Activity 1: Students explore key features of the writer’s craft w…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT1-W10-L10",
+      "half_term": "HT1",
+      "week": 10,
+      "lesson": 10,
+      "source_doc": "HT1.docx",
+      "source_anchor": "Lesson 10+11",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can write analytically about themes and writer’s intention (PEA)"
+        ],
+        "key_knowledge_components": [
+          "To know how to write analytically about themes and writer’s intentions."
+        ],
+        "key_vocab": [
+          "Plot",
+          "Analytical writing",
+          "Writer’s choices (language and form)",
+          "Oracy",
+          "Persuasive"
+        ],
+        "suggested_activities_summary": "Reader reactions: Recall questions linking to pre-read from last lesson Students complete the tension graph from the previous lesson with the final, shocking events from the story’s ending. Monitor to check students have read the story and pairings are suitable. Activity 1: Students consider the ending of the story and the key theme/intention of the writer. Is the story about racism, ‘anti-racist’ or about freedom? Activity 2: Students consider …"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT1-W10-L11",
+      "half_term": "HT1",
+      "week": 10,
+      "lesson": 11,
+      "source_doc": "HT1.docx",
+      "source_anchor": "Lesson 10+11",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can write analytically about themes and writer’s intention (PEA)"
+        ],
+        "key_knowledge_components": [
+          "To know how to write analytically about themes and writer’s intentions."
+        ],
+        "key_vocab": [
+          "Plot",
+          "Analytical writing",
+          "Writer’s choices (language and form)",
+          "Oracy",
+          "Persuasive"
+        ],
+        "suggested_activities_summary": "Reader reactions: Recall questions linking to pre-read from last lesson Students complete the tension graph from the previous lesson with the final, shocking events from the story’s ending. Monitor to check students have read the story and pairings are suitable. Activity 1: Students consider the ending of the story and the key theme/intention of the writer. Is the story about racism, ‘anti-racist’ or about freedom? Activity 2: Students consider …"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT1-W11-L12",
+      "half_term": "HT1",
+      "week": 11,
+      "lesson": 12,
+      "source_doc": "HT1.docx",
+      "source_anchor": "Lesson 12+13",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I employ the skills learnt this half term to confidently respond to a text."
+        ],
+        "key_knowledge_components": [
+          "SUMMATIVE ASSESSMENT",
+          "To know how to confidently articulate your own response to a text."
+        ],
+        "key_vocab": [
+          "Humanity",
+          "Second person",
+          "Direct address",
+          "Foreshadowing",
+          "Repetition",
+          "Similarities",
+          "Differences"
+        ],
+        "suggested_activities_summary": "Recall quiz: key events from the story ‘The Colour of Humanity’ ‘The Colour of Humanity’: Reading comprehension Time allowed: 1 hour (20 marks in total) Assessment: Q1. Reread the paragraph. List four things you learn about the park in this section. Q2. Read the extract. How has the writer used language to show the relationship between the two boys? You could include the writer’s choice of: Words and phrases/ Language features and techniques/ Se…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT1-W11-L13",
+      "half_term": "HT1",
+      "week": 11,
+      "lesson": 13,
+      "source_doc": "HT1.docx",
+      "source_anchor": "Lesson 12+13",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I employ the skills learnt this half term to confidently respond to a text."
+        ],
+        "key_knowledge_components": [
+          "SUMMATIVE ASSESSMENT",
+          "To know how to confidently articulate your own response to a text."
+        ],
+        "key_vocab": [
+          "Humanity",
+          "Second person",
+          "Direct address",
+          "Foreshadowing",
+          "Repetition",
+          "Similarities",
+          "Differences"
+        ],
+        "suggested_activities_summary": "Recall quiz: key events from the story ‘The Colour of Humanity’ ‘The Colour of Humanity’: Reading comprehension Time allowed: 1 hour (20 marks in total) Assessment: Q1. Reread the paragraph. List four things you learn about the park in this section. Q2. Read the extract. How has the writer used language to show the relationship between the two boys? You could include the writer’s choice of: Words and phrases/ Language features and techniques/ Se…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT1-W12-L14",
+      "half_term": "HT1",
+      "week": 12,
+      "lesson": 14,
+      "source_doc": "HT1.docx",
+      "source_anchor": "Lesson 14",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can use the marking criteria to identify what I did well and what I need to do to improve my response."
+        ],
+        "key_knowledge_components": [
+          "Reflection Lesson",
+          "To know how identify WWW in your summative assessment"
+        ],
+        "key_vocab": [
+          "Success criteria",
+          "Marking",
+          "Feedback"
+        ],
+        "suggested_activities_summary": "Quotation quiz: ‘The Colour of Humanity’ by Bali Rai/ writer’s craft recall task Allow students time to reflect on their responses and respond to marking feedback. Show them the marking criteria and highlight what they have done and what they ended to do to improve their response next time. ORACY: share some examples with the class. Students can identify which techniques have been used and comment on the writer’s technique. USe visualiser and an…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT2-W1-L1",
+      "half_term": "HT2",
+      "week": 1,
+      "lesson": 1,
+      "source_doc": "HT2.docx",
+      "source_anchor": "Week/ Lesson 1",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can identify the most important information and events in a non-fiction text",
+          "I can explain the difference between facts, opinions and opinions presented as facts",
+          "I can take part in class discussions and relate my opinions to others"
+        ],
+        "key_knowledge_components": [
+          "To know how to determine the most important information and events in a non-fiction text",
+          "To know the differences between facts, opinions and opinions presented as facts",
+          "To know how my own, others’ opinions and expert opinions differ"
+        ],
+        "key_vocab": [
+          "Non- fiction",
+          "Facts",
+          "Opinions",
+          "Expert",
+          "Presented",
+          "Reviews"
+        ],
+        "suggested_activities_summary": "Show range of images to decipher the topic of reviews What is a review? Students to feedback and generate ideas/ share prior learning ORACY: Discuss: types of reviews/ types of review readers/ what reviews provide Read an example review as a class (link to contemporary topic) Unpick the language features as a group. This could be completed as a carousel activity having pupils write ideas to the following questions on the table: What do you notic…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT2-W1-L2",
+      "half_term": "HT2",
+      "week": 1,
+      "lesson": 2,
+      "source_doc": "HT2.docx",
+      "source_anchor": "Week/ Lesson 2",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can identify and explain the DAFOREST techniques in a non-fiction text",
+          "I can identify colons in the text and explain why they are effective"
+        ],
+        "key_knowledge_components": [
+          "To know how ethos, pathos and logos  can be used to persuade the reader",
+          "To know how colons are used for emphasis and to introduce a list"
+        ],
+        "key_vocab": [
+          "Persuade",
+          "Direct address",
+          "Facts",
+          "Opinions",
+          "Repetition",
+          "Rhetorical",
+          "Emotive",
+          "Statistics",
+          "Three part list"
+        ],
+        "suggested_activities_summary": "Matching task to determine pupil understanding of DAFOREST. Provide an example grid for those with gaps in their learning. Students complete the technique table and complete the missing sections. E,.g technique/ definitions/ examples Re-read and make links to the last lesson review and identify any techniques in the text. Students are given individual paragraphs from the text (they can work in pairs) to identify specific techniques including col…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT2-W2-L3",
+      "half_term": "HT2",
+      "week": 2,
+      "lesson": 3,
+      "source_doc": "HT2.docx",
+      "source_anchor": "Week/ Lesson 3",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can identify the structure of a text",
+          "I can understand how quotations, statistical anecdotes, strong opinions and expert opinions engage the reader and can be used to open and close non-fiction texts",
+          "I can explain how anecdotes can influence the reader",
+          "I can input commas to demarcate clauses"
+        ],
+        "key_knowledge_components": [
+          "To know how cyclical structures can be used for review writing",
+          "To know how quotes, statistical anecdotes, strong opinions and expert opinions can be used to open and close non-fiction texts",
+          "To know how anecdotes can be used to influence the reader",
+          "To know how commas are used to demarcate clauses"
+        ],
+        "key_vocab": [
+          "Structure",
+          "Cyclical structure",
+          "Quotations",
+          "Statistical anecdotes",
+          "Influence",
+          "Commas",
+          "Clauses"
+        ],
+        "suggested_activities_summary": "Read review as a class (link to contemporary topic) Unpick the structure as a group, focussing on key sections: opening and closing paragraphs Ask students: What do they notice about the structure of the text? Have any techniques been used to influence the reader? What do you notice about the tone of the text?"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT2-W2-L4",
+      "half_term": "HT2",
+      "week": 2,
+      "lesson": 4,
+      "source_doc": "HT2.docx",
+      "source_anchor": "Week/ Lesson 4",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "To identify headings and sub-headings in a text",
+          "To recognise anaphora, hypophora and epistrophe and how it persuades the reader"
+        ],
+        "key_knowledge_components": [
+          "To know how headings and sub-headings are used to guide the reader",
+          "To know how anaphora, hypophora and epistrophe are used to influence the reader"
+        ],
+        "key_vocab": [
+          "Headings",
+          "Sub-headings",
+          "Emphasis",
+          "Anaphora",
+          "Hypophora",
+          "Epistrophe",
+          "Clauses"
+        ],
+        "suggested_activities_summary": "Explain that writers also use headings and subheadings to guide the reader. ORACY: Ask students why they do this? Prompt for answers such as: Headings and sub-headings represent the key concepts and supporting ideas in the text They visually convey levels of importance Differences in text format guide the readers to distinguish the main points from the rest Headings are generally bigger, if not more conspicuous, than sub-headings"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT2-W3-L5",
+      "half_term": "HT2",
+      "week": 3,
+      "lesson": 5,
+      "source_doc": "HT2.docx",
+      "source_anchor": "Week/ Lesson 5",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can effectively use note- taking skills to understand a non-fiction text",
+          "I can plan a detailed review"
+        ],
+        "key_knowledge_components": [
+          "To know how note-taking skills can be used to understand a non-fiction task",
+          "To know how to plan a review"
+        ],
+        "key_vocab": [
+          "Note-taking",
+          "Plan",
+          "Vocabulary"
+        ],
+        "suggested_activities_summary": "Explain to students that today they will be implementing the skill of note-taking to plan and prepare to write their own review Ask students why note-taking is essential in English. Prompt for answers such as: preparing for GCSE, structures your ideas, outlines your points Show students a range of adverts for mobile phones. Watch first then when they watch for a second time, model on the whiteboard note-taking. Students will generate ideas and c…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT2-W3-L6",
+      "half_term": "HT2",
+      "week": 3,
+      "lesson": 6,
+      "source_doc": "HT2.docx",
+      "source_anchor": "Week/ Lesson 6",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can confidently write a section of a review for a particular purpose",
+          "I can identify and use a full range of connectives (within and between paragraphs)",
+          "I can use topic sentences at the beginning of paragraphs",
+          "I can understand and implement  persuasive features in my writing",
+          "I can include appropriate vocabulary to meet the PAFT of my writing"
+        ],
+        "key_knowledge_components": [
+          "To know how to write a section of a review",
+          "To know the full range of connectives (within and between paragraphs)",
+          "To know how topic sentences are used at the beginning of paragraphs",
+          "To know how writers compose a persuasive paragraph",
+          "I know how to select vocabulary to meet the needs of the task and audience"
+        ],
+        "key_vocab": [
+          "Review",
+          "Connectives",
+          "Topic sentences",
+          "Structured paragraphs",
+          "Persuasion",
+          "Vocabulary"
+        ],
+        "suggested_activities_summary": "Recap the task:: Write a review for the new iphone 14 Pro Max Students will have 5 minutes to finalise their plan Give students a success criteria of what is expected in their write up of a review Remind students about the effective use of vocabulary, structure, headings, sub- headings, DAFOREST and other persuasive techniques studied this half term *Teacher can provide an example review and model on the visualiser to aid students and their abil…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT2-W4-L7",
+      "half_term": "HT2",
+      "week": 4,
+      "lesson": 7,
+      "source_doc": "HT2.docx",
+      "source_anchor": "Week/ Lesson 7",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can find evidence of the success criteria in my writing",
+          "I can analyse my effectiveness of persuasion and its effect on the reader"
+        ],
+        "key_knowledge_components": [
+          "To know how to recognise the success criteria in my writing",
+          "To know how to effectively use purple pen to consolidate my understanding of review writing"
+        ],
+        "key_vocab": [
+          "Consolidate",
+          "Review",
+          "Effectiveness",
+          "Effect on the reader"
+        ],
+        "suggested_activities_summary": "Students will read back their written review ORACY: share some examples with the class. Students can identify which techniques have been used and comment on their effect. If students do not want to read aloud - use the visualised and anonymise the name of the student’s work Purple pen own review using the success criteria from previous lesson Assessment Students to select one technique employed in their writing and create a PEA paragraph Model P…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT2-W4-L8",
+      "half_term": "HT2",
+      "week": 4,
+      "lesson": 8,
+      "source_doc": "HT2.docx",
+      "source_anchor": "Week/ Lesson 8",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can  take part in class discussions and relate my opinions to others",
+          "I can identify and explain the DAFOREST techniques in a non-fiction text",
+          "To recognise anaphora, hypophora and epistrophe and how it persuades the reader",
+          "I can find subordinate clauses (relative and adverbials) in a paragraph"
+        ],
+        "key_knowledge_components": [
+          "To know how my own, others’ opinions and expert opinions and expert  opinions differ",
+          "To know how DAFOREST techniques can be used to persuade the reader",
+          "To know how anaphora, hypophora and epistrophe are used to influence a reader",
+          "To know how subordinate clauses can be used (relative clauses/ adverbials)"
+        ],
+        "key_vocab": [
+          "Opinions",
+          "Expert opinions",
+          "Differ",
+          "DAFOREST",
+          "Anaphora",
+          "Hypophora",
+          "Epistrophe",
+          "Subordinate clauses",
+          "Adverbials"
+        ],
+        "suggested_activities_summary": "Show image of Martin Luther King (or a modern speech on racism). ask students who he is and why he is influential in society (and still is today) Watch/ listen to MLK’s speech and encourage students to make notes on vocabulary used ORACY: Summarise his speech/ identity repeated words used and their effect/ prompt students to recall anaphora, hypophora and epistrophe and how MLK  persuades the reader/ audience with these techniques Read an extrac…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT2-W5-L9",
+      "half_term": "HT2",
+      "week": 5,
+      "lesson": 9,
+      "source_doc": "HT2.docx",
+      "source_anchor": "Week/ Lesson 9",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can use the internet to research a current global issue",
+          "I can understand how ideas about a topic can be compared across more than one piece of resource",
+          "I can vary my vocabulary when discussing topical discussion"
+        ],
+        "key_knowledge_components": [
+          "To know how to research current global issues",
+          "To know how ideas about the same topic can be across texts",
+          "To know a repertoire of effective vocabulary"
+        ],
+        "key_vocab": [
+          "Current",
+          "Global",
+          "Issue",
+          "Comparison"
+        ],
+        "suggested_activities_summary": "Use a range of images which provoke current world issues ORACY: Discuss the images and their status in the world. Ask students their opinions on them. Explain to students the importance of them and how they are reported. Explain to students that we will be writing our own speech based on a current world issue Explain to students that the persuasive techniques learnt this half term will be used to write persuasively Pose the title:: Write a persu…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT2-W5-L10",
+      "half_term": "HT2",
+      "week": 5,
+      "lesson": 10,
+      "source_doc": "HT2.docx",
+      "source_anchor": "Week/ Lesson 10",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can plan a persuasive speech",
+          "I can effectively compose a persuasive speech",
+          "I can use connectives (within and between paragraphs)",
+          "I know how to use topic sentences in my writing",
+          "I can use commas effectively to demarcate clauses"
+        ],
+        "key_knowledge_components": [
+          "To know how to plan a speech",
+          "To know how to compose a persuasive speech",
+          "To know the full range of connectives (within and between paragraphs)",
+          "To know how topic sentences are used at the beginning of paragraphs",
+          "To know how commas are used to demarcate clauses"
+        ],
+        "key_vocab": [
+          "Effective planning",
+          "Vocabulary",
+          "Persuasion",
+          "DAFOREST"
+        ],
+        "suggested_activities_summary": "Explain to students that today they will be planning to write their own speech based on the topic: racism remind students the importance of planning and structure Show students a video clip of a well known celebrity speaking out about racism. Watch first then when they watch for a second time, model on the whiteboard note-taking. Students will generate ideas and create a bank of vocabulary to be used in their written task. ORACY: discuss languag…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT2-W6-L11",
+      "half_term": "HT2",
+      "week": 6,
+      "lesson": 11,
+      "source_doc": "HT2.docx",
+      "source_anchor": "Week/ Lesson 11 +12",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can write persuasively, using all my knowledge from this term to write about racism",
+          "I can analyse my effectiveness of persuasion and its effect on the reader"
+        ],
+        "key_knowledge_components": [
+          "To write a persuasive speech about a global issue",
+          "Reflection lesson: To know how to recognise the success criteria in my writing",
+          "To know how to effectively use purple pen to consolidate my understanding of speech writing"
+        ],
+        "key_vocab": [
+          "Speech",
+          "Connectives",
+          "Topic sentences",
+          "Structured paragraphs",
+          "Persuasion"
+        ],
+        "suggested_activities_summary": "Recap the task:: Write a persuasive speech about racism Students will have 5 minutes to finalise their plan Refer back to class success criteria of what is expected in their write up of a speech Remind students about the effective use of vocabulary, structure,, DAFOREST and other persuasive techniques studied this half term *Teacher can provide an example speech and model on the visualiser to aid students and their ability to write Word bank of …"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT2-W6-L12",
+      "half_term": "HT2",
+      "week": 6,
+      "lesson": 12,
+      "source_doc": "HT2.docx",
+      "source_anchor": "Week/ Lesson 11 +12",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can write persuasively, using all my knowledge from this term to write about racism",
+          "I can analyse my effectiveness of persuasion and its effect on the reader"
+        ],
+        "key_knowledge_components": [
+          "To write a persuasive speech about a global issue",
+          "Reflection lesson: To know how to recognise the success criteria in my writing",
+          "To know how to effectively use purple pen to consolidate my understanding of speech writing"
+        ],
+        "key_vocab": [
+          "Speech",
+          "Connectives",
+          "Topic sentences",
+          "Structured paragraphs",
+          "Persuasion"
+        ],
+        "suggested_activities_summary": "Recap the task:: Write a persuasive speech about racism Students will have 5 minutes to finalise their plan Refer back to class success criteria of what is expected in their write up of a speech Remind students about the effective use of vocabulary, structure,, DAFOREST and other persuasive techniques studied this half term *Teacher can provide an example speech and model on the visualiser to aid students and their ability to write Word bank of …"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT3-W1-L1",
+      "half_term": "HT3",
+      "week": 1,
+      "lesson": 1,
+      "source_doc": "HT3.docx",
+      "source_anchor": "Week/ Lesson 1",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can make inferences and deductions based on textual evidence",
+          "I can identify different layers of meaning",
+          "I can make connections between ideas and weighing up evidence"
+        ],
+        "key_knowledge_components": [
+          "To know different views of war.",
+          "To know the difference between perception and reality."
+        ],
+        "key_vocab": [
+          "Perception, reality, war, conflict"
+        ],
+        "suggested_activities_summary": "Make a glossary for this unit of work. Students can look up the words given and write down their definition. Create a Wordle associated with war ORACY: Categorise these words into positive/negative. The idea is to see the different views of war. F.A: What is ‘war’? How is war viewed by...? Why might some people view it is a positive and some negative?"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT3-W1-L2",
+      "half_term": "HT3",
+      "week": 1,
+      "lesson": 2,
+      "source_doc": "HT3.docx",
+      "source_anchor": "Week/ Lesson 2",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can comment on some of the presentational and language devices used in texts",
+          "I can show some appreciation of how these contribute to the writer’s overall effect."
+        ],
+        "key_knowledge_components": [
+          "To know and explain the effects of persuasive devices in propaganda texts."
+        ],
+        "key_vocab": [
+          "Propaganda"
+        ],
+        "suggested_activities_summary": "ORACY: Introducing the term ‘propaganda.’ Ask students if they know what it means. Image task: How would you feel if you were expecting this…but you got this…? How could this term be applied to the idea of war? Definition of propaganda explored ORACY: Foster open discussions where students can express their opinions about propaganda, share examples they encounter, and debate the ethical considerations involved. Show propaganda texts/ images and …"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT3-W2-L3",
+      "half_term": "HT3",
+      "week": 2,
+      "lesson": 3,
+      "source_doc": "HT3.docx",
+      "source_anchor": "Week/ Lesson 3",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can understand the conditions in the trenches",
+          "I can develop skills of empathy"
+        ],
+        "key_knowledge_components": [
+          "To know the realities of WW1",
+          "To know how to utilise skills of empathy and compassion."
+        ],
+        "key_vocab": [
+          "Empathy, compassion, perspectives"
+        ],
+        "suggested_activities_summary": "ORACY: What's a picture task? What can you see in the images? How would you describe the conditions you can see in the images? What do these images suggest about the reality of what fighting in WW1 was like? Watch clip – realities of war Make detailed notes F.A - round robin to check understanding of conditions in the trenches and the soldier’s reactions to these conditions. Asking questions like ‘I noticed you used the word ... why did you choo…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT3-W2-L4",
+      "half_term": "HT3",
+      "week": 2,
+      "lesson": 4,
+      "source_doc": "HT3.docx",
+      "source_anchor": "Week/ Lesson 4",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can understand the ideas presented in the poem",
+          "I can deconstruct the ideas of the poem",
+          "I can consider the effect of the poem on the wider audience during WW1",
+          "I can refer to the context of the poem."
+        ],
+        "key_knowledge_components": [
+          "To know the background information of Jessie Pope",
+          "To know the ideas presented in the poem, Who’s for the Game?",
+          "To know how to infer and deduce."
+        ],
+        "key_vocab": [
+          "Connotations, conflict, perspectives"
+        ],
+        "suggested_activities_summary": "ORACY: Show a range of images – develop inferences. What do these images show? What images can you link together? What do you think the meaning behind the image is? How do they all link together? What’s in a word? What does the word ‘Game’ mean to you? Explore the connotations. How can this word be linked to war and conflict? Definition of the word. Read the information sheet about Jessie Pope F.A: Make a judgement: -Why did front line soldiers …"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT3-W3-L5",
+      "half_term": "HT3",
+      "week": 3,
+      "lesson": 5,
+      "source_doc": "HT3.docx",
+      "source_anchor": "Week/ Lesson 5",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can understand the ideas presented in the poem.",
+          "I can deconstruct the ideas of the poem using subject terminology",
+          "I can consider the effect of the poem"
+        ],
+        "key_knowledge_components": [
+          "To know the poetic devices used in the poem.",
+          "To know how Jessie Pope presents ideas about war."
+        ],
+        "key_vocab": [
+          "Vocabulary, imagery, structure, intention, tone"
+        ],
+        "suggested_activities_summary": "Poetic devices task - Which ones do you already know? Which ones does your partner/table know? Which do you need to look up in a dictionary? F.A: Poetic devices bingo ORACY: Explore the first stanza as a class. Model how to track through a poem and understand it line by line.. and analyse the first stanza, using their knowledge of poetic devices. -What technique has been used in this line? -How is it persuasive?"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT3-W3-L6",
+      "half_term": "HT3",
+      "week": 3,
+      "lesson": 6,
+      "source_doc": "HT3.docx",
+      "source_anchor": "Week/ Lesson 6",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can understand the ideas presented in the poem.",
+          "I can deconstruct the ideas of the poem using subject terminology",
+          "I can consider the effect of the poem"
+        ],
+        "key_knowledge_components": [
+          "To know the language choices made by Jessie Pope so that we can further analyse how Jessie Pope presents ideas about war,"
+        ],
+        "key_vocab": [
+          "Idioms, viewpoints, vocabulary, imagery, structure, intention, tone, pro, anti"
+        ],
+        "suggested_activities_summary": "Last lesson we explored the first 2 stanzas of Who’s for the Game? In today’s lesson you are going to have a go at exploring the other stanzas F.A: Multiple choice – which is the correct example of: metaphor, RQs, commands, verbs. ORACY: Carousel activity: Vocabulary, Imagery, Structure, Intention, Tone (prompts needed at each station with links made to the terminology used in previous lesson) Summary of each stanza worksheet Assessment:"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT3-W4-L7",
+      "half_term": "HT3",
+      "week": 4,
+      "lesson": 7,
+      "source_doc": "HT3.docx",
+      "source_anchor": "Week/ Lesson 7",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can identify ideas presented in the poem.",
+          "I can deconstruct the ideas of the poem using subject terminology",
+          "I can consider the effect of the poem"
+        ],
+        "key_knowledge_components": [
+          "To know the ideas presented in our second poem, Dulce et Decorum est",
+          "To know how Wilfred Owen presents ideas about war."
+        ],
+        "key_vocab": [
+          "Personification, metaphor, connotations",
+          "Students write their own example"
+        ],
+        "suggested_activities_summary": "ORACY:Explore the title: What are the connotations of the terms ‘sweet’ and ‘right’? What do you think the poem will be about based on the title? What do you think the poet’s opinions and viewpoints of war were? Read the fact sheet about Wilfred Owen. How does he differ to Pope? F.A: What do you know about Owen? How did people feel about his work? Why is Owen’s poems more likely to be supported by soldiers that Pope’s poems? Watch the context cl…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT3-W4-L8",
+      "half_term": "HT3",
+      "week": 4,
+      "lesson": 8,
+      "source_doc": "HT3.docx",
+      "source_anchor": "Week/ Lesson 8",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can understand the ideas presented in the poem.",
+          "I can deconstruct the ideas of the poem using subject terminology",
+          "I can consider the effect of the poem"
+        ],
+        "key_knowledge_components": [
+          "To know Owen’s use of language in the poem so that we can begin to analyse how Wilfred Owen presents ideas about war."
+        ],
+        "key_vocab": [
+          "Experiences, perception, compare, depicted, empathy, patriotism"
+        ],
+        "suggested_activities_summary": "F.A: ORACY: Show image: what is depicted in this image? How might it have felt (empathy) to be one of the soldiers in this image? How does viewing this image make you feel? What does this image suggest about how war affected the young men who enlisted? Why are these images different to the ones we looked at for Who’s For the Game? Watch the animation of the poem Read through the poem independently F.A: What does the poem show us about war? How d…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT3-W5-L9",
+      "half_term": "HT3",
+      "week": 5,
+      "lesson": 9,
+      "source_doc": "HT3.docx",
+      "source_anchor": "Week/ Lesson 9",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can understand the ideas presented in the poem.",
+          "I can deconstruct the ideas of the poem using subject terminology",
+          "I can consider the effect of the poem"
+        ],
+        "key_knowledge_components": [
+          "To know the meaning behind Owen’s poem and its purpose",
+          "To know how Wilfred Owen presents ideas about war."
+        ],
+        "key_vocab": [
+          "Poetic devices, VISIT"
+        ],
+        "suggested_activities_summary": "Examine the following quotations: “like old beggars under sacks”, “coughing like hags”, “limped on, blood shod”, “drunk with fatigue” F.A: ORACY: What are each of the descriptions with regards to the soldiers? ORACY: How does each of the quotes present the soldiers to the reader? ORACY: What do the quotes show us about the effect of war on human life? Last lesson we explored the first stanza of Dulce et Decorum est"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT3-W5-L10",
+      "half_term": "HT3",
+      "week": 5,
+      "lesson": 10,
+      "source_doc": "HT3.docx",
+      "source_anchor": "Week/ Lesson 10",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can develop initial points based on evidence",
+          "I can use supporting ideas from the poems studied",
+          "I can use specific vocabulary to make the reader feel a certain way"
+        ],
+        "key_knowledge_components": [
+          "To know how to write descriptively using an image as a stimulus",
+          "To know how to develop a piece of creative writing which challenges our expected grade"
+        ],
+        "key_vocab": [
+          "Examine, adjectives, complex sentences, sensory language,"
+        ],
+        "suggested_activities_summary": "ORACY: Examine an image and respond to the questions: what do you think is happening in the image? How does the image make you feel? Write a descriptive sentence with sophisticated adjectives. Can you use a complex sentence? Watch a short clip from the opening of the film depicted below: Saving Private Ryan. A group of American soldiers are preparing to land on Omaha Beach as part of the Normandy Landings, during World War 2. ORACY: As we are wa…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT3-W6-L11",
+      "half_term": "HT3",
+      "week": 6,
+      "lesson": 11,
+      "source_doc": "HT3.docx",
+      "source_anchor": "Week/ Lesson 11 +12",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can develop initial points based on evidence",
+          "I can support my points using evidence from both poems studied",
+          "I can explicit meaning of words and their effect in the reader"
+        ],
+        "key_knowledge_components": [
+          "To know the similarities and differences between two poems",
+          "To know how to develop analytical statements and challenge our expected grade"
+        ],
+        "key_vocab": [
+          "Compare, analytical statements, structure, attitudes"
+        ],
+        "suggested_activities_summary": "Re-familiarise yourself with both poems: Who’s for the Game and Dulce et Decorum Est. F.A: Write a summary of both poems in your own words. Can you utilise the terms: propaganda, patriotism, pro or anti in your summaries? ORACY: What are the similarities between ‘Who’s for the Game?’ and ‘Suicide in the Trenches? ORACY: What are the differences between the two poems? Can you support your ideas with quotations from the poems? Complete the Venn Di…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT3-W6-L12",
+      "half_term": "HT3",
+      "week": 6,
+      "lesson": 12,
+      "source_doc": "HT3.docx",
+      "source_anchor": "Week/ Lesson 11 +12",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can develop initial points based on evidence",
+          "I can support my points using evidence from both poems studied",
+          "I can explicit meaning of words and their effect in the reader"
+        ],
+        "key_knowledge_components": [
+          "To know the similarities and differences between two poems",
+          "To know how to develop analytical statements and challenge our expected grade"
+        ],
+        "key_vocab": [
+          "Compare, analytical statements, structure, attitudes"
+        ],
+        "suggested_activities_summary": "Re-familiarise yourself with both poems: Who’s for the Game and Dulce et Decorum Est. F.A: Write a summary of both poems in your own words. Can you utilise the terms: propaganda, patriotism, pro or anti in your summaries? ORACY: What are the similarities between ‘Who’s for the Game?’ and ‘Suicide in the Trenches? ORACY: What are the differences between the two poems? Can you support your ideas with quotations from the poems? Complete the Venn Di…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT4-W1-L1",
+      "half_term": "HT4",
+      "week": 1,
+      "lesson": 1,
+      "source_doc": "HT4.docx",
+      "source_anchor": "Lesson 1",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can identify the most important information in a report",
+          "I can understand the importance of balance."
+        ],
+        "key_knowledge_components": [
+          "To know how to determine the most important information and events in a report.",
+          "To know the importance of balance in a report."
+        ],
+        "key_vocab": [
+          "Report",
+          "VIctorian-era",
+          "Balance",
+          "PAFT",
+          "Statistic"
+        ],
+        "suggested_activities_summary": "Show range of images to decipher the topic of reports What is a report? Students to feedback and generate ideas/ share prior learning ORACY: Discuss: types of reports/ what reports provide Read an example report as a class (link to Victorian-era schooling) Unpick the language features as a group. This could be completed as a carousel activity having pupils write ideas to the following questions on the table: What do you notice about the layout o…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT4-W2-L2",
+      "half_term": "HT4",
+      "week": 2,
+      "lesson": 2,
+      "source_doc": "HT4.docx",
+      "source_anchor": "Lesson 2",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can research the Victorian-era",
+          "I can successfully note take to aid understanding of a non-fiction text"
+        ],
+        "key_knowledge_components": [
+          "To know how to research the Victorian-era",
+          "To know how note-taking skills can be used to understand a non-fiction text"
+        ],
+        "key_vocab": [
+          "Report",
+          "Impersonal",
+          "Victorian-era",
+          "Discipline",
+          "Rote learning",
+          "Corporal punishment",
+          "Note-taking",
+          "Research"
+        ],
+        "suggested_activities_summary": "Discuss the main features of Victorian-era schooling, including discipline, rote learning, and the use of corporal punishment. Students will look at a range of sources about Victorian-era schooling such as diary entries, letters and newspapers Students work in groups to discuss the directed questions and share their ideas with the rest of the class. Handouts with discussion questions to aid note taking and understanding Assessment: ORACY: Lead a…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT4-W3-L3",
+      "half_term": "HT4",
+      "week": 3,
+      "lesson": 3,
+      "source_doc": "HT4.docx",
+      "source_anchor": "Lesson 3",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can identify connectives",
+          "I can locate topic sentences",
+          "I can explain how facts and evidence are used in report writing"
+        ],
+        "key_knowledge_components": [
+          "To know the full range of connectives (within and between paragraphs)",
+          "To know how topic sentences are used at the beginning of paragraphs",
+          "To know how to use facts and evidence to support claims"
+        ],
+        "key_vocab": [
+          "Connectives",
+          "Topic sentences",
+          "Paragraphs",
+          "Facts",
+          "Evidence",
+          "Effect",
+          "Inform",
+          "Success criteria"
+        ],
+        "suggested_activities_summary": "Matching task to determine pupil understanding of connectives, topic sentences, paragraphs to the appropriate definitions. Re-read and make links to the last lesson report and identify any techniques in the text. Students are given individual paragraphs from the text (they can work in pairs) to identify specific techniques, facts and evidence. Pose the question: How does the writer inform the reader? Handout paragraphs from a report, cut up into…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT4-W4-L4",
+      "half_term": "HT4",
+      "week": 4,
+      "lesson": 4,
+      "source_doc": "HT4.docx",
+      "source_anchor": "Lesson 4",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can identify the layout of a report",
+          "I can comment on the use of direct and reported speech",
+          "I can employ interview skills and questioning about a specific topic"
+        ],
+        "key_knowledge_components": [
+          "To know how headings and subheadings are used to guide the reader",
+          "To know how to use direct and reported speech",
+          "To know how to identify the main features of an interview"
+        ],
+        "key_vocab": [
+          "Modern",
+          "Paragraphs",
+          "Structure",
+          "Direct and reported speech",
+          "Interview",
+          "Techniques",
+          "Behaviour systems"
+        ],
+        "suggested_activities_summary": "Read a second report (as a class (link to modern day schooling) Unpick the structure as a group, focussing on key sections: opening and closing paragraphs Ask students: What do they notice about the structure of the text? Have any techniques been used to inform the reader? What do you notice about the tone of the text? How does the report structure its ideas? This can be done as a carousel activity with focused questions at each station Once the…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT4-W5-L5",
+      "half_term": "HT4",
+      "week": 5,
+      "lesson": 5,
+      "source_doc": "HT4.docx",
+      "source_anchor": "Lesson 5",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can recall the elements of report writing",
+          "I can explain how writers compose informative paragraphs",
+          "I can use appropriate verb tenses"
+        ],
+        "key_knowledge_components": [
+          "To know the different elements and layout of a report writing",
+          "To know how writers compose informative paragraphs",
+          "To know appropriate verb tenses"
+        ],
+        "key_vocab": [
+          "Elements",
+          "Informative",
+          "Paragraphs",
+          "Verb tenses",
+          "Layout",
+          "Report",
+          "Introduction",
+          "Body",
+          "Conclusion",
+          "Formatting",
+          "Organise"
+        ],
+        "suggested_activities_summary": "Begin by asking students what they know about the layout of reports and why they are important. Write down their responses on the whiteboard. Introduce the different elements and layout of a report, including the title page, table of contents, introduction, body, conclusion, and references Use a sample report to show students the different elements and layout. Discuss the importance of using proper formatting, such as font size, spacing, and mar…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT4-W5-L10",
+      "half_term": "HT4",
+      "week": 5,
+      "lesson": 10,
+      "source_doc": "HT4.docx",
+      "source_anchor": "Week/ Lesson 10/11",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can write a report according to the PAFT",
+          "I can use punctuation effectively",
+          "I can write with appropriate verb tenses"
+        ],
+        "key_knowledge_components": [
+          "To write a report",
+          "To know how punctuation gives clarity to make the text easy to read",
+          "To know appropriate verb tenses"
+        ],
+        "key_vocab": [
+          "Write",
+          "Report",
+          "Punctuation",
+          "Connectives",
+          "Paragraphs",
+          "Verb tense",
+          "Behaviour",
+          "Success criteria",
+          "Vocabulary",
+          "Structure",
+          "Report features"
+        ],
+        "suggested_activities_summary": "Recap the written task: Write a report about the behaviour systems in your school Students will have 5 minutes to finalise their plan Refer back to class success criteria/ checklist of what is expected in their write up of a report Remind students about the effective use of vocabulary, structure, language and other report writing techniques studied this half term *Teacher can provide an example report and model on the visualiser to aid students …"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT4-W5-L11",
+      "half_term": "HT4",
+      "week": 5,
+      "lesson": 11,
+      "source_doc": "HT4.docx",
+      "source_anchor": "Week/ Lesson 10/11",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can write a report according to the PAFT",
+          "I can use punctuation effectively",
+          "I can write with appropriate verb tenses"
+        ],
+        "key_knowledge_components": [
+          "To write a report",
+          "To know how punctuation gives clarity to make the text easy to read",
+          "To know appropriate verb tenses"
+        ],
+        "key_vocab": [
+          "Write",
+          "Report",
+          "Punctuation",
+          "Connectives",
+          "Paragraphs",
+          "Verb tense",
+          "Behaviour",
+          "Success criteria",
+          "Vocabulary",
+          "Structure",
+          "Report features"
+        ],
+        "suggested_activities_summary": "Recap the written task: Write a report about the behaviour systems in your school Students will have 5 minutes to finalise their plan Refer back to class success criteria/ checklist of what is expected in their write up of a report Remind students about the effective use of vocabulary, structure, language and other report writing techniques studied this half term *Teacher can provide an example report and model on the visualiser to aid students …"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT4-W6-L6",
+      "half_term": "HT4",
+      "week": 6,
+      "lesson": 6,
+      "source_doc": "HT4.docx",
+      "source_anchor": "Lesson 6",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can compare the differences between two eras",
+          "I can explain why writers use clear and concise language"
+        ],
+        "key_knowledge_components": [
+          "To know the differences between two eras",
+          "To know how to use clear and concise language"
+        ],
+        "key_vocab": [
+          "Compare",
+          "Concise",
+          "Clear",
+          "Features of reports",
+          "Note-taking",
+          "Education",
+          "Teaching",
+          "Discipline",
+          "Similarities",
+          "Differences"
+        ],
+        "suggested_activities_summary": "Explain to students that today they will be implementing the skill of note-taking to plan and prepare to write their own report Ask students why note-taking is essential in English. Prompt for answers such as: preparing for GCSE, structures your ideas, outlines your points Watch the video comparing and contrasting the similarities and differences between Victorian-era schooling and modern-day schooling. Encourage students to note-take during thi…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT4-W6-L12",
+      "half_term": "HT4",
+      "week": 6,
+      "lesson": 12,
+      "source_doc": "HT4.docx",
+      "source_anchor": "Week/ Lesson 12",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can reflect on my own writing"
+        ],
+        "key_knowledge_components": [
+          "Reflection lesson: To know how to recognise the success criteria in my writing",
+          "To know how to effectively use purple pen to consolidate my understanding of report writing"
+        ],
+        "key_vocab": [
+          "Consolidate",
+          "Reflect",
+          "Effectiveness",
+          "Success criteria"
+        ],
+        "suggested_activities_summary": "Students will read back their written report ORACY: share some examples with the class. Students can identify which techniques have been used and comment on their effect. If students do not want to read aloud - use the visualised and anonymise the name of the student’s work Purple pen own review using the success criteria from previous lesson Assessment Students to select one technique employed in their writing and create a PEA paragraph Model P…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT4-W7-L7",
+      "half_term": "HT4",
+      "week": 7,
+      "lesson": 7,
+      "source_doc": "HT4.docx",
+      "source_anchor": "Lesson 7/8",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can research effectively",
+          "I can select appropriate vocabulary (PAFT)"
+        ],
+        "key_knowledge_components": [
+          "To know how to research effectively",
+          "To know how to select vocabulary to meet the needs of the task and audience"
+        ],
+        "key_vocab": [
+          "Research",
+          "Vocabulary",
+          "PAFT",
+          "Report",
+          "Evidence",
+          "Behaviour systems"
+        ],
+        "suggested_activities_summary": "Explain to students that they will be planning and writing their own report Explain to students that the techniques learnt this half term will be used to write informatively Pose the title: Write a report about the behaviour systems in your school. Teacher/ class to brainstorm thoughts of the CCA behaviour system on the WB and prompt ideas and understanding Remind students to look at subheadings used in the previous lesson to begin to structure …"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT4-W7-L8",
+      "half_term": "HT4",
+      "week": 7,
+      "lesson": 8,
+      "source_doc": "HT4.docx",
+      "source_anchor": "Lesson 7/8",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can research effectively",
+          "I can select appropriate vocabulary (PAFT)"
+        ],
+        "key_knowledge_components": [
+          "To know how to research effectively",
+          "To know how to select vocabulary to meet the needs of the task and audience"
+        ],
+        "key_vocab": [
+          "Research",
+          "Vocabulary",
+          "PAFT",
+          "Report",
+          "Evidence",
+          "Behaviour systems"
+        ],
+        "suggested_activities_summary": "Explain to students that they will be planning and writing their own report Explain to students that the techniques learnt this half term will be used to write informatively Pose the title: Write a report about the behaviour systems in your school. Teacher/ class to brainstorm thoughts of the CCA behaviour system on the WB and prompt ideas and understanding Remind students to look at subheadings used in the previous lesson to begin to structure …"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT4-W7-L13",
+      "half_term": "HT4",
+      "week": 7,
+      "lesson": 13,
+      "source_doc": "HT4.docx",
+      "source_anchor": "Week/ Lesson 13",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can take part in a class debate and present an argument clearly."
+        ],
+        "key_knowledge_components": [
+          "To know how to summarise the main arguments in a debate"
+        ],
+        "key_vocab": [
+          "Speaking and listening",
+          "Debate",
+          "Argue",
+          "Discuss",
+          "Policy",
+          "Advantages and disadvantages",
+          "Evidence",
+          "Statistics"
+        ],
+        "suggested_activities_summary": "S+L debate Begin by discussing the importance of behaviour policies in schools and their impact on student behaviour and academic achievement. Introduce the different behaviour policies and explain their basic principles and goals. Use CCA behaviour policy to demonstrate how it works and its impact on students. Discuss the advantages and disadvantages of the policy, and how it affects student behaviour and academic performance. Divide the class …"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT4-W8-L9",
+      "half_term": "HT4",
+      "week": 8,
+      "lesson": 9,
+      "source_doc": "HT4.docx",
+      "source_anchor": "Lesson 9",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can plan a report",
+          "I can use the correct tone",
+          "I can include an active voice to make my writing clear"
+        ],
+        "key_knowledge_components": [
+          "To know how to plan a report",
+          "To know how tone can be used to inform the reader",
+          "To know how an active voice can make the content more engaging/ informative.",
+          "To know how to select vocabulary to meet the needs of the task and audience"
+        ],
+        "key_vocab": [
+          "Planning",
+          "Impersonal",
+          "Active voice",
+          "Concise",
+          "Direct",
+          "Structure",
+          "Organise",
+          "Language choices"
+        ],
+        "suggested_activities_summary": "Explain to students that today they will be planning to write their own report based on their research Remind students the importance of planning and structure Show students a video clip of features of report writing Create a report checklist as a class (after watching the clip) Students will generate ideas and create a bank of vocabulary (using the displays in the classroom) to be used in their written task. ORACY: discuss report features and i…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT5-W1-L1",
+      "half_term": "HT5",
+      "week": 1,
+      "lesson": 1,
+      "source_doc": "HT5.docx",
+      "source_anchor": "Lesson 1",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can examine how writers reveal character traits through description",
+          "I can explore how setting contributes to the mood of the novel"
+        ],
+        "key_knowledge_components": [
+          "To know how writers use description for characters and setting in a novel."
+        ],
+        "key_vocab": [
+          "description",
+          "character",
+          "setting",
+          "traits",
+          "mood"
+        ],
+        "suggested_activities_summary": "Begin by briefly introducing the novel \"Of Mice and Men\" by John Steinbeck and its central characters, George and Lennie. Explain that today, students will be playing a game called \"Description Pong\" to analyse and compare the descriptions of George and Lennie. Divide the class into two teams, Team George and Team Lennie. Play Question Pong with the following  statements: George: George is a small, tough individual who takes care of his friend."
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT5-W2-L2",
+      "half_term": "HT5",
+      "week": 2,
+      "lesson": 2,
+      "source_doc": "HT5.docx",
+      "source_anchor": "Lesson 2+3",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can explore a range of vocabulary related to sight, sound, and smell.",
+          "I can understand how sensory descriptions contribute to the overall atmosphere and mood in a text."
+        ],
+        "key_knowledge_components": [
+          "To know how vocabulary can be used to describe sight, sound and smell"
+        ],
+        "key_vocab": [
+          "vocabulary",
+          "senses",
+          "describe"
+        ],
+        "suggested_activities_summary": "Display a list of sensory-related words on the board. Divide them into categories: sight, sound, and smell. ORACY: Discuss each category with the class, providing examples and encouraging students to brainstorm additional words. Model how sensory words can be used to enhance descriptive writing by creating sentences using the words provided. Distribute copies of the novel. ORACY: Discuss the front cover and blurb, making predictions about the st…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT5-W2-L3",
+      "half_term": "HT5",
+      "week": 2,
+      "lesson": 3,
+      "source_doc": "HT5.docx",
+      "source_anchor": "Lesson 2+3",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can explore a range of vocabulary related to sight, sound, and smell.",
+          "I can understand how sensory descriptions contribute to the overall atmosphere and mood in a text."
+        ],
+        "key_knowledge_components": [
+          "To know how vocabulary can be used to describe sight, sound and smell"
+        ],
+        "key_vocab": [
+          "vocabulary",
+          "senses",
+          "describe"
+        ],
+        "suggested_activities_summary": "Display a list of sensory-related words on the board. Divide them into categories: sight, sound, and smell. ORACY: Discuss each category with the class, providing examples and encouraging students to brainstorm additional words. Model how sensory words can be used to enhance descriptive writing by creating sentences using the words provided. Distribute copies of the novel. ORACY: Discuss the front cover and blurb, making predictions about the st…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT5-W3-L4",
+      "half_term": "HT5",
+      "week": 3,
+      "lesson": 4,
+      "source_doc": "HT5.docx",
+      "source_anchor": "Lesson 4+5",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can understand how physical appearance, behaviour, dialogue, and interactions contribute to character development."
+        ],
+        "key_knowledge_components": [
+          "To know how the writer uses description to create impressions of George and Lennie."
+        ],
+        "key_vocab": [
+          "impression",
+          "appearance",
+          "behaviour",
+          "dialogue",
+          "interactions",
+          "relationships"
+        ],
+        "suggested_activities_summary": "Begin the lesson by asking students to recall the main characters, George and Lennie, from the novel \"Of Mice and Men.\" ORACY: Discuss the importance of character development in literature and how authors use various techniques, such as description, to bring characters to life. Divide the class into small groups. Provide each group with excerpts from the novel that describe George and Lennie. Instruct students to closely read the excerpts and id…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT5-W3-L5",
+      "half_term": "HT5",
+      "week": 3,
+      "lesson": 5,
+      "source_doc": "HT5.docx",
+      "source_anchor": "Lesson 4+5",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can understand how physical appearance, behaviour, dialogue, and interactions contribute to character development."
+        ],
+        "key_knowledge_components": [
+          "To know how the writer uses description to create impressions of George and Lennie."
+        ],
+        "key_vocab": [
+          "impression",
+          "appearance",
+          "behaviour",
+          "dialogue",
+          "interactions",
+          "relationships"
+        ],
+        "suggested_activities_summary": "Begin the lesson by asking students to recall the main characters, George and Lennie, from the novel \"Of Mice and Men.\" ORACY: Discuss the importance of character development in literature and how authors use various techniques, such as description, to bring characters to life. Divide the class into small groups. Provide each group with excerpts from the novel that describe George and Lennie. Instruct students to closely read the excerpts and id…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT5-W4-L6",
+      "half_term": "HT5",
+      "week": 4,
+      "lesson": 6,
+      "source_doc": "HT5.docx",
+      "source_anchor": "Lesson 6",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can understand social conditions and inequalities prevalent during the Great Depression, including issues of class, race, and gender."
+        ],
+        "key_knowledge_components": [
+          "To know the historical, social, and cultural context of John Steinbeck's novel \"Of Mice and Men\"."
+        ],
+        "key_vocab": [
+          "context",
+          "social",
+          "historical",
+          "migrant workers",
+          "rural",
+          "American Dream"
+        ],
+        "suggested_activities_summary": "Activity 1: Historical Context Timeline): Divide the class into small groups and provide each group with a set of events or developments related to the Great Depression. Instruct students to create a timeline of significant events, highlighting their impact on society, economy, and individuals' lives. ORACY: Encourage groups to discuss the connections between these events and the themes explored in \"Of Mice and Men.\" Activity 2: Perspectives Thr…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT5-W5-L7",
+      "half_term": "HT5",
+      "week": 5,
+      "lesson": 7,
+      "source_doc": "HT5.docx",
+      "source_anchor": "Lesson 7+8",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can define prepositional phrases",
+          "I can identify prepositional phrases in a text (in, on, under, between)",
+          "I can discuss the importance of clear and cohesive paragraph structure in effective writing."
+        ],
+        "key_knowledge_components": [
+          "To know how prepositional phrases are used to open paragraphs."
+        ],
+        "key_vocab": [
+          "prepositional phrase",
+          "paragraphs",
+          "cohesive",
+          "structure",
+          "effective"
+        ],
+        "suggested_activities_summary": "Begin by asking students if they are familiar with the term \"prepositional phrase.\" Explain that a prepositional phrase consists of a preposition, its object, and any modifiers. Provide examples such as \"in the house,\" \"on the table,\" or \"under the bridge.\" Discuss how prepositional phrases can be used to provide details about location, time, direction, or relationship between objects in a sentence. Read the description of the bunkhouse on pages…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT5-W5-L8",
+      "half_term": "HT5",
+      "week": 5,
+      "lesson": 8,
+      "source_doc": "HT5.docx",
+      "source_anchor": "Lesson 7+8",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can define prepositional phrases",
+          "I can identify prepositional phrases in a text (in, on, under, between)",
+          "I can discuss the importance of clear and cohesive paragraph structure in effective writing."
+        ],
+        "key_knowledge_components": [
+          "To know how prepositional phrases are used to open paragraphs."
+        ],
+        "key_vocab": [
+          "prepositional phrase",
+          "paragraphs",
+          "cohesive",
+          "structure",
+          "effective"
+        ],
+        "suggested_activities_summary": "Begin by asking students if they are familiar with the term \"prepositional phrase.\" Explain that a prepositional phrase consists of a preposition, its object, and any modifiers. Provide examples such as \"in the house,\" \"on the table,\" or \"under the bridge.\" Discuss how prepositional phrases can be used to provide details about location, time, direction, or relationship between objects in a sentence. Read the description of the bunkhouse on pages…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT5-W6-L9",
+      "half_term": "HT5",
+      "week": 6,
+      "lesson": 9,
+      "source_doc": "HT5.docx",
+      "source_anchor": "Lesson 9",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can define social ranking of individuals (wealth, occupation, race, and gender).",
+          "I can discuss the implications of social ranking on individuals."
+        ],
+        "key_knowledge_components": [
+          "To know and understand the theme of social ranking and explore how characters' social statuses impact their lives and relationships within the narrative."
+        ],
+        "key_vocab": [
+          "theme",
+          "hierarchy",
+          "status",
+          "inequality",
+          "marginalisation"
+        ],
+        "suggested_activities_summary": "ORACY: Begin the lesson by discussing the concept of social hierarchy, defining it as the ranking of individuals. Show students staff members at school. Explain how understanding social hierarchy is crucial for interpreting the characters and themes in \"Of Mice and Men.\" Read the assigned pages (39-62) of \"Of Mice and Men\" independently or in small groups. Instruct students to identify instances where social hierarchy is evident, paying attentio…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT5-W6-L12",
+      "half_term": "HT5",
+      "week": 6,
+      "lesson": 12,
+      "source_doc": "HT5.docx",
+      "source_anchor": "Week/ Lesson 12+13",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can employ prepositional phrases, zoom in/out and sensory details in my description."
+        ],
+        "key_knowledge_components": [
+          "To know how to write a description based on the pivotal moment when Candy's dog is shot, employing sensory details and emotive language."
+        ],
+        "key_vocab": [
+          "sensory",
+          "emotive",
+          "symbolism: friendship/ loyalty/ isolation",
+          "narrative voice"
+        ],
+        "suggested_activities_summary": "Begin by displaying the images related to the scene of Candy's dog being shot. Ask students to make predictions about what they think will happen in the scene based on the images. ORACY: Facilitate a brief discussion on the emotions and atmosphere conveyed by the images and how they might relate to the story. Show students the video clip of the scene from a film adaptation of \"Of Mice and Men\" where Candy's dog is shot. Encourage students to pay…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT5-W6-L13",
+      "half_term": "HT5",
+      "week": 6,
+      "lesson": 13,
+      "source_doc": "HT5.docx",
+      "source_anchor": "Week/ Lesson 12+13",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can employ prepositional phrases, zoom in/out and sensory details in my description."
+        ],
+        "key_knowledge_components": [
+          "To know how to write a description based on the pivotal moment when Candy's dog is shot, employing sensory details and emotive language."
+        ],
+        "key_vocab": [
+          "sensory",
+          "emotive",
+          "symbolism: friendship/ loyalty/ isolation",
+          "narrative voice"
+        ],
+        "suggested_activities_summary": "Begin by displaying the images related to the scene of Candy's dog being shot. Ask students to make predictions about what they think will happen in the scene based on the images. ORACY: Facilitate a brief discussion on the emotions and atmosphere conveyed by the images and how they might relate to the story. Show students the video clip of the scene from a film adaptation of \"Of Mice and Men\" where Candy's dog is shot. Encourage students to pay…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT5-W7-L10",
+      "half_term": "HT5",
+      "week": 7,
+      "lesson": 10,
+      "source_doc": "HT5.docx",
+      "source_anchor": "Lesson 10",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can select words and phrases that create vivid images and convey sensory details about characters.",
+          "I can explain the concept of zooming and out, where writers focus on specific details or features of characters to provide intimate insights into their personalities and appearances."
+        ],
+        "key_knowledge_components": [
+          "To know how writers use language to describe characters."
+        ],
+        "key_vocab": [
+          "zoom",
+          "adjectives",
+          "sensory",
+          "insight",
+          "imagery"
+        ],
+        "suggested_activities_summary": "Begin by asking students to recall the characters introduced in the previous sections of \"Of Mice and Men.\" Define the terms \"zooming in\" and \"zooming out\" in writing, using examples if necessary. ORACY: Read pages 63-70, encouraging students to discuss descriptive language that stands out to them. Encourage students to note instances of \"zooming in\" and \"zooming out\" in the text. ORACY: Lead a discussion on the descriptive language found in the…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT5-W7-L14",
+      "half_term": "HT5",
+      "week": 7,
+      "lesson": 14,
+      "source_doc": "HT5.docx",
+      "source_anchor": "Week/ Lesson 14",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can analyse how characters interact with each other",
+          "I can empathise with the emotional experiences of characters",
+          "I can explore the feelings of empathy, sympathy, anger, sadness  in this scene"
+        ],
+        "key_knowledge_components": [
+          "To know how the character dynamics, themes, and emotional impact are conveyed through visual storytelling."
+        ],
+        "key_vocab": [
+          "dynamics",
+          "emotional",
+          "convey",
+          "empathy"
+        ],
+        "suggested_activities_summary": "Discuss the importance of empathy in understanding and connecting with characters' experiences and emotions. Watch the scene where Candy's dog is killed. ORACY: Guide students to observe and analyse the interactions between characters during the scene, paying attention to body language, facial expressions, and dialogue. ORACY: Facilitate a discussion on the emotions elicited by the scene, focusing on empathy, sympathy, and sadness. Watch the sce…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT5-W8-L11",
+      "half_term": "HT5",
+      "week": 8,
+      "lesson": 11,
+      "source_doc": "HT5.docx",
+      "source_anchor": "Lesson 11",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can compare and contrast the portrayal of characters' social statuses"
+        ],
+        "key_knowledge_components": [
+          "To know the impact of characters' social statuses on their lives and relationships within the narrative through reading the text and viewing film adaptations."
+        ],
+        "key_vocab": [
+          "social",
+          "status",
+          "dynamics",
+          "power",
+          "authority",
+          "conflicts"
+        ],
+        "suggested_activities_summary": "Engage students by asking them to brainstorm the different roles and positions within the school staff hierarchy (e.g., headteacher, SLT,  teachers, support, administrative staff, cleaners etc). Discuss the similarities and differences in social statuses among staff members, considering factors such as responsibilities, authority, and recognition. Introduce the concept of social status in literature and film, explaining its significance in shapi…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT5-W8-L15",
+      "half_term": "HT5",
+      "week": 8,
+      "lesson": 15,
+      "source_doc": "HT5.docx",
+      "source_anchor": "Week/ Lesson 15+16",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can use descriptive language that effectively conveys the physicality and emotions of the fight scene, including action verbs, adjectives, and adverbs.",
+          "I can use sensory details to engage the reader's senses and create a vivid mental image of the scene, including sights, sounds and smells."
+        ],
+        "key_knowledge_components": [
+          "To plan and write a vivid description of a fight scene."
+        ],
+        "key_vocab": [
+          "vivid",
+          "description",
+          "visualise",
+          "engage"
+        ],
+        "suggested_activities_summary": "Starter task to reinforce action verbs, adjectives, and adverbs in conveying physical actions and emotions. ORACY: Discuss how sensory details, such as sights, sounds, and smells, enhance the reader's immersion in the scene. Re-read the fight scene between Lennie and Curley Guide students through brainstorming ideas for their fight scene, including the physical actions, emotions, and sensory details they want to include. Encourage students to cr…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT5-W8-L16",
+      "half_term": "HT5",
+      "week": 8,
+      "lesson": 16,
+      "source_doc": "HT5.docx",
+      "source_anchor": "Week/ Lesson 15+16",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can use descriptive language that effectively conveys the physicality and emotions of the fight scene, including action verbs, adjectives, and adverbs.",
+          "I can use sensory details to engage the reader's senses and create a vivid mental image of the scene, including sights, sounds and smells."
+        ],
+        "key_knowledge_components": [
+          "To plan and write a vivid description of a fight scene."
+        ],
+        "key_vocab": [
+          "vivid",
+          "description",
+          "visualise",
+          "engage"
+        ],
+        "suggested_activities_summary": "Starter task to reinforce action verbs, adjectives, and adverbs in conveying physical actions and emotions. ORACY: Discuss how sensory details, such as sights, sounds, and smells, enhance the reader's immersion in the scene. Re-read the fight scene between Lennie and Curley Guide students through brainstorming ideas for their fight scene, including the physical actions, emotions, and sensory details they want to include. Encourage students to cr…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT6-W1-L1",
+      "half_term": "HT6",
+      "week": 1,
+      "lesson": 1,
+      "source_doc": "HT6.docx",
+      "source_anchor": "Lesson 1",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can describe Crooks’s characteristics and his treatment by others."
+        ],
+        "key_knowledge_components": [
+          "Learn how Steinbeck presents the character Crooks to the reader through reading and analysis of Chapter 4."
+        ],
+        "key_vocab": [
+          "Characterisation",
+          "Prejudice",
+          "PEE (Point, Evidence, Explanation)"
+        ],
+        "suggested_activities_summary": "ORACY: Begin with a brief discussion on what students know about Crooks from previous chapters. Ask: \"What are your initial impressions of Crooks?\" Read Chapter 4 of \"Of Mice and Men\" as a class, focusing on the sections that describe Crooks and his interactions with others. As you read, pause to annotate key passages that highlight Crooks's characteristics and how he is treated by others. Encourage students to underline or highlight significant…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT6-W2-L2",
+      "half_term": "HT6",
+      "week": 2,
+      "lesson": 2,
+      "source_doc": "HT6.docx",
+      "source_anchor": "Lesson 2",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can research the topic well and present clear, accurate information about racism, life for African Americans, Jim Crow laws, Reconstruction, or the Civil Rights Movement.",
+          "I can understand how the 1930s racial segregation relates to Crooks in \"Of Mice and Men\" during discussions and reflections."
+        ],
+        "key_knowledge_components": [
+          "To develop knowledge and understanding of racial segregation in 1930s America."
+        ],
+        "key_vocab": [
+          "Racial Segregation",
+          "Racism",
+          "Jim Crow Laws",
+          "Reconstruction",
+          "Civil Rights Movement"
+        ],
+        "suggested_activities_summary": "Show a short video clip or present a few images from the 1930s that illustrate racial segregation to set the context. ORACY: Facilitate a class discussion on the connections between the historical context of the 1930s and the character of Crooks in \"Of Mice and Men. Assessment: Research Task: Find out about racism in America of the 1930s.  What was life like for African Americans? What were the Jim Crow laws?"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT6-W3-L3",
+      "half_term": "HT6",
+      "week": 3,
+      "lesson": 3,
+      "source_doc": "HT6.docx",
+      "source_anchor": "Lesson 3+4",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can  define the concept of marginalisation and identify marginalised characters in Chapter 3 of \"Of Mice and Men\" using specific textual evidence."
+        ],
+        "key_knowledge_components": [
+          "Understand the concept of marginalisation and its importance in \"Of Mice and Men."
+        ],
+        "key_vocab": [
+          "Impression",
+          "Marginalisation"
+        ],
+        "suggested_activities_summary": "Write the key words \"Impression\" and \"Marginalisation\" on the board. ORACY: Begin by asking students what they think marginalisation means. Write their ideas on the board to build a working definition. Provide a clear definition: Marginalisation is the process by which certain groups or individuals are pushed to the edge of society, limiting their access to resources and opportunities. ORACY: Discuss real-world examples of marginalisation (e.g.,…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT6-W3-L4",
+      "half_term": "HT6",
+      "week": 3,
+      "lesson": 4,
+      "source_doc": "HT6.docx",
+      "source_anchor": "Lesson 3+4",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can  define the concept of marginalisation and identify marginalised characters in Chapter 3 of \"Of Mice and Men\" using specific textual evidence."
+        ],
+        "key_knowledge_components": [
+          "Understand the concept of marginalisation and its importance in \"Of Mice and Men."
+        ],
+        "key_vocab": [
+          "Impression",
+          "Marginalisation"
+        ],
+        "suggested_activities_summary": "Write the key words \"Impression\" and \"Marginalisation\" on the board. ORACY: Begin by asking students what they think marginalisation means. Write their ideas on the board to build a working definition. Provide a clear definition: Marginalisation is the process by which certain groups or individuals are pushed to the edge of society, limiting their access to resources and opportunities. ORACY: Discuss real-world examples of marginalisation (e.g.,…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT6-W4-L5",
+      "half_term": "HT6",
+      "week": 4,
+      "lesson": 5,
+      "source_doc": "HT6.docx",
+      "source_anchor": "Lesson 5+6",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can analyse how Steinbeck portrays marginalisation through the character of Crooks",
+          "I can express these ideas through a well-organised and authentic character letter."
+        ],
+        "key_knowledge_components": [
+          "Analyse how Steinbeck portrays marginalisation through the character Crooks."
+        ],
+        "key_vocab": [
+          "inference",
+          "annotation",
+          "marginalisation",
+          "racism"
+        ],
+        "suggested_activities_summary": "ORACY:Begin with a brief discussion on what students remember about Crooks from previous readings. Ask them to share their initial impressions of his character. ORACY: Briefly discuss the historical context of racism in 1930s America, particularly in the rural setting where \"Of Mice and Men\" is set. Highlight examples of systemic racism, segregation, and discrimination prevalent during this time period. Select the key passage from Chapter 4 that…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT6-W4-L6",
+      "half_term": "HT6",
+      "week": 4,
+      "lesson": 6,
+      "source_doc": "HT6.docx",
+      "source_anchor": "Lesson 5+6",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can analyse how Steinbeck portrays marginalisation through the character of Crooks",
+          "I can express these ideas through a well-organised and authentic character letter."
+        ],
+        "key_knowledge_components": [
+          "Analyse how Steinbeck portrays marginalisation through the character Crooks."
+        ],
+        "key_vocab": [
+          "inference",
+          "annotation",
+          "marginalisation",
+          "racism"
+        ],
+        "suggested_activities_summary": "ORACY:Begin with a brief discussion on what students remember about Crooks from previous readings. Ask them to share their initial impressions of his character. ORACY: Briefly discuss the historical context of racism in 1930s America, particularly in the rural setting where \"Of Mice and Men\" is set. Highlight examples of systemic racism, segregation, and discrimination prevalent during this time period. Select the key passage from Chapter 4 that…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT6-W5-L7",
+      "half_term": "HT6",
+      "week": 5,
+      "lesson": 7,
+      "source_doc": "HT6.docx",
+      "source_anchor": "Lesson 7",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can identify and highlight key words and phrases",
+          "I can break down a selected quotation",
+          "I can write and share well-supported inferences about why Steinbeck chose to marginalise Curley's wife, using textual evidence."
+        ],
+        "key_knowledge_components": [
+          "Develop skills to infer Steinbeck’s intentions behind depicting marginalised characters, focusing on Curley's wife."
+        ],
+        "key_vocab": [
+          "Inferences",
+          "Annotation",
+          "Marginalisation",
+          "Quotation",
+          "Analysis",
+          "Oppression"
+        ],
+        "suggested_activities_summary": "Select key passages from \"Of Mice and Men\" that highlight the marginalisation of Curley's wife. Read the passages aloud to the class. Distribute copies of the passages and model how to annotate them, highlighting significant words or phrases that indicate marginalisation. Have students individually annotate their copies, focusing on language, tone, and context that suggest why Steinbeck portrays Curley's wife in this manner. Students write their…"
+      }
+    },
+    {
+      "canonical_id": "CCA-english-Yr9-HT6-W6-L8",
+      "half_term": "HT6",
+      "week": 6,
+      "lesson": 8,
+      "source_doc": "HT6.docx",
+      "source_anchor": "Lesson 8",
+      "needs_review": true,
+      "extracted": {
+        "learning_outcomes": [
+          "I can successfully match challenging vocabulary words with their definitions, demonstrating understanding of the new terms introduced in Chapter Five.",
+          "I can identify and analyse literary techniques in Chapter Five, providing insightful explanations of how these techniques contribute to Steinbeck's descriptive language."
+        ],
+        "key_knowledge_components": [
+          "To develop knowledge and understanding of Steinbeck’s use of vocabulary and description in Chapter Five."
+        ],
+        "key_vocab": [
+          "Vocabulary",
+          "Description",
+          "Imagery",
+          "Tone",
+          "Mood"
+        ],
+        "suggested_activities_summary": "Start with a brief discussion on the importance of descriptive language in literature. Ask: \"How can an author's choice of words affect our perception of a story?\" Provide students with a list of challenging vocabulary words from Chapter Five and their definitions. Have students match each word with its correct definition. ORACY: Review the matches as a class and discuss the meanings of the words. Ask students to use each word in a sentence rela…"
+      }
+    }
+  ]
+}
